@@ -12,7 +12,7 @@ const Card = (props) => {
         }
     const imageAddr = "/src/assets/team/"+props.photo;
   return (
-    <div style={cardStyle} className='w-fit bg-blue-950'>
+    <div style={cardStyle} className='w-fit bg-blue-950 mb-5 mx-10'>
       <div>
         <img src={imageAddr} className='h-60' style={imgStyle} alt="Card Image"/>
       </div>

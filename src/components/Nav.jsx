@@ -24,10 +24,10 @@ const Nav = () => {
     <>
     <nav className="flex w-1/4">
         
-      <div className="hidden w-full justify-between md:flex  border-2 border-white rounded-2xl px-8 py-2">
+      <div className="hidden w-full justify-between lg:flex  border-2 border-white rounded-2xl px-8 py-2">
         <NavLinks />
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button onClick={toggle}>{isOpen ? <X /> : <MenuLogo />}</button>
       </div>
     </nav>

@@ -5,7 +5,7 @@ const Team2024 = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="flex w-2/3 justify-between">
+        <div className="flex flex-wrap justify-center w-full">
           <Card photo="team.jpeg" name="Vatsal Koisa" position="Chairperson" />
           <Card photo="team.jpeg" name="Vatsal Koisa" position="Chairperson" />
           <Card photo="team.jpeg" name="Vatsal Koisa" position="Chairperson" />
