@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import TeamNavigator from "./components/TeamNavigator";
+import Footer from "./components/Footer";
 
 function Team() {
   return (
@@ -15,6 +16,9 @@ function Team() {
           activeTextColor="text-white"
           activeBgColor="bg-blue-950"
         />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
