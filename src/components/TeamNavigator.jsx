@@ -1,7 +1,7 @@
 import React from "react";
-import Team2022 from "../Team2022";
-import Team2023 from "../Team2023";
-import Team2024 from "../Team2024";
+import Team2022 from "../pages/team/Team2022";
+import Team2023 from "../pages/team/Team2023";
+import Team2024 from "../pages/team/Team2024";
 import { useState } from "react";
 
 const TeamNavigator = (props) => {
@@ -16,7 +16,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2022" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } hidden md:flex  hover:${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg hover:bg-blue-950 hover:scale-110 transition ease-in "`}
+            } hidden md:flex  ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg hover:bg-blue-950 hover:scale-110 transition ease-in "`}
           >
             2022
           </button>
@@ -26,7 +26,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2022" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } flex md:hidden   hover:${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg hover:bg-blue-950 hover:scale-110 transition ease-in "`}
+            } flex md:hidden   ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg hover:bg-blue-950 hover:scale-110 transition ease-in "`}
           >
             22
           </button>
@@ -36,7 +36,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2023" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            }  hidden md:flex  hover:${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            }  hidden md:flex  ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center hover:bg-blue-950 hover:scale-110 transition ease-in`}
           >
             2023
           </button>
@@ -46,7 +46,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2023" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } flex md:hidden   hover:${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            } flex md:hidden   ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center hover:bg-blue-950 hover:scale-110 transition ease-in`}
           >
             23
           </button>
@@ -56,7 +56,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2024" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } hidden md:flex  hover:${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            } hidden md:flex  ${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg hover:bg-blue-950 hover:scale-110 transition ease-in`}
           >
             2024
           </button>
@@ -66,7 +66,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2024" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } flex md:hidden  hover:${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            } flex md:hidden  ${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg hover:bg-blue-950 hover:scale-110 transition ease-in`}
           >
             24
           </button>

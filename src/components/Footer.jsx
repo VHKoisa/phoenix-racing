@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-950 flex flex-wrap justify-between  p-5">
+    <div className="bg-blue-950 flex flex-wrap justify-between  p-5 font-serif">
       <div className="flex flex-col items-center justify-center w-48 ml-2">
         <div>
           <img src="/src/assets/logo.png" className="w-40 h-40" alt="Logo" />
         </div>
-        <div className="text-white">Phoenix Racing</div>
+        <div className="text-white">PHOENIX RACING</div>
       </div>
 
       <div className="w-20 ml-2">
