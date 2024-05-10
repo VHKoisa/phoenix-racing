@@ -1,17 +1,63 @@
 import React from "react";
-import Nav from "./Nav";
 import Logo from "./Logo";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import "./hamburger.css";
 
-function Header() {
+const NavLinks = () => {
   return (
     <>
-      <div className="bg-blue-950 fixed flex-wrap top-0 z-[1] mx-auto w-full items-center justify-between flex">
+      <NavLink to="/" className="text-white">
+        About
+      </NavLink>
+      <NavLink to="/team" className="text-white">
+        Team
+      </NavLink>
+      <NavLink to="/cars" className="text-white">
+        Cars
+      </NavLink>
+    </>
+  );
+};
+
+function Header() {
+  const [isOpen, setOpen] = useState(false);
+  return (
+    <>
+      <div className="bg-blue-950 sticky top-0 z-30 mx-auto w-full items-center justify-between flex">
         <div className="flex items-center my-2 mx-1">
           <Logo />
-          <div className="mx-5 text-white text-3xl font-serif">PHOENIX RACING</div>
+          <div className="mx-5 text-white text-3xl font-serif">
+            PHOENIX RACING
+          </div>
         </div>
-        <Nav />
+
+        <nav className="flex lg:w-1/4">
+          <div className="hidden w-full justify-between lg:flex  border-2 border-white rounded-2xl px-8 py-2">
+            <NavLinks />
+          </div>
+          <div className="lg:hidden">
+            <label htmlFor="burger" className="burger">
+              <input type="checkbox" id="burger" onChange={()=> {burger.checked?setOpen(true):setOpen(false)} } />
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+        </nav>
+
+        {addEventListener("resize", () => {
+          if (window.innerWidth > 1024) {
+            setOpen(false);
+            burger.checked = false;
+          }
+        })}
       </div>
+      {isOpen && (
+        <div className="bg-blue-950 flex basis-full py-4 justify-around border-2 border-white">
+          <NavLinks />
+        </div>
+      )}
     </>
   );
 }
