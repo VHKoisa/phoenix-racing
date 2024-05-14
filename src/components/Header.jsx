@@ -24,7 +24,10 @@ function Header() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <div className="bg-blue-950 sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex">
+      <div
+        className="bg-blue-950 sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex"
+        id="navbar"
+      >
         <div className="flex items-center my-2 mx-1">
           <Logo />
           <div className="mx-5 text-white text-2xl lg:text-3xl font-serif">
@@ -38,7 +41,13 @@ function Header() {
           </div>
           <div className="lg:hidden ">
             <label htmlFor="burger" className="burger">
-              <input type="checkbox" id="burger" onChange={()=> {burger.checked?setOpen(true):setOpen(false)} } />
+              <input
+                type="checkbox"
+                id="burger"
+                onChange={() => {
+                  burger.checked ? setOpen(true) : setOpen(false);
+                }}
+              />
               <span></span>
               <span></span>
               <span></span>
@@ -54,7 +63,8 @@ function Header() {
         })}
       </div>
       {isOpen && (
-        <div className="bg-blue-950 flex basis-full py-4 justify-around border-2 border-white">
+        <div className="bg-blue-950 top-20 sticky z-30 flex basis-full py-4 justify-around border-2 border-white">
+          {/*Static top margin*/}
           <NavLinks />
         </div>
       )}
