@@ -3,15 +3,21 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import VideoSrc from "../../assets/Video1.mp4";
 import "../about/about.css";
+import News from "./News";
 
 const About = () => {
-  const height = window.innerHeight - 80;
-  console.log(height)
-  // content.style.height = `${height }`
   return (
     <>
       <Header />
-      <div id="content" className="flex flex-col"  onLoadStart={() => {(window.innerWidth >= 1024)?content.style.height = `${window.innerHeight - 80}px` : content.style.height = `auto`}}>
+      <div
+        id="content"
+        className="flex flex-col"
+        onLoadStart={() => {
+          window.innerWidth >= 1024
+            ? (content.style.height = `${window.innerHeight - 80}px`)
+            : (content.style.height = `auto`);
+        }}
+      >
         <div className="h-auto lg:h-full overflow-y-hidden relative">
           <div className="flex justify-center">
             <button className=" text-xs lg:w-1/6 p-1 border-2 lg:text-xl text-white rounded-3xl border-white lg:border-4  absolute  bottom-2 lg:p-3 btnn z-10">
@@ -55,6 +61,30 @@ const About = () => {
         </div>
       </div>
 
+      <hr className="h-4 bg-white" />
+      <div className="flex justify-center font-serif text-4xl m-5 lg:text-white">Latest Updates</div>
+      <div className="flex justify-around">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid gap-4">   {/* For Each Column */}
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+        </div>
+        <div className="grid gap-4">
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+        </div>
+        <div className="grid gap-4">
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+          <News text="News 1" imgName="Photo1.jpg" />
+        </div>
+      </div>
+      </div>
       <hr className="h-4 bg-white" />
 
       <Footer />
