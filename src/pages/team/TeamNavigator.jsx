@@ -1,7 +1,7 @@
 import React from "react";
-import Team2022 from "../pages/team/Team2022";
-import Team2023 from "../pages/team/Team2023";
-import Team2024 from "../pages/team/Team2024";
+import Team2022 from "./Team2022";
+import Team2023 from "./Team2023";
+import Team2024 from "./Team2024";
 import { useState } from "react";
 
 const TeamNavigator = (props) => {

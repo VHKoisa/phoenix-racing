@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./hamburger.css";
@@ -29,7 +28,7 @@ function Header() {
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
-          <Logo />
+          <img src="/src/assets/logo.png" className="w-16 h-16" alt="Logo" />
           <div className="mx-5 text-white text-2xl lg:text-3xl font-serif">
             PHOENIX RACING
           </div>

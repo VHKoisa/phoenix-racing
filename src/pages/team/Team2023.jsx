@@ -1,4 +1,4 @@
-import Card from "../../components/Card";
+import Card from "./Card";
 import React from 'react'
 
 const Team2023 = () => {

@@ -1,5 +1,5 @@
 import Header from "/src/components/Header";
-import TeamNavigator from "/src/components/TeamNavigator";
+import TeamNavigator from "./TeamNavigator";
 import Footer from "/src/components/Footer";
 
 function Team() {
