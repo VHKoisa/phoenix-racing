@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import VideoSrc from "../../assets/Video1.mp4";
 import "../about/about.css";
 import News from "./News";
+import CountUpAnimation from "./CountUpAnimation";
 
 const About = () => {
   return (
@@ -62,29 +63,59 @@ const About = () => {
       </div>
 
       <hr className="h-4 bg-white" />
-      <div className="flex justify-center font-serif text-4xl m-5 lg:text-white">Latest Updates</div>
-      <div className="flex justify-around">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div className="grid gap-4">   {/* For Each Column */}
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
+      <div className="bg-blue-950">
+        <div className="flex justify-center font-serif text-4xl p-5 lg:text-white">
+          Latest Updates
         </div>
-        <div className="grid gap-4">
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-        </div>
-        <div className="grid gap-4">
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
-          <News text="News 1" imgName="Photo1.jpg" />
+        <div className="flex justify-around">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid gap-4">
+              {" "}
+              {/* For Each Column */}
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+            </div>
+            <div className="grid gap-4">
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+            </div>
+            <div className="grid gap-4">
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+              <News text="News 1" imgName="Photo1.jpg" />
+            </div>
+          </div>
         </div>
       </div>
+
+      <hr className="h-4 bg-white" />
+
+      <div className="bg-blue-950 flex justify-around p-5 flex-wrap gap-5 lg:gap-4">
+        <CountUpAnimation
+          headingName="Cars"
+          initialValue={0}
+          targetValue={17}
+          text="Delivered on track"
+        />
+        <CountUpAnimation
+          headingName="Awards"
+          initialValue={0}
+          targetValue={22}
+          text="on our name"
+        />
+        <CountUpAnimation
+          headingName="Generation"
+          initialValue={0}
+          targetValue={18}
+          text="years of excellence"
+        />
       </div>
+
       <hr className="h-4 bg-white" />
 
       <Footer />
