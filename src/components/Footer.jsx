@@ -99,7 +99,7 @@ const Footer = () => {
             </a>
             <a
               className="size-10 lg:w-1/4 m-2"
-              href="https://www.youtube.com/@sae_teamphoenixracing"
+              href="https://www.youtube.com/@FSAEPhoenixRacing"
             >
               <svg
                 aria-hidden="true"
