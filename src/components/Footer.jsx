@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-950 flex flex-wrap p-5 font-serif">
-      <div className="flex flex-col items-center justify-center w-1/2 lg:w-1/4">
+    <div className="bg-slate-300 flex flex-wrap  font-serif">
+      <div className="flex flex-col items-center justify-center w-full p-5 lg:w-1/4">
         <div>
           <img
             src="/src/assets/logo.png"
@@ -11,12 +11,12 @@ const Footer = () => {
             alt="Logo"
           />
         </div>
-        <div className="text-white">PHOENIX RACING</div>
+        <div className="text-blue-950">PHOENIX RACING</div>
       </div>
-      <div className="w-1/2 lg:w-1/4 flex justify-center my-4">
+      <div className="w-full p-5 lg:w-1/4 flex items-center justify-center mt-4">
         <div className="">
-          <div className="text-white text-3xl">Follow Us</div>
-          <div className="flex flex-wrap justify-around text-white">
+          <div className="text-blue-950 text-3xl text-center">Follow Us</div>
+          <div className="flex flex-wrap justify-around text-blue-950">
             <a
               className="size-10 lg:w-1/4 m-2"
               href="https://www.facebook.com/phoenixracing360/"
@@ -29,7 +29,7 @@ const Footer = () => {
                 className="svg-inline--fa fa-facebook-f fa-xl me-4 p-1"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
+                viewBox="0 0 400 512"
               >
                 <path
                   fill="currentColor"
@@ -120,10 +120,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" w-1/2 lg:w-1/4  flex justify-center">
+      <div className="w-full p-5 lg:w-1/4  flex items-center justify-center">
         <div className="">
-          <div className="text-white text-3xl">Navigate</div>
-          <div className="text-white">
+          <div className="text-blue-950 text-3xl text-center">Navigate</div>
+          <div className="text-blue-950 text-center">
             <div>Home</div>
             <div>Cars</div>
             <div>Team</div>
@@ -132,11 +132,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-1/2 lg:w-1/4 flex justify-center">
+      <div className="w-full p-5 lg:w-1/4 flex items-center justify-center">
         <div className="">
-          <div className="text-white text-3xl">Contact Us</div>
-          <div className="text-white">
-            <div className="flex pb-2">
+          <div className="text-blue-950 text-3xl text-center">Contact Us</div>
+          <div className="text-blue-950 text-center">
+            <div className="flex justify-center pb-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -154,7 +154,7 @@ const Footer = () => {
               </svg>
               <a href="mailto:sae@svnit.ac.in">sae@svnit.ac.in</a>
             </div>
-            <div className="flex pb-2">
+            <div className="flex justify-center pb-2">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -172,13 +172,13 @@ const Footer = () => {
               </svg>
               <a href="tel:+918000770080">+918000770080</a>
             </div>
-            <div className="justify-around">
+            <div className="">
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
                 data-icon="location-dot"
-                className="svg-inline--fa fa-location-dot fa-lg me-3 w-6 float-left mr-4"
+                className="svg-inline--fa fa-location-dot fa-lg w-6"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
