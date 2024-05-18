@@ -37,16 +37,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <hr className="h-4 bg-white" />
 
-      <div className="lg:flex justify-between p-10 py-5 bg-blue-950">
+      <div className="lg:flex justify-between p-10 py-5 bg-white">
         <div className="lg:w-1/2 my-10 justify-center items-center w-full flex">
-          <div className="text-5xl lg:text-6xl font-serif text-white">
+          <div className="text-5xl lg:text-6xl font-serif text-blue-950">
             <span className="lg:text-9xl">A</span>bout{" "}
             <span className="lg:text-9xl">U</span>s
           </div>
         </div>
-        <div className="lg:w-1/2 text-l lg:text-xl font-serif text-white tracking-wider">
+        <div className="lg:w-1/2 text-l lg:text-xl font-serif text-blue-950 tracking-wider">
           Team Phoenix Racing is a technical student chapter affiliated with
           SVNIT, consisting of over 60 students from various engineering
           disciplines. Our primary objective is to provide a platform for
@@ -62,9 +61,9 @@ const About = () => {
         </div>
       </div>
 
-      <hr className="h-4 bg-white" />
-      <div className="bg-blue-950">
-        <div className="flex justify-center font-serif text-4xl p-5 lg:text-white">
+      <hr className="h-1 bg-blue-950" />
+      <div className="bg-white pb-5">
+        <div className="flex justify-center font-serif text-4xl p-5 text-blue-950">
           Latest Updates
         </div>
         <div className="flex justify-around">
@@ -74,18 +73,12 @@ const About = () => {
               {/* For Each Column */}
               <News text="News 1" imgName="Photo1.jpg" />
               <News text="News 1" imgName="Photo1.jpg" />
-              <News text="News 1" imgName="Photo1.jpg" />
-              <News text="News 1" imgName="Photo1.jpg" />
             </div>
             <div className="grid gap-4">
               <News text="News 1" imgName="Photo1.jpg" />
               <News text="News 1" imgName="Photo1.jpg" />
-              <News text="News 1" imgName="Photo1.jpg" />
-              <News text="News 1" imgName="Photo1.jpg" />
             </div>
             <div className="grid gap-4">
-              <News text="News 1" imgName="Photo1.jpg" />
-              <News text="News 1" imgName="Photo1.jpg" />
               <News text="News 1" imgName="Photo1.jpg" />
               <News text="News 1" imgName="Photo1.jpg" />
             </div>
@@ -93,9 +86,9 @@ const About = () => {
         </div>
       </div>
 
-      <hr className="h-4 bg-white" />
+      <hr className="h-1 bg-blue-950" />
 
-      <div className="bg-blue-950 flex justify-around p-5 flex-wrap gap-5 lg:gap-4">
+      <div className="bg-white flex justify-around p-5 flex-wrap gap-5 lg:gap-4">
         <CountUpAnimation
           headingName="Cars"
           initialValue={0}
@@ -116,7 +109,7 @@ const About = () => {
         />
       </div>
 
-      <hr className="h-4 bg-white" />
+      <hr className="h-1 bg-blue-950" />
 
       <Footer />
     </>

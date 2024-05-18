@@ -12,9 +12,9 @@ function Team() {
         <TeamNavigator
           textColor="text-blue-950"
           borderColor="border-blue-950"
-          hoverTextColor="hover:text-white"
-          activeTextColor="text-white"
-          activeBgColor="bg-blue-950"
+          hoverTextColor="hover:text-blue-950"
+          activeTextColor="text-blue-950"
+          activeBgColor="bg-white"
         />
       </div>
       <div>
