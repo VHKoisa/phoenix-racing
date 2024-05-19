@@ -24,7 +24,7 @@ function Header() {
   return (
     <>
       <div
-        className="bg-white sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex border-b-blue-950 border-b-2"
+        className="bg-white sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
