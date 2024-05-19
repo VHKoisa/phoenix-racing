@@ -172,13 +172,13 @@ const Footer = () => {
               </svg>
               <a href="tel:+918000770080">+918000770080</a>
             </div>
-            <div className="">
+            <div className="flex items-start justify-around">
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
                 data-icon="location-dot"
-                className="svg-inline--fa fa-location-dot fa-lg w-6"
+                className="svg-inline--fa fa-location-dot fa-lg w-6 mr-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -189,11 +189,10 @@ const Footer = () => {
                 ></path>
               </svg>
               <a href="https://maps.app.goo.gl/PQowf9juSUjDwWSq7">
-                <div>
+                <div className="text-left">
                   IC Engine Lab, <br /> SVNIT Campus, <br />
-                  Ichchhanath, Surat,
-                  <br />
-                  Gujarat, India - 395007 &nbsp;
+                  Ichchhanath,<br /> Surat,
+                  Gujarat,<br /> India - 395007 &nbsp;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1em"
