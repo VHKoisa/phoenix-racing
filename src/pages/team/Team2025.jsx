@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-const Team2023 = () => {
+const Team2025 = () => {
   return (
     <div>
       <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
@@ -228,4 +228,4 @@ const Team2023 = () => {
   );
 };
 
-export default Team2023;
+export default Team2025;
