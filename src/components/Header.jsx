@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./hamburger.css";
+import ScrollToTop from "./ScrollToTop";
 
 const NavLinks = () => {
   return (
@@ -23,6 +24,7 @@ function Header() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <ScrollToTop />
       <div
         className="bg-white sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
         id="navbar"
