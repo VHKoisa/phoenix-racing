@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -124,10 +125,10 @@ const Footer = () => {
         <div className="">
           <div className="text-blue-950 text-3xl text-center">Navigate</div>
           <div className="text-blue-950 text-center">
-            <div>Home</div>
-            <div>Cars</div>
-            <div>Team</div>
-            <div>Sponsors</div>
+            <div> <NavLink to="/"> Home </NavLink></div>
+            <div> <NavLink to="/cars"> Cars </NavLink></div>
+            <div> <NavLink to="/team"> Team </NavLink></div>
+            <div> <NavLink to="/"> Sponsors </NavLink></div>
           </div>
         </div>
       </div>
