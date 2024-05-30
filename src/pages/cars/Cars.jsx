@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 import "./cars.scss";
+import Carouselcard from "./Carouselcard";
 
 const Car = () => {
   useEffect(() => {
@@ -10,6 +11,9 @@ const Car = () => {
     for (var i = 0; i < carousels.length; i++) {
       carousel(carousels[i]);
     }
+    addEventListener("keydown", (event)=> {
+      console.log(event.key)
+    })
   });
 
   function carousel(root) {
@@ -21,9 +25,9 @@ const Car = () => {
       bfc = "bfc" in root.dataset,
       theta = (2 * Math.PI) / n,
       currImage = 0;
-    setupCarousel(n, parseFloat(getComputedStyle(images[0]).width));
+    setupCarousel(n, parseFloat(600));
     window.addEventListener("resize", () => {
-      setupCarousel(n, parseFloat(getComputedStyle(images[0]).width));
+      setupCarousel(n, parseFloat(600));
     });
 
     setupNavigation();
@@ -53,9 +57,9 @@ const Car = () => {
         if (t.tagName.toUpperCase() != "BUTTON") return;
 
         if (t.classList.contains("next")) {
-          currImage++;
+          currImage = currImage + 1;
         } else {
-          currImage--;
+          currImage = currImage - 1;
         }
 
         rotateCarousel(currImage);
@@ -64,6 +68,14 @@ const Car = () => {
 
     function rotateCarousel(imageIndex) {
       figure.style.transform = `rotateY(${imageIndex * -theta}rad)`;
+      // for (let i = 0; i < n; i++) {
+      //   if (i != imageIndex) {
+      //     images[i].style.opacity = "0.3";
+      //   }
+      //   if (i == imageIndex) {
+      //     images[i].style.opacity = "1";
+      //   }
+      // }
     }
   }
   return (
@@ -72,14 +84,14 @@ const Car = () => {
 
       <div className="carousel" data-gap="0">
         <figure>
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
-          <img src="/src/assets/news/Photo1.jpg" alt="" />
+          <Carouselcard img="Anshumat.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="Eklavya.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="Baja2014.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="SUPRA2016.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="CHITRAK.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="GKDC2019.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="EGKDC2020.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard img="FBEV2023.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
         </figure>
         <nav>
           <button className="nav prev">Prev</button>
@@ -90,6 +102,6 @@ const Car = () => {
       <Footer />
     </>
   );
-};  
+};
 
 export default Car;
