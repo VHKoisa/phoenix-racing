@@ -240,11 +240,11 @@ const Sponsors = () => {
       <form action="http://localhost:3000/sponsors/submit">
         <div className="form">
           <div className="flex justify-center items-center ">
-            <div className="container mx-auto my-4 px-4 lg:px-20">
-              <div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-                <div className="flex">
+            <div className="container mx-auto my-4 px-4 lg:px-20 flex justify-center ">
+              <div className="w-full p-8 my-4 md:px-12 lg:w-6/12 lg:pl-20 lg:pr-20  rounded-2xl shadow-2xl">
+                <div className="flex justify-center">
                   <h1 className="font-bold uppercase text-5xl">
-                    Send us a <br /> message
+                    Send us a message
                   </h1>
                 </div>
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
@@ -275,9 +275,9 @@ const Sponsors = () => {
                     className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                   ></textarea>
                 </div>
-                <div className="my-2 w-1/2 lg:w-1/4">
+                <div className="my-2 w-full flex justify-center">
                   <button
-                    className="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
+                    className="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg  
                     focus:outline-none focus:shadow-outline"
                   >
                     Send Message
