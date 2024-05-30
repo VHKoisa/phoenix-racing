@@ -1,0 +1,297 @@
+.main {
+  background-color: whitesmoke;
+}
+
+/* heroSection */
+.heroImg {
+  width: 100%;
+  object-fit: cover;
+}
+.heroContainer {
+  position: relative;
+  color: black;
+}
+.info {
+  color: beige;
+  background-image: url(src/pages/Sponsors/infoBg-4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  padding-block: 40px;
+}
+.hero-info {
+  align-items: center;
+  display: flex;
+}
+.hero-heading {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.heading-1 {
+  font-size: 48px;
+  font-family: serif;
+  font-weight: 700;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.hero-para {
+  /* font-weight: 900; */
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero-text {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+/* sponsorSection */
+
+.sponsorHome {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?auto=format&fit=crop&w=315&h=220);
+  background-repeat: repeat;
+  /* background-size: cover; */
+  padding-block: 40px;
+}
+
+.heading {
+  font-size: 5.5em;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.sponsorHeadingTitle {
+  display: flex;
+  justify-content: center;
+}
+
+/* logoDimensions */
+.sponsorLogo {
+  margin-top: 20px;
+  width: 350px;
+  height: 175px;
+}
+/* goldSponsors */
+.row1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.goldSponsor {
+  margin-top: 30px;
+}
+.row2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row3 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* silverSponsor */
+.sponsorLogo2 {
+  margin-top: 20px;
+  width: 220px;
+  height: 150px;
+}
+
+.srow1 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.srow2 {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-evenly;
+}
+
+/* Component Sponsors */
+
+.componentHeading {
+  margin-top: 60px;
+  font-size: 4.5em;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.crow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.cImg {
+  width: 500px;
+}
+
+/* EnerygySponsorimageWidth */
+.eImg {
+  width: 400px;
+}
+
+.prow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.softwareSponsorImg {
+  width: 600px;
+}
+.softwareHeading {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.energyPartnerHeading {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.erow {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.form {
+  background-color: #48dbfb;
+  background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .info {
+    display: none;
+  }
+  .heading {
+    font-size: 3em;
+    line-height: 1;
+  }
+  .sponsorLogo {
+    width: 250px;
+    height: 150px;
+    margin-top: 15px;
+  }
+  .goldSponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row1 {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row3 {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsorLogo2 {
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .srow1 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .srow2 {
+    display: flex;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Component Sponsors */
+  .componentHeading {
+    font-size: 2em;
+  }
+  .crow {
+    display: flex;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cImg {
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+  }
+
+  /* Software Sponsors */
+  .prow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .softwareSponsorImg {
+    width: 250px;
+    height: 150px;
+  }
+  .softwareHeading {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* EnerygySponsors */
+  .eImg {
+    width: 250px;
+    height: 150px;
+  }
+  .energyPartnerHeading {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .erow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

@@ -128,7 +128,7 @@ const Footer = () => {
             <div> <NavLink to="/"> Home </NavLink></div>
             <div> <NavLink to="/cars"> Cars </NavLink></div>
             <div> <NavLink to="/team"> Team </NavLink></div>
-            <div> <NavLink to="/"> Sponsors </NavLink></div>
+            <div> <NavLink to="/sponsors"> Sponsors </NavLink></div>
           </div>
         </div>
       </div>

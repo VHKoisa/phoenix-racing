@@ -16,6 +16,9 @@ const NavLinks = () => {
       <NavLink to="/cars" className="text-blue-950">
         Cars
       </NavLink>
+      <NavLink to="/sponsors" className="text-blue-950">
+        Sponsors
+      </NavLink>
     </>
   );
 };
