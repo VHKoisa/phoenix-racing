@@ -7,7 +7,7 @@ const Card = (props) => {
   // const BackCard = () => {
   //   return(
   //     <>
-  //       <div className="text-white back">
+  //       <div className="text-blue-950 back">
   //         <div className="text-2xl font-bold flex justify-center">
   //           {props.name}
   //         </div>
@@ -40,7 +40,7 @@ const Card = (props) => {
   //           alt="Card Image"
   //         />
   //       </div>
-  //       <div className="text-white">
+  //       <div className="text-blue-950">
   //         <div className="text-2xl font-bold flex justify-center">
   //           {props.name}
   //         </div>
@@ -52,9 +52,9 @@ const Card = (props) => {
 
   return (
     <div className="flip-card mb-5 mx-10 ">
-      <div style={cardStyle} className="w-48 bg-blue-950 flip-card-inner">
+      <div style={cardStyle} className="w-48 bg-white flip-card-inner">
         <div className="flip-card-back w-full h-full flex justify-center items-center">
-          <div className="text-white  ">
+          <div className="text-blue-950  ">
             <div className="text-2xl font-bold flex justify-center">
               {props.name}
             </div>
@@ -71,7 +71,7 @@ const Card = (props) => {
               alt="Card Image"
             />
           </div>
-          <div className="text-white">
+          <div className="text-blue-950">
             <div className="text-2xl font-bold flex justify-center">
               {props.name}
             </div>
