@@ -5,21 +5,17 @@ import Footer from "/src/components/Footer";
 function Team() {
   return (
     <>
-      <div>
-        <Header />
-      </div>
+      <Header />
       <div className="mt-2">
         <TeamNavigator
           textColor="text-blue-950"
           borderColor="border-blue-950"
-          hoverTextColor="hover:text-blue-950"
-          activeTextColor="text-blue-950"
-          activeBgColor="bg-white"
+          hoverTextColor="hover:text-white"
+          activeTextColor="text-white"
+          activeBgColor="bg-blue-950"
         />
       </div>
-      <div>
         <Footer />
-      </div>
     </>
   );
 }
