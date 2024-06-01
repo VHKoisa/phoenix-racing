@@ -17,7 +17,7 @@ const Card = (props) => {
 
   return (
     <div className="flip-card mb-5 mx-10 ">
-      <div style={cardStyle} className="w-48 bg-blue-950 text-white flip-card-inner">
+      <div style={cardStyle} className="w-48 bg-blue-800 text-white flip-card-inner">
         <div className="flip-card-back w-full h-full flex justify-center items-center">
         <a
               className="size-10 lg:w-1/4 m-2"

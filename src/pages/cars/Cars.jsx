@@ -11,9 +11,9 @@ const Car = () => {
     for (var i = 0; i < carousels.length; i++) {
       carousel(carousels[i]);
     }
-    addEventListener("keydown", (event)=> {
-      console.log(event.key)
-    })
+    addEventListener("keydown", (event) => {
+      console.log(event.key);
+    });
   });
 
   function carousel(root) {
@@ -84,14 +84,49 @@ const Car = () => {
 
       <div className="carousel" data-gap="0">
         <figure>
-          <Carouselcard img="Anshumat.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="Eklavya.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="Baja2014.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="SUPRA2016.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="CHITRAK.jpg" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="GKDC2019.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="EGKDC2020.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
-          <Carouselcard img="FBEV2023.png" name="XYZ" year="2023" text="lorem dsnfuiebfuibfferiubfiuerbfiurbfierbf" />
+          <Carouselcard
+            img="Anshumat.jpg"
+            name="Anshumat"
+            year="2010"
+            text=""
+          />
+          <Carouselcard
+            img="Eklavya.jpg"
+            name="Eklavya"
+            year="2011"
+            text="39th out of 80 in MINI BAJA 2011"
+          />
+          <Carouselcard
+            img="Baja2014.jpg"
+            name="Baja"
+            year="2014"
+            text="4th in overall ranking, 1st in presentation, 2nd in cost report"
+          />
+          <Carouselcard
+            img="SUPRA2016.png"
+            name="Supra SAE"
+            year="2016"
+            text="13th in all over India"
+          />
+          <Carouselcard img="CHITRAK.jpg" name="Chitrak" year="2018" text="" />
+          <Carouselcard
+            img="GKDC2019.png"
+            name="GKDC"
+            year="2019"
+            text="Overall champions, 1st in skidpad, 1st in autocross, 1st in endurance and fuel economy, Best driver, best design, best innovation"
+          />
+          <Carouselcard
+            img="EGKDC2020.png"
+            name="EGKDC"
+            year="2020"
+            text="Overall champions, 1st in Endurance and fuel economy, best driver award"
+          />
+          <Carouselcard
+            img="FBEV2023.png"
+            name="FBEV"
+            year="2023"
+            text="Overall 3rd, 1st in concept goals and management report, 3rd in business plan presentation"
+          />
         </figure>
         <nav>
           <button className="nav prev">Prev</button>

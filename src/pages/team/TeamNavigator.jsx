@@ -16,7 +16,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2023" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } hidden md:flex  ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg hover:bg-blue-950 hover:scale-110 transition ease-in "`}
+            } hidden md:flex  ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg ${props.hoverBorderColor} hover:scale-110 transition ease-in "`}
           >
             2023
           </button>
@@ -26,7 +26,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2023" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } flex md:hidden   ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg hover:bg-blue-950 hover:scale-110 transition ease-in "`}
+            } flex md:hidden   ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center rounded-l-lg ${props.hoverBorderColor} hover:scale-110 transition ease-in "`}
           >
             23
           </button>
@@ -36,7 +36,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2024" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            }  hidden md:flex  ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            }  hidden md:flex  ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center ${props.hoverBorderColor} hover:scale-110 transition ease-in`}
           >
             2024
           </button>
@@ -46,7 +46,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2024" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } flex md:hidden   ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            } flex md:hidden   ${props.hoverTextColor} text-3xl font-serif border-r-2 ${props.borderColor} w-1/3 min-w-fit justify-center ${props.hoverBorderColor} hover:scale-110 transition ease-in`}
           >
             24
           </button>
@@ -56,7 +56,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2025" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } hidden md:flex  ${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            } hidden md:flex  ${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg ${props.hoverBorderColor} hover:scale-110 transition ease-in`}
           >
             2025
           </button>
@@ -66,7 +66,7 @@ const TeamNavigator = (props) => {
             }}
             className={`${
               year == "2025" ? props.activeBgColor+" "+ props.activeTextColor : props.textColor
-            } flex md:hidden  ${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg hover:bg-blue-950 hover:scale-110 transition ease-in`}
+            } flex md:hidden  ${props.hoverTextColor} text-3xl font-serif w-1/3 min-w-fit justify-center rounded-r-lg ${props.hoverBorderColor} hover:scale-110 transition ease-in`}
           >
             25
           </button>

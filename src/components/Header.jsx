@@ -7,16 +7,16 @@ import ScrollToTop from "./ScrollToTop";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/" className="text-blue-950">
+      <NavLink to="/" className="text-blue-800">
         About
       </NavLink>
-      <NavLink to="/team" className="text-blue-950">
+      <NavLink to="/team" className="text-blue-800">
         Team
       </NavLink>
-      <NavLink to="/cars" className="text-blue-950">
+      <NavLink to="/cars" className="text-blue-800">
         Cars
       </NavLink>
-      <NavLink to="/sponsors" className="text-blue-950">
+      <NavLink to="/sponsors" className="text-blue-800">
         Sponsors
       </NavLink>
     </>
@@ -29,18 +29,18 @@ function Header() {
     <>
       <ScrollToTop />
       <div
-        className="bg-slate-300 sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
+        className="bg-white sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
           <img src="/src/assets/logo.png" className="w-16 h-16" alt="Logo" />
-          <div className="mx-5 text-blue-950 text-2xl lg:text-3xl font-serif">
-            PHOENIX RACING
+          <div className="mx-5 text-blue-800 text-2xl lg:text-3xl font-serif">
+            SAE PHOENIX RACING
           </div>
         </div>
 
-        <nav className="flex lg:w-1/4">
-          <div className="hidden w-full justify-around lg:flex  border-2 border-blue-950 rounded-2xl py-2">
+        <nav className="flex lg:w-1/4 font-serif">
+          <div className="hidden w-full justify-around lg:flex  border-2 border-slate-600 rounded-2xl py-2">
             <NavLinks />
           </div>
           <div className="lg:hidden ">

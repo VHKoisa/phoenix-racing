@@ -8,11 +8,12 @@ function Team() {
       <Header />
       <div className="mt-2">
         <TeamNavigator
-          textColor="text-blue-950"
-          borderColor="border-blue-950"
+          textColor="text-blue-800"
+          borderColor="border-blue-800"
           hoverTextColor="hover:text-white"
+          hoverBorderColor="hover:bg-blue-800"
           activeTextColor="text-white"
-          activeBgColor="bg-blue-950"
+          activeBgColor="bg-blue-800"
         />
       </div>
         <Footer />
