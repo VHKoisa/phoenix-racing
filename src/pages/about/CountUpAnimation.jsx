@@ -22,12 +22,12 @@ const CountUpAnimation = ({ headingName, initialValue, targetValue, text }) => {
   }, [targetValue, initialValue]);
 
   return (
-    <div className=" flex flex-col justify-around relative bg-white rounded-xl text-center transition-transform hover:scale-105 w-60">
-      <div className="text-blue-950 text-2xl lg:text-4xl flex justify-center">
+    <div className="font-serif countUpAnimationBox flex flex-col justify-evenly rounded-xl text-center transition-transform hover:scale-105 w-96 h-80">
+      <div className="text-blue-800 text-2xl lg:text-4xl flex justify-center">
         {headingName}
       </div>
-      <span className="text-blue-950 font-semibold text-4xl lg:text-5xl">{count}</span>
-      <span className="text-blue-950 text-lg lg:text-xl py-3 font-semibold uppercase">
+      <span className="text-slate-600 font-semibold text-4xl lg:text-5xl">{count}</span>
+      <span className="text-slate-600 text-lg lg:text-xl py-3 font-semibold uppercase">
         {text}
       </span>
     </div>
