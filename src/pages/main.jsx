@@ -4,7 +4,6 @@ import Team from "/src/pages/team/Team.jsx";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./about/About";
-import Sponsors from "/src/pages/Sponsors/Sponsors.jsx";
 import Cars from "./cars/Cars";
 import Sponsors from "./sponsors/Sponsors";
 
