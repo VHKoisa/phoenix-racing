@@ -4,12 +4,12 @@ const Carouselcard = (props) => {
   const imgAddr = "/src/assets/cars/" + props.img;
   return (
     <>
-      <div className="border-white  border-2 h-fit main">
+      <div className="border-white border-2 h-fit main">
         <img src={imgAddr} alt={props.img} className="w-full h-96" />
-        <div className="text-blue-950 h-24 font-serif bg-slate-300 flex flex-col justify-center">
-          <div className="text-center text-xl font-bold">{props.name}</div>
-          <div className="text-center">{props.year}</div>
-          <div className="text-center">{props.text}</div>
+        <div className="text-white">
+          <div>{props.name}</div>
+          <div>{props.year}</div>
+          <div>{props.text}</div>
         </div>
       </div>
     </>
