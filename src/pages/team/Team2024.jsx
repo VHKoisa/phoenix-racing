@@ -4,7 +4,7 @@ import Card from "./Card";
 const Team2024 = () => {
   return (
     <div>
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         TECHNICAL Heads
       </div>
       <div className="flex justify-center">
@@ -42,7 +42,7 @@ const Team2024 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         MANAGERIAL Heads
       </div>
       <div className="flex justify-center">
@@ -80,7 +80,7 @@ const Team2024 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         CHASSIS
       </div>
       <div className="flex justify-center">
@@ -118,7 +118,7 @@ const Team2024 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         Steering & Suspension
       </div>
       <div className="flex justify-center">
@@ -156,7 +156,7 @@ const Team2024 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         Powertrain
       </div>
       <div className="flex justify-center">
@@ -194,7 +194,7 @@ const Team2024 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         Brakes
       </div>
       <div className="flex justify-center">
@@ -226,7 +226,7 @@ const Team2024 = () => {
         </div>
       </div>
 
-      <div className="my-5 uppercase py-2 text-center text-2xl font-serif font-bold text-white bg-blue-950 border-2 rounded-3xl">
+      <div className="my-5 uppercase py-2 text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 rounded-3xl">
         Electrical
       </div>
       <div className="flex justify-center">
