@@ -60,25 +60,39 @@
 /* sponsorSection */
 
 .sponsorHome {
+  background-image: url(\src/pages/sponsors/logo/headingBg2.jpg.PNG);
+
+  
   width: 100%;
   height: 100%;
   /* background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?auto=format&fit=crop&w=315&h=220);
   background-repeat: repeat; */
-  /* background-size: cover; */
-  background: rgb(0,212,255);
-background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, rgba(2,0,36,1) 100%);
-  padding-block: 40px;
+  background-size: cover;
+  /* background: rgb(0,212,255);
+background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, rgba(2,0,36,1) 100%); */
+
+  /* padding-block: 40px; */
+  
 }
 
 .heading {
-  font-size: 5.5em;
+  /* font-size: 4.5em;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
-  line-height: 1.5;
+  line-height: 1.5; */
+  /* position: absolute; */
+  /* top: 25%; */
+  
+
 }
 
 .sponsorHeadingTitle {
+  position: relative;
+  background-size: cover;
+  background-repeat: repeat;
+  /* height: 50vh; */
+  padding-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -87,7 +101,7 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
 .sponsorLogo {
   margin-top: 20px;
   width: 350px;
-  height: 175px;
+  height: 200px;
 }
 /* goldSponsors */
 .row1 {
@@ -183,9 +197,19 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
   margin-top: 60px;
 }
 
-.form {
-  background-color: #48dbfb;
-  background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
+.pastSponsors{
+  padding: 40px;
+}
+.oImg{
+  width: 200px;
+  height: 150px;
+}
+
+.orow{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -296,5 +320,21 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
     display: flex;
     justify-content: center;
     margin-top: 20px;
+  }
+  .pastSponsors{
+    padding: 40px;
+  }
+  .oImg{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .orow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  
   }
 }

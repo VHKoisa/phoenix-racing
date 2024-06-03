@@ -7,7 +7,7 @@ const Sponsors = () => {
   return (
     <div className="main">
       <Header />
-
+{/* 
       <div className="info">
         <div className="hero-info">
           <div className="hero-heading">
@@ -35,12 +35,12 @@ const Sponsors = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* sponsors */}
       <div className="sponsorHome">
         <div className="sponsorHeadingTitle">
-          <h1 className="heading">Our Sponsors</h1>
+          <h1 className="heading"><img src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjoxMDYsInciOjEwMDAsImZzIjoxMDYsImZnYyI6IiNFQUU1RTUiLCJiZ2MiOiIjMEUwRTBFIiwidCI6MX0/U1BPTlNPUlMgMksyNA/komyca-3d-free-version-italic.png" alt="" /></h1>
         </div>
 
         <div className="goldSponsor">
@@ -235,7 +235,60 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
+
+        <div className="pastSponsors">
+          <h2 className="componentHeading">PAST SPONSORS</h2>
+          <div className="orow">
+            <a href="https://shop.apollotyres.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/apollo.png" alt="" />
+            </a>
+            <a href="https://canarabank.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/canara.png" alt="" />
+            </a>
+            <a href="https://canarabank.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/ceat.png" alt="" />
+            </a>
+            <a href="https://gujcost.gujarat.gov.in/Index">
+              <img className="oImg" src="src/pages/sponsors/logo/gcst.png" alt="" />
+            </a>
+            <a href="https://gujcost.gujarat.gov.in/Index">
+              <img className="oImg" src="src/pages/sponsors/logo/goorej.png" alt="" />
+            </a>
+            <a href="https://iocl.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/indianOil.png" alt="" />
+            </a>
+            
+          </div>
+          <div className="orow">
+            <a href="https://iocl.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/jkTyres.png" alt="" />
+            </a>
+            <a href="https://sopan.co.in/">
+              <img className="oImg" src="src/pages/sponsors/logo/sopan.png" alt="" />
+            </a>
+            <a href="https://www.tatamotors.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/tata.png" alt="" />
+            </a>
+            <a href="https://www.toyotabharat.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/oldtoyota.png" alt="" />
+            </a>
+            <a href="https://www.toyotabharat.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/ktm.png" alt="" />
+            </a>
+            <a href="https://www.mahindra.com/">
+              <img className="oImg" src="src/pages/sponsors/logo/mahindra.png" alt="" />
+            </a>
+            
+          </div>
+         
+
+        </div>
+
+
+
+
       </div>
+
 
       <Footer />
     </div>
