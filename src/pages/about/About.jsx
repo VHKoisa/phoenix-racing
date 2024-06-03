@@ -9,11 +9,15 @@ import Testimonials from "./Testimonials";
 
 const About = () => {
   const slides = [
-    <img src="/src/assets/news/Photo1.jpg" />,
-    <img src="/src/assets/news/Photo1.jpg" />,
-    <img src="/src/assets/news/Photo1.jpg" />,
-    <img src="/src/assets/news/Photo1.jpg" />,
-    <img src="/src/assets/news/Photo1.jpg" />,
+    <img src="/src/assets/news/1.jpeg" />,
+    <img src="/src/assets/news/2.jpeg" />,
+    <img src="/src/assets/news/3.jpeg" />,
+    <img src="/src/assets/news/4.jpeg" />,
+    <img src="/src/assets/news/5.jpeg" />,
+    <img src="/src/assets/news/6.jpeg" />,
+    <img src="/src/assets/news/7.jpeg" />,
+    <img src="/src/assets/news/8.jpeg" />,
+    <img src="/src/assets/news/9.jpeg" />,
   ];
   return (
     <>
@@ -75,7 +79,12 @@ const About = () => {
           </div>
         </div>
         <div className="bg-white py-20 px-7">
-          <Carousel slides={slides} autoplay={true} arrowBorders={true} arrows={true} />
+          <Carousel
+            slides={slides}
+            autoplay={true}
+            arrowBorders={true}
+            arrows={true}
+          />
         </div>
         {/* <div className="lg:flex justify-between p-10 py-5 bg-white">
         <div className="lg:w-1/2 my-10 justify-center items-center w-full flex">
