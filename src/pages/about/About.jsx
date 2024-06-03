@@ -4,8 +4,16 @@ import Footer from "../../components/Footer";
 import VideoSrc from "../../assets/Video1.mp4";
 import "../about/about.css";
 import CountUpAnimation from "./CountUpAnimation";
+import { Carousel } from "./Carousel";
 
 const About = () => {
+  const slides = [
+    <img src="/src/assets/news/Photo1.jpg" />,
+    <img src="/src/assets/news/Photo1.jpg" />,
+    <img src="/src/assets/news/Photo1.jpg" />,
+    <img src="/src/assets/news/Photo1.jpg" />,
+    <img src="/src/assets/news/Photo1.jpg" />,
+  ];
   return (
     <>
       <Header />
@@ -223,6 +231,9 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="bg-white py-20 px-7">
+          <Carousel slides={slides} autoplay={true} arrowBorders={true} />
         </div>
       </div>
       <Footer />

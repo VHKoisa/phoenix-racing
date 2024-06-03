@@ -1,0 +1,245 @@
+/* :root {
+    --blue: #0072BB;
+    --white: #ffffff; 
+    --bg:#F6F5F7;
+    --btitle:rgb(0,114,187,0.05);
+  } */
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.react-3d-carousel {
+  position: relative;
+  height: 80vh; display: flex;justify-content: center;
+}
+.react-3d-carousel .slider-container {
+  /* position: absolute;
+  left: 50%;
+  top: 5%; */
+  width: 90%;
+  /* margin: 0px auto 0px -45%; */
+}
+.react-3d-carousel .slider-container .slider-content {
+  position: relative;
+  left: 45%;
+  top: 0%;
+  width: 70%;
+  height: 100%;
+  transform: translateX(-50%);
+}
+.react-3d-carousel .slider-container .slider-content .slider-single {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 117%;
+  margin: auto;
+  transition: z-index 0ms 250ms;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 100px;
+  height: 70vh;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+  transform: scale(0);
+  opacity: 0;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content img {
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.preactivede .slider-single-content {
+  transform: translateX(-50%) scale(0);
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.preactive {
+  z-index: 1;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.preactive .slider-single-content {
+  opacity: 0.2;
+  transform: translateX(-25%) scale(0.8);
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.proactive {
+  z-index: 1;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.proactive .slider-single-content {
+  opacity: 0.2;
+  transform: translateX(25%) scale(0.8);
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.proactivede .slider-single-content {
+  transform: translateX(50%) scale(0);
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.active {
+  z-index: 2;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.active .slider-left,
+.react-3d-carousel .slider-container .slider-content .slider-single.active .slider-right {
+  display: block;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single.active .slider-single-content {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+.react-3d-carousel .slider-container .slider-left {
+  position: absolute;
+  display: none;
+  z-index: 3;
+  right: 101%;
+  /* margin-right: 5px; */
+  padding: 20px 15px;
+  height: 100%;
+  cursor: pointer;
+}
+.react-3d-carousel .slider-container .slider-left div {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-top: -20px;
+  color: var(--blue);
+  transform: translateY(-50%);
+  padding: 10px 10px;
+  border: 2px solid var(--blue);
+}
+.react-3d-carousel .slider-container .slider-right {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  left: 101%;
+  padding: 20px 15px;
+  height: 101%;
+  cursor: pointer;
+  margin-left: -2px;
+}
+.react-3d-carousel .slider-container .slider-right div {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-top: -20px;
+  color: var(--blue);
+  transform: translateY(-50%);
+  padding: 10px 10px;
+  border: 2px solid var(--blue);
+}
+.react-3d-carousel .slider-container .slider-left-noborders {
+  position: absolute;
+  display: none;
+  z-index: 3;
+  right: 101%;
+  margin-right: 5px;
+  padding: 20px 15px;
+  height: 100%;
+  cursor: pointer;
+}
+.react-3d-carousel .slider-container .slider-left-noborders div {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-top: -20px;
+  color: #ffffff;
+  transform: translateY(-50%);
+  padding: 10px 10px;
+}
+.react-3d-carousel .slider-container .slider-right-noborders {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  left: 101%;
+  padding: 20px 15px;
+  height: 101%;
+  cursor: pointer;
+  margin-left: -2px;
+}
+.react-3d-carousel .slider-container .slider-right-noborders div {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-top: -20px;
+  color: #ffffff;
+  transform: translateY(-50%);
+  padding: 10px 10px;
+}
+.react-3d-carousel .slider-container .slider-right-noborders img {
+  width: 120%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.react-3d-carousel .slider-container .slider-disabled div {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
+
+
+
+/* Adjustments for Mobile Screens */
+@media (max-width: 768px) {
+  .react-3d-carousel .slider-container {
+    height: 60vh; /* Decrease the height for mobile screens */
+    width: 100%; /* Increase the width for mobile screens */
+    left: 0;
+    top: 10%;
+    margin: 0;
+  }
+  
+  .react-3d-carousel .slider-container .slider-content {
+    width: 90%; /* Increase the width for mobile screens */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .react-3d-carousel .slider-container .slider-content .slider-single {
+    width: 100%; /* Adjust the width for mobile screens */
+  }
+  
+  .react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content {
+    height: 50vh; /* Decrease the height for mobile screens */
+  }
+
+  .react-3d-carousel .slider-container .slider-left div,
+  .react-3d-carousel .slider-container .slider-right div {
+    font-size: 10px; /* Decrease the font size for smaller arrows */
+    border-width: 1px; /* Decrease the border width for smaller arrows */
+  }
+  .react-3d-carousel .slider-container .slider-right div {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin-top: -20px;
+    color: var(--blue);
+    transform: translateY(-50%);
+    padding: 5px 5px;
+    border: 1px solid var(--blue);
+  }
+  .react-3d-carousel .slider-container .slider-left div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    color: var(--blue);
+    transform: translateY(-50%);
+    padding: 5px 5px;
+    border: 1px solid var(--blue);
+  }
+  /* Other adjustments as needed */
+}
