@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="w-full p-5 lg:w-1/4 flex items-center justify-center mt-4">
           <div className="">
             <div className="text-blue-800 text-3xl text-center">Follow Us</div>
-            <div className="flex flex-wrap justify-around text-slate-600">
+            <div className="flex flex-wrap justify-around text-center text-slate-600">
               <a
                 className="size-10 lg:w-1/4 m-2"
                 href="https://www.facebook.com/phoenixracing360/"
@@ -100,7 +100,7 @@ const Footer = () => {
                   ></path>
                 </svg>
               </a>
-              <a
+              {/* <a
                 className="size-10 lg:w-1/4 m-2"
                 href="https://www.youtube.com/@FSAEPhoenixRacing"
               >
@@ -119,7 +119,7 @@ const Footer = () => {
                     d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
                   ></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

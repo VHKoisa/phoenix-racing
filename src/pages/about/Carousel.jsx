@@ -217,16 +217,16 @@ export class Carousel extends React.Component {
                       className={this.sliderClass("left")}
                       onClick={this.slideLeft.bind(this)}
                     >
-                      <div>
-                        <FontAwesomeIcon icon={faArrowLeft} />
+                      <div className="">
+                        <FontAwesomeIcon icon={faArrowLeft} color="blue" size="2x" />
                       </div>
                     </div>
                     <div
                       className={this.sliderClass("right")}
                       onClick={this.slideRight.bind(this)}
                     >
-                      <div>
-                        <FontAwesomeIcon icon={faArrowRight} />
+                      <div className="">
+                        <FontAwesomeIcon icon={faArrowRight} color="blue" size="2x" />
                       </div>
                     </div>
 

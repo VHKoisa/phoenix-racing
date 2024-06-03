@@ -108,7 +108,7 @@
   display: none;
   z-index: 3;
   right: 101%;
-  /* margin-right: 5px; */
+  margin-right: 5px;
   padding: 20px 15px;
   height: 100%;
   cursor: pointer;
@@ -120,7 +120,7 @@
   margin-top: -20px;
   color: var(--blue);
   transform: translateY(-50%);
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   border: 2px solid var(--blue);
 }
 .react-3d-carousel .slider-container .slider-right {
@@ -140,7 +140,7 @@
   margin-top: -20px;
   color: var(--blue);
   transform: translateY(-50%);
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   border: 2px solid var(--blue);
 }
 .react-3d-carousel .slider-container .slider-left-noborders {
