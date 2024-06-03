@@ -57,13 +57,79 @@ $viewer-distance: 400px;
       cursor: pointer;
 
       color: #333;
-      background: none;
+      background: rgb(203 213 225);
       border: 1px solid;
       letter-spacing: 1px;
       padding: 5px 10px;
     }
   }
 }
+
+.btn-class-name {
+  // --color: 180,255, 100;
+  border-radius: 0.5em;
+  transition: 0.3s;
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  // background-color: rgba(var(--color), .2);
+  // color: white;
+  fill: rgb(23 37 84 / var(--tw-bg-opacity));
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: 2px solid rgb(203 213 225 / var(--tw-bg-opacity));
+  box-shadow: 0 0 10px rgb(203 213 225 / var(--tw-bg-opacity));
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.btn-class-name:hover {
+  box-shadow: 0 0 0 5px rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.btn-class-name span {
+  color: rgb(23 37 84 / var(--tw-bg-opacity));
+  // color: white;
+  transform: scale(0.8);
+  transition: 0.3s;
+}
+
+.btn-class-name:hover span {
+  transform: scale(1);
+}
+
+.btn-class-name .next-arr {
+  font-size: 0;
+  transform: scale(0.5) translateX(0%) rotate(-180deg);
+  transition: 0.3s;
+}
+
+.btn-class-name:hover .next-arr {
+  font-size: 20px;
+  transform: scale(1) translateX(20%) rotate(0deg);
+}
+
+.btn-class-name .prev-arr {
+  font-size: 0;
+  transform: scale(0.5) translateX(0%) rotate(0deg);
+  transition: 0.3s;
+}
+
+.btn-class-name:hover .prev-arr {
+  font-size: 20px;
+  transform: scale(1) translateX(-20%) rotate(180deg);
+}
+
+.btn-class-name:active {
+  transition: 0s;
+  box-shadow: 0 0 0 5px rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 @media only screen and (max-width: 768px) {
   .carousel {
     figure {
@@ -72,43 +138,35 @@ $viewer-distance: 400px;
   }
 }
 
-
 // tadit
 
-.tadit{
-
-
+.tadit {
   margin-bottom: 100px;
 }
 
-
-.hero-car{
+.hero-car {
   background-image: url(src/pages/cars/taditImg/tadit-1.jpg);
   position: relative;
   background-size: cover;
   height: calc(100vh - 80px);
 }
 
-
-.taditTitle1{
+.taditTitle1 {
   position: absolute;
   left: 40%;
   top: 2%;
-  
 }
 
-.taditTitle2{
+.taditTitle2 {
   position: absolute;
   left: 38%;
-  top: 20.5%;
+  top: 15%;
 }
-.taditTitle3{
+.taditTitle3 {
   position: absolute;
-  left: 41%;
-  top: 31%;
+  left: 36.5%;
+  top: 22%;
 }
-
-
 
 .container {
   font-weight: 900;
@@ -155,7 +213,6 @@ $viewer-distance: 400px;
 }
 
 .stat img {
-  
   width: 30px;
   height: 30px;
 }
@@ -171,19 +228,21 @@ $viewer-distance: 400px;
   margin: 0;
 }
 
-
-.tadit-info{
-  margin-top: 50px;
-  background-image: url(src/pages/cars/taditImg/tadit-info2.png);
+.tadit-info {
+  // margin-top: 20px;
+  background-image: url(/src/pages/cars/taditImg/tadit-info2.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 1000px;
+  height: 100vh;
+}
+.infoHeading {
+  position: absolute;
+  top: 2%;
+  left: 2%;
 }
 
-
-
-#showButton{
+#showButton {
   position: absolute;
   z-index: 1;
   width: 5%;
@@ -192,15 +251,15 @@ $viewer-distance: 400px;
   // background-size: 100%;
   left: 68%;
   top: 70%;
-  box-shadow: 0 0 0 0 #EA1D2D;
+  box-shadow: 0 0 0 0 #ea1d2d;
   transform: scale(1);
   animation: pulse-yellow 2s infinite;
 }
-// #showButton:hover{
+// #showButton #showButton2 :hover{
 //   animation: none;
 // }
 
-#showButton2{
+#showButton2 {
   position: absolute;
   z-index: 1;
   width: 5%;
@@ -210,12 +269,9 @@ $viewer-distance: 400px;
   left: 37%;
   top: 40%;
   animation: pulse-yellow 2s infinite;
-
 }
 
-
-
-#showButton3{
+#showButton3 {
   position: absolute;
   z-index: 1;
   width: 5%;
@@ -228,7 +284,7 @@ $viewer-distance: 400px;
   top: 80%;
 }
 
-#showButton4{
+#showButton4 {
   position: absolute;
   z-index: 1;
   width: 5%;
@@ -241,7 +297,7 @@ $viewer-distance: 400px;
   top: 20%;
 }
 
-#showButton5{
+#showButton5 {
   position: absolute;
   z-index: 1;
   width: 5%;
@@ -254,133 +310,121 @@ $viewer-distance: 400px;
   top: 40%;
 }
 
-
-.plusBtn{
+.plusBtn {
   width: 50px;
   height: 50px;
 }
 
-
-
-
-.pinTextShow-2{
+.pinTextShow-2 {
   position: absolute;
   bottom: unset;
-    opacity: 0;
-    border-radius: 8px;
-    top: 40%;
-    left: 20%;
-    transform: translateY(-30%);
-    background-color: rgba(38, 60, 78, 0.9);
-    box-shadow: 0 0 30px 0 #001A30;
-    padding: 36px 30px;
-    z-index: 1;
-    width: 100vw;
-    max-width: 300px;
+  opacity: 0;
+  border-radius: 8px;
+  top: 40%;
+  left: 20%;
+  transform: translateY(-30%);
+  background-color: rgba(38, 60, 78, 0.9);
+  box-shadow: 0 0 30px 0 #001a30;
+  padding: 36px 30px;
+  z-index: 1;
+  width: 100vw;
+  max-width: 300px;
 }
-.pinTextShow-3{
+.pinTextShow-3 {
   position: absolute;
   bottom: unset;
-    opacity: 0;
-    border-radius: 8px;
-    top: 80%;
-    left: 25%;
-    transform: translateY(-30%);
-    background-color: rgba(38, 60, 78, 0.9);
-    box-shadow: 0 0 30px 0 #001A30;
-    padding: 36px 30px;
-    z-index: 1;
-    width: 100vw;
-    max-width: 300px;
+  opacity: 0;
+  border-radius: 8px;
+  top: 80%;
+  left: 25%;
+  transform: translateY(-30%);
+  background-color: rgba(38, 60, 78, 0.9);
+  box-shadow: 0 0 30px 0 #001a30;
+  padding: 36px 30px;
+  z-index: 1;
+  width: 100vw;
+  max-width: 300px;
 }
-.pinTextShow-4{
+.pinTextShow-4 {
   position: absolute;
   bottom: unset;
-    opacity: 0;
-    border-radius: 8px;
-    top: 18%;
-    left: 65%;
-    transform: translateY(-30%);
-    background-color: rgba(38, 60, 78, 0.9);
-    box-shadow: 0 0 30px 0 #001A30;
-    padding: 36px 30px;
-    z-index: 1;
-    width: 100vw;
-    max-width: 300px;
+  opacity: 0;
+  border-radius: 8px;
+  top: 18%;
+  left: 65%;
+  transform: translateY(-30%);
+  background-color: rgba(38, 60, 78, 0.9);
+  box-shadow: 0 0 30px 0 #001a30;
+  padding: 36px 30px;
+  z-index: 1;
+  width: 100vw;
+  max-width: 300px;
 }
-.pinTextShow-5{
+.pinTextShow-5 {
   position: absolute;
   bottom: unset;
-    opacity: 0;
-    border-radius: 8px;
-    top: 38%;
-    left: 75%;
-    transform: translateY(-30%);
-    background-color: rgba(38, 60, 78, 0.9);
-    box-shadow: 0 0 30px 0 #001A30;
-    padding: 36px 30px;
-    z-index: 1;
-    width: 100vw;
-    max-width: 300px;
+  opacity: 0;
+  border-radius: 8px;
+  top: 38%;
+  left: 75%;
+  transform: translateY(-30%);
+  background-color: rgba(38, 60, 78, 0.9);
+  box-shadow: 0 0 30px 0 #001a30;
+  padding: 36px 30px;
+  z-index: 1;
+  width: 100vw;
+  max-width: 300px;
 }
-.pinTextShow-1{
+.pinTextShow-1 {
   position: absolute;
   bottom: unset;
-    opacity: 0;
-    border-radius: 8px;
-    top: 65%;
-    left: 72%;
-    transform: translateY(-30%);
-    background-color: rgba(38, 60, 78, 0.9);
-    box-shadow: 0 0 30px 0 #001A30;
-    padding: 36px 30px;
-    z-index: 1;
-    width: 100vw;
-    max-width: 300px;
+  opacity: 0;
+  border-radius: 8px;
+  top: 65%;
+  left: 72%;
+  transform: translateY(-30%);
+  background-color: rgba(38, 60, 78, 0.9);
+  box-shadow: 0 0 30px 0 #001a30;
+  padding: 36px 30px;
+  z-index: 1;
+  width: 100vw;
+  max-width: 300px;
 }
 
-
-h3{
+h3 {
   font-family: sans-serif;
-        font-size: 32px;
-        color: #fff;
-        line-height: 39px;
-        letter-spacing: 0;
-        text-shadow: 0 0 20px rgba(0, 15, 30, 0.2);
+  font-size: 32px;
+  color: #fff;
+  line-height: 39px;
+  letter-spacing: 0;
+  text-shadow: 0 0 20px rgba(0, 15, 30, 0.2);
 }
 
-li{
+li {
   color: rgba(255, 255, 255, 0.7);
   font-size: 20px;
   line-height: 23px;
   text-align: left;
 
-
   opacity: 0.7;
   font-family: Bull-Regular, BullText, Bull;
- 
+
   color: #fff;
 
   letter-spacing: 0;
 }
 
-
 @keyframes pulse-yellow {
-
   0% {
     transform: scale(1.5);
     // box-shadow: 0 0 0 0 rgba(238, 74, 87, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    // box-shadow: 0 0 0 10px rgba(238, 74, 87, 0);
+  }
+  100% {
+    transform: scale(1.5);
+    // box-shadow: 0 0 0 0 rgba(238, 74, 87, 0);
+  }
 }
-70% {
-  transform: scale(1);
-  // box-shadow: 0 0 0 10px rgba(238, 74, 87, 0);
-}
-100% {
-  transform: scale(1.5);
-  // box-shadow: 0 0 0 0 rgba(238, 74, 87, 0);
-}
-
-
-  
-}
-
