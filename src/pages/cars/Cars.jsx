@@ -135,26 +135,26 @@ const Car = () => {
         <div className="hero-car">
           <div className="title-container">
             <h1 className="taditTitle1">
-              <img
+              <img className="taditTitleImg1"
                 src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo3MCwidyI6MTAwMCwiZnMiOjcwLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/VEFESVQ/komyca-3d-free-version-italic.png"
                 alt=""
               />
             </h1>
             <h1 className="taditTitle2">
-              <img
+              <img className="taditTitleImg2"
                 src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo1MiwidyI6MTAwMCwiZnMiOjUyLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/R3VqYXJhdCBmaXJzdCBldg/komyca-3d-free-version-italic.png"
                 alt=""
               />
             </h1>
             <h1 className="taditTitle3">
-              <img
+              <img className="taditTitleImg3"
                 src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjozNCwidyI6MTAwMCwiZnMiOjM0LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Zm9ybXVsYSBzdHVkZW50IGNhcg/komyca-3d-free-version-italic.png"
                 alt=""
               />
             </h1>
           </div>
 
-          <div className="container">
+          <div className="smallInfocontainer">
             <div className="year">
               <p>YEAR</p>
               <h1>2024</h1>
@@ -207,7 +207,7 @@ const Car = () => {
               />
             </button>
 
-            <div id="spes1" className=" pinTextShow-1">
+            <div id="spes1" className=" pinTextShow-1 infoContainer">
               <h3 className="racing">CHASIS</h3>
               <ul>
                 <li>1018 Space frame</li>
@@ -227,7 +227,7 @@ const Car = () => {
               />
             </button>
 
-            <div id="spes2" className=" pinTextShow-2">
+            <div id="spes2" className=" pinTextShow-2 infoContainer">
               <h3 className="racing">SUSPENSION</h3>
               <ul>
                 <li>Track Width: 1210mm</li>
@@ -249,7 +249,7 @@ const Car = () => {
               />
             </button>
 
-            <div id="spes3" className=" pinTextShow-3">
+            <div id="spes3" className=" pinTextShow-3 infoContainer">
               <h3 className="racing">PERFORMANCE</h3>
               <ul>
                 <li>0-60 kmph in 3 sec</li>
@@ -267,7 +267,7 @@ const Car = () => {
               />
             </button>
 
-            <div id="spes4" className=" pinTextShow-4">
+            <div id="spes4" className=" pinTextShow-4 infoContainer ">
               <h3 className="racing">Battery Pack</h3>
               <ul>
                 <li>Charging Time : 4 hrs</li>
@@ -286,7 +286,7 @@ const Car = () => {
               />
             </button>
 
-            <div id="spes5" className=" pinTextShow-5">
+            <div id="spes5" className=" pinTextShow-5 infoContainer">
               <h3 className="racing">MOTOR</h3>
               <ul>
                 <li>Dual Agni- 119R</li>
