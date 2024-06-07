@@ -138,6 +138,8 @@ $viewer-distance: 400px;
   }
 }
 
+
+
 // tadit
 
 .tadit {
@@ -152,6 +154,7 @@ $viewer-distance: 400px;
 }
 
 .taditTitle1 {
+  
   position: absolute;
   left: 40%;
   top: 2%;
@@ -247,14 +250,15 @@ $viewer-distance: 400px;
   z-index: 1;
   width: 5%;
   height: 5%;
-  // border-radius: 50%;
-  // background-size: 100%;
+  
   left: 68%;
   top: 70%;
   box-shadow: 0 0 0 0 #ea1d2d;
   transform: scale(1);
   animation: pulse-yellow 2s infinite;
 }
+
+
 // #showButton #showButton2 :hover{
 //   animation: none;
 // }
@@ -482,7 +486,7 @@ li {
 
   background-image: url(src/pages/cars/taditImg/tadit-infoM.PNG);
   background-size: contain;
-
+  
 }
 
 .infoHeading {

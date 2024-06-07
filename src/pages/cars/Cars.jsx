@@ -132,7 +132,9 @@ const Car = () => {
       {/* taditCode */}
 
       <div className="tadit">
-        <div className="hero-car">
+
+      {/* hero  code */}
+        <div className="hero-car"> 
           <div className="title-container">
             <h1 className="taditTitle1">
               <img className="taditTitleImg1"
@@ -191,7 +193,7 @@ const Car = () => {
             </div>
           </div>
         </div>
-
+        {/* hero code end */}
         <div className="tadit-info">
           <div className="infoHeading">
             <h1>

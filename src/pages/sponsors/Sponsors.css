@@ -75,26 +75,18 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
   
 }
 
-.heading {
-  /* font-size: 4.5em;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bolder;
-  line-height: 1.5; */
-  /* position: absolute; */
-  /* top: 25%; */
-  
 
-}
 
 .sponsorHeadingTitle {
   position: relative;
   background-size: cover;
   background-repeat: repeat;
   /* height: 50vh; */
-  padding-top: 20px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
+  
 }
 
 /* logoDimensions */
@@ -146,7 +138,7 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
 
 .componentHeading {
   margin-top: 60px;
-  font-size: 4.5em;
+  font-size: 4.0em;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
@@ -161,8 +153,8 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
 }
 
 .cImg {
-  width: 400px;
-  height: 200px;
+  width: 350px;
+  height: 150px;
 }
 
 /* EnerygySponsorimageWidth */
@@ -176,9 +168,9 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
   margin-top: 60px;
 }
 
-.softwareSponsorImg {
-  width: 600px;
-}
+/* .softwareSponsorImg {
+  width: 300px;
+} */
 .softwareHeading {
   margin-top: 60px;
   display: flex;
@@ -211,6 +203,76 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
   margin-top: 60px;
 
 }
+
+.contactUs{
+  width: 100%;
+    margin-top: calc((1rem + 5vw)* .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10vw;
+    padding-bottom: 4vw;
+    padding-top: 2vw;
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+
+.contactUs h2{
+  font-size: 3em;
+  font-weight: 700;
+}
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+.contactUs button {
+  font-size: clamp(1rem,1rem + 5vw,1.5rem);
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  color: #0072bb;
+  outline: none;
+  border: none;
+  padding: 1vw;
+  border-radius: 20px;
+  margin-top: calc((1rem + 5vw) / 5);
+  font-weight: 600;
+  transition: border-color .25s;
+}
+/* img:hover{
+  transform: translateY(0.2em);
+  transition: all 0.3s ease 0s;
+  
+
+} */
+
+/* button:hover{
+  background-color: #0072bb;
+  color: white !important;
+  border-radius: 50px;
+  border-color: rgb(28, 44, 182) !important;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(0.2em);
+} */
+
+
+.brochure-btn {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: left;
+  padding-left: 10vw;
+
+}
+.broLink{
+  font-weight: 00;
+  font-size: 1.7em;
+  color:white;
+  text-decoration: inherit;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .info {

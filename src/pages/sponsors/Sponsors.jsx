@@ -7,35 +7,7 @@ const Sponsors = () => {
   return (
     <div className="main">
       <Header />
-{/* 
-      <div className="info">
-        <div className="hero-info">
-          <div className="hero-heading">
-            <h1 className="heading-1">
-              REVOLVING WHEELS WITH REVOLUTIONARY BRAINS
-            </h1>
-          </div>
-          <div className="hero-para">
-            <p className="hero-text">
-              Introducing Phoenix Racing, one of the most dynamic and
-              technically proficient student chapters at SVNIT. Our chapter is
-              driven by the revolutionary minds of our students, who channel
-              their passion for cars into creating engineering marvels. Each
-              year, students from various engineering disciplines undergo a
-              rigorous selection process to become part of this esteemed team.
-              Our primary goal is to foster innovation and engineering
-              excellence among students, providing them with hands-on experience
-              in automotive engineering. Since our establishment in 2005, we
-              have built a lasting legacy of developing a wide range of car
-              variations. Phoenix Racing is proud to have actively participated
-              in and successfully competed in numerous competitions, like Baja,
-              Supra SAE, Go-Kart, and Formula Bharat. we are known for our
-              commitment to pushing the boundaries of automotive engineering and
-              achieving remarkable success in the field of motorsports.
-            </p>
-          </div>
-        </div>
-      </div> */}
+
 
       {/* sponsors */}
       <div className="sponsorHome">
@@ -285,10 +257,23 @@ const Sponsors = () => {
         </div>
 
 
+        <div className="contactUs">
+        <h2>Interested in sponsoring us?</h2>
+        <form action="mailto:sae@svnit.ac.in">
+          <button className="submitBtn" type="submit">Contact Us</button>
+        </form>
+        
+        </div>
+
+        <div class="brochure-btn">
+          <a className="broLink" href="src/pages/sponsors/logo/brochure.pdf" target="__blank">View Brochure</a>
+        </div>
+
 
 
       </div>
-
+      
+         
 
       <Footer />
     </div>
