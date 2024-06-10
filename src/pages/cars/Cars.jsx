@@ -131,7 +131,7 @@ const Car = () => {
 
       {/* taditCode */}
 
-      <div className="tadit">
+      <div className="tadit bg-black">
         {/* hero  code */}
         <div className="hero-car">
           <div className="title-container">
@@ -300,9 +300,11 @@ const Car = () => {
             </div>
           </div>
         </div>
+      
       </div>
 
-      <div className="text-center flex justify-center bg-green-500 text-5xl lg:text-6xl text-blue-800">
+
+      <div className="text-center flex justify-center bg-blue-400 text-5xl lg:text-6xl text-blue-800">
         <h1>
           <img src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo1NSwidyI6MTI1MCwiZnMiOjQ0LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/T3VyIENhcnM/komyca-3d-free-version-italic.png" />
         </h1>
@@ -354,28 +356,8 @@ const Car = () => {
           />
         </figure>
         <nav>
-          <button className="nav prev btn-class-name bg-slate-300">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="1em"
-              viewBox="0 0 320 512"
-              className="prev-arr"
-            >
-              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
-            </svg>
-            <span className="nav text-blue-950">Prev</span>
-          </button>
-          <button className="nav next btn-class-name bg-slate-300">
-            <span className="nav text-blue-950">Next</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="1em"
-              viewBox="0 0 320 512"
-              className="next-arr"
-            >
-              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
-            </svg>
-          </button>
+          <button className="nav prev">Prev</button>
+          <button className="nav next">Next</button>
         </nav>
       </div>
 

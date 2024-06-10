@@ -65,70 +65,70 @@ $viewer-distance: 400px;
   }
 }
 
-.btn-class-name {
-  // --color: 180,255, 100;
-  border-radius: 0.5em;
-  transition: 0.3s;
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-  // background-color: rgba(var(--color), .2);
-  // color: white;
-  fill: rgb(23 37 84 / var(--tw-bg-opacity));
-  font-family: monospace;
-  font-weight: bolder;
-  font-size: x-large;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  border: 2px solid rgb(203 213 225 / var(--tw-bg-opacity));
-  box-shadow: 0 0 10px rgb(203 213 225 / var(--tw-bg-opacity));
-  outline: none;
-  display: flex;
-  align-items: center;
-  padding: 0.5em 1em;
-}
+// .btn-class-name {
+//   // --color: 180,255, 100;
+//   border-radius: 0.5em;
+//   transition: 0.3s;
+//   --tw-bg-opacity: 1;
+//   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+//   // background-color: rgba(var(--color), .2);
+//   // color: white;
+//   fill: rgb(23 37 84 / var(--tw-bg-opacity));
+//   font-family: monospace;
+//   font-weight: bolder;
+//   font-size: x-large;
+//   text-transform: uppercase;
+//   letter-spacing: 0.1em;
+//   cursor: pointer;
+//   border: 2px solid rgb(203 213 225 / var(--tw-bg-opacity));
+//   box-shadow: 0 0 10px rgb(203 213 225 / var(--tw-bg-opacity));
+//   outline: none;
+//   display: flex;
+//   align-items: center;
+//   padding: 0.5em 1em;
+// }
 
-.btn-class-name:hover {
-  box-shadow: 0 0 0 5px rgb(203 213 225 / var(--tw-bg-opacity));
-}
+// .btn-class-name:hover {
+//   box-shadow: 0 0 0 5px rgb(203 213 225 / var(--tw-bg-opacity));
+// }
 
-.btn-class-name span {
-  color: rgb(23 37 84 / var(--tw-bg-opacity));
-  // color: white;
-  transform: scale(0.8);
-  transition: 0.3s;
-}
+// .btn-class-name span {
+//   color: rgb(23 37 84 / var(--tw-bg-opacity));
+//   // color: white;
+//   transform: scale(0.8);
+//   transition: 0.3s;
+// }
 
-.btn-class-name:hover span {
-  transform: scale(1);
-}
+// .btn-class-name:hover span {
+//   transform: scale(1);
+// }
 
-.btn-class-name .next-arr {
-  font-size: 0;
-  transform: scale(0.5) translateX(0%) rotate(-180deg);
-  transition: 0.3s;
-}
+// .btn-class-name .next-arr {
+//   font-size: 0;
+//   transform: scale(0.5) translateX(0%) rotate(-180deg);
+//   transition: 0.3s;
+// }
 
-.btn-class-name:hover .next-arr {
-  font-size: 20px;
-  transform: scale(1) translateX(20%) rotate(0deg);
-}
+// .btn-class-name:hover .next-arr {
+//   font-size: 20px;
+//   transform: scale(1) translateX(20%) rotate(0deg);
+// }
 
-.btn-class-name .prev-arr {
-  font-size: 0;
-  transform: scale(0.5) translateX(0%) rotate(0deg);
-  transition: 0.3s;
-}
+// .btn-class-name .prev-arr {
+//   font-size: 0;
+//   transform: scale(0.5) translateX(0%) rotate(0deg);
+//   transition: 0.3s;
+// }
 
-.btn-class-name:hover .prev-arr {
-  font-size: 20px;
-  transform: scale(1) translateX(-20%) rotate(180deg);
-}
+// .btn-class-name:hover .prev-arr {
+//   font-size: 20px;
+//   transform: scale(1) translateX(-20%) rotate(180deg);
+// }
 
-.btn-class-name:active {
-  transition: 0s;
-  box-shadow: 0 0 0 5px rgb(203 213 225 / var(--tw-bg-opacity));
-}
+// .btn-class-name:active {
+//   transition: 0s;
+//   box-shadow: 0 0 0 5px rgb(203 213 225 / var(--tw-bg-opacity));
+// }
 
 @media only screen and (max-width: 768px) {
   .carousel {
@@ -465,14 +465,12 @@ li {
   .tadit-info {
     background-image: url(src/pages/cars/taditImg/tadit-infoM.PNG);
     background-size: contain;
-    
-    // height: 70vh;
 
+    // height: 70vh;
   }
 
   .infoHeading {
     width: 350px;
-    
   }
 
   .plusBtn {
@@ -540,4 +538,27 @@ li {
     width: max-content;
     height: max-content;
   }
+}
+
+
+// Shape divider
+.custom-shape-divider-bottom-1718017433 {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1718017433 svg {
+  position: relative;
+  display: block;
+  width: calc(125% + 1.3px);
+  height: 96px;
+}
+
+.custom-shape-divider-bottom-1718017433 .shape-fill {
+  fill: #fff;
 }
