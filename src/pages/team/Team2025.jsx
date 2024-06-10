@@ -281,6 +281,26 @@ const Team2025 = () => {
           />
         </div>
       </div>
+      <hr className="h-1 bg-blue-800" />
+      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+        Web Development Team
+      </div>
+      <div className="flex justify-center">
+        <div className="flex flex-wrap justify-center w-full">
+          <Card
+            linkedin="https://www.linkedin.com/in/hritik-raj-543aa430b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            photo="webdev1.jpeg"
+            name="Shashank Raj"
+            position="Web Developer"
+          />
+          <Card
+            linkedin=""
+            photo="webdev2.jpeg"
+            name="Vatsal Koisa"
+            position="Web Developer"
+          />
+        </div>
+      </div>
     </div>
   );
 };
