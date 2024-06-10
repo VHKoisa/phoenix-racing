@@ -42,26 +42,6 @@ const Footer = () => {
               </a>
               <a
                 className="size-10 lg:w-1/4 m-2"
-                href="https://twitter.com/FSAE_SVNIT?t=_JRs_ZVsIR2E6LqcC66ZBw&amp;s=08"
-              >
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fab"
-                  data-icon="x-twitter"
-                  className="svg-inline--fa fa-x-twitter fa-xl me-4 p-1"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-                  ></path>
-                </svg>
-              </a>
-              <a
-                className="size-10 lg:w-1/4 m-2"
                 href="https://www.instagram.com/phoenixracing.sae/"
               >
                 <svg
@@ -100,7 +80,7 @@ const Footer = () => {
                   ></path>
                 </svg>
               </a>
-              {/* <a
+              <a
                 className="size-10 lg:w-1/4 m-2"
                 href="https://www.youtube.com/@FSAEPhoenixRacing"
               >
@@ -119,7 +99,7 @@ const Footer = () => {
                     d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
                   ></path>
                 </svg>
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
