@@ -138,13 +138,7 @@ $viewer-distance: 400px;
   }
 }
 
-
-
 // tadit
-
-.tadit {
-  margin-bottom: 100px;
-}
 
 .hero-car {
   background-image: url(src/pages/cars/taditImg/tadit-1.jpg);
@@ -154,7 +148,6 @@ $viewer-distance: 400px;
 }
 
 .taditTitle1 {
-  
   position: absolute;
   left: 40%;
   top: 2%;
@@ -250,14 +243,13 @@ $viewer-distance: 400px;
   z-index: 1;
   width: 5%;
   height: 5%;
-  
+
   left: 68%;
   top: 70%;
   box-shadow: 0 0 0 0 #ea1d2d;
   transform: scale(1);
   animation: pulse-yellow 2s infinite;
 }
-
 
 // #showButton #showButton2 :hover{
 //   animation: none;
@@ -433,148 +425,119 @@ li {
   }
 }
 
-
-@media only screen and (max-width: 768px){
-
-
-
+@media only screen and (max-width: 1024px) {
   .hero-car {
     background-image: url(src/pages/cars/taditImg/heroImgM.jpg);
   }
 
+  .taditTitle1 {
+    left: 22%;
+    width: 250px;
+  }
 
-  
-.taditTitle1 {
- 
-  left: 22%;
-  width: 250px;
-}
+  .taditTitle2 {
+    left: 8%;
+    top: 12%;
+    width: 350px;
+  }
+  .taditTitle3 {
+    left: 13%;
+    top: 18%;
+    width: 320px;
+  }
 
-.taditTitle2 {
-  left: 10%;
-  top: 12%;
-  width: 350px;
-}
-.taditTitle3 {
-  left: 13%;
-  top: 18%;
-  width: 320px;
-}
+  .taditTitleImg1 {
+    width: 450px;
+  }
 
-.taditTitleImg1{
-  width: 450px;
-}
+  .taditTitleImg2 {
+    width: 400px;
+  }
 
-.taditTitleImg2{
-  width: 400px;
-}
+  .stat p {
+    font-size: 12px;
+  }
 
-
-
-
-
-
-.stat p {
-  font-size: 13px;
-}
-
-.stat h2 {
-  font-size: 16px;
-  margin: 0;
-}
-.tadit-info {
-
-  background-image: url(src/pages/cars/taditImg/tadit-infoM.PNG);
-  background-size: contain;
-  
-}
-
-.infoHeading {
-  width: 350px;
-  top: 5%;
-  left: 10%;
-}
-
-.plusBtn{
-  width: 20px;
-  height: 20px;
-
-}
-#showButton{
-  top: 38%;
-}
-
-#showButton2{
-  top: 26%;
-  left: 37%;
-}
-
-#showButton3{
-  top: 40%;
-}
-
-#showButton4{
-  top: 20%;
-}
-
-#showButton5{
-  top: 30%;
-  left: 75%;
-}
-
-.pinTextShow-1 {
-
-    top: 49%;
-    left: 20%;
-
+  .stat h2 {
+    font-size: 15px;
+    margin: 0;
+  }
+  .tadit-info {
+    background-image: url(src/pages/cars/taditImg/tadit-infoM.PNG);
+    background-size: contain;
     
+    // height: 70vh;
 
-}
+  }
 
-.pinTextShow-2 {
+  .infoHeading {
+    width: 350px;
+    
+  }
 
-  top: 20%;
-  width: 100px;
+  .plusBtn {
+    width: 20px;
+    height: 20px;
+  }
+  #showButton {
+    top: 45%;
+    left: 10%;
+  }
 
-}
+  #showButton2 {
+    top: 45%;
+    left: 30%;
+  }
 
-.pinTextShow-3 {
+  #showButton3 {
+    left: 50%;
+    top: 45%;
+  }
 
-  top: 40%;
-  
+  #showButton4 {
+    left: 70%;
+    top: 45%;
+  }
 
+  #showButton5 {
+    top: 45%;
+    left: 90%;
+  }
 
-}
+  .pinTextShow-1 {
+    top: 25%;
+    left: 25%;
+  }
 
-.pinTextShow-4 {
+  .pinTextShow-2 {
+    top: 25%;
+    left: 25%;
+  }
 
-  top: 20%;
-  left: 20%;
+  .pinTextShow-3 {
+    top: 25%;
+    left: 25%;
+  }
 
+  .pinTextShow-4 {
+    top: 25%;
+    left: 25%;
+  }
 
-}
+  .pinTextShow-5 {
+    top: 25%;
+    left: 25%;
+  }
 
+  h3 {
+    font-size: 1em;
+  }
+  li {
+    font-size: 15px;
+  }
 
-.pinTextShow-5 {
-
-  top: 25%;
-  left: 25%;
-
-
-}
-
-h3{
-  font-size: 1em;
-}
-li{
-  font-size: 15px;
-}
-  
-.infoContainer{
-  width: max-content;
-height: max-content;
-}
-
-
-
+  .infoContainer {
+    width: max-content;
+    height: max-content;
+  }
 }

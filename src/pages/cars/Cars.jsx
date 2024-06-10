@@ -132,24 +132,26 @@ const Car = () => {
       {/* taditCode */}
 
       <div className="tadit">
-
-      {/* hero  code */}
-        <div className="hero-car"> 
+        {/* hero  code */}
+        <div className="hero-car">
           <div className="title-container">
             <h1 className="taditTitle1">
-              <img className="taditTitleImg1"
+              <img
+                className="taditTitleImg1"
                 src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo3MCwidyI6MTAwMCwiZnMiOjcwLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/VEFESVQ/komyca-3d-free-version-italic.png"
                 alt=""
               />
             </h1>
             <h1 className="taditTitle2">
-              <img className="taditTitleImg2"
+              <img
+                className="taditTitleImg2"
                 src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo1MiwidyI6MTAwMCwiZnMiOjUyLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/R3VqYXJhdCBmaXJzdCBldg/komyca-3d-free-version-italic.png"
                 alt=""
               />
             </h1>
             <h1 className="taditTitle3">
-              <img className="taditTitleImg3"
+              <img
+                className="taditTitleImg3"
                 src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjozNCwidyI6MTAwMCwiZnMiOjM0LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Zm9ybXVsYSBzdHVkZW50IGNhcg/komyca-3d-free-version-italic.png"
                 alt=""
               />
@@ -236,9 +238,7 @@ const Car = () => {
                 <li>Wheel Base: 1540mm</li>
                 <li>Double Wishbone</li>
                 <li>Pushrod Suspension</li>
-                <li style={{ fontSize: "18px" }}>
-                  13 inch MRF ZTD-1 Slick Tyres
-                </li>
+                <li>13 inch MRF ZTD-1 Slick Tyres</li>
               </ul>
             </div>
           </div>
@@ -302,6 +302,11 @@ const Car = () => {
         </div>
       </div>
 
+      <div className="text-center flex justify-center bg-green-500 text-5xl lg:text-6xl text-blue-800">
+        <h1>
+          <img src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo1NSwidyI6MTI1MCwiZnMiOjQ0LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/T3VyIENhcnM/komyca-3d-free-version-italic.png" />
+        </h1>
+      </div>
       <div className="carousel" data-gap="0">
         <figure>
           <Carouselcard
