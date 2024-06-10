@@ -6,6 +6,7 @@ import "../about/about.css";
 import CountUpAnimation from "./CountUpAnimation";
 import { Carousel } from "./Carousel";
 import Testimonials from "./Testimonials";
+import News from "./News";
 
 const About = () => {
   const slides = [
@@ -78,14 +79,14 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white py-20 px-7">
+        {/* <div className="bg-white py-20 px-7">
           <Carousel
             slides={slides}
             autoplay={true}
             arrowBorders={true}
             arrows={true}
           />
-        </div>
+        </div> */}
         {/* <div className="lg:flex justify-between p-10 py-5 bg-white">
         <div className="lg:w-1/2 my-10 justify-center items-center w-full flex">
         <div className="text-5xl lg:text-6xl font-serif text-blue-800">
@@ -109,7 +110,7 @@ const About = () => {
           vehicles starting in 2022.
           </div>
         </div> */}
-        <div className=" flex justify-around p-5 my-20 flex-wrap gap-5 lg:gap-4">
+        <div className="flex justify-around p-5 my-20 flex-wrap gap-5 lg:gap-4">
           <CountUpAnimation
             headingName="Cars"
             initialValue={0}
@@ -130,27 +131,27 @@ const About = () => {
           />
         </div>
 
-        {/* <div className="pb-5 news">
+        <div className="pb-5 news">
           <div className="flex justify-center font-serif text-4xl lg:text-6xl p-5 text-blue-800">
             Latest Updates
           </div>
           <div className="flex justify-around">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
               <div className="grid gap-4">
-                <News text="News 1" imgName="Photo1.jpg" />
-                <News text="News 1" imgName="Photo1.jpg" />
+                <News
+                  text="Team Phoenix Racing is awarded as the most active club of season 2024 by FORMULA BHARAT"
+                  imgName="3.jpeg"
+                />
               </div>
               <div className="grid gap-4">
-                <News text="News 1" imgName="Photo1.jpg" />
-                <News text="News 1" imgName="Photo1.jpg" />
-              </div>
-              <div className="grid gap-4">
-                <News text="News 1" imgName="Photo1.jpg" />
-                <News text="News 1" imgName="Photo1.jpg" />
+                <News
+                  text="Team Phoenix Racing in Kari Motorsport, Coimbatore"
+                  imgName="4.jpeg"
+                />
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
