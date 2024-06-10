@@ -139,14 +139,18 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
               <div className="grid gap-4">
                 <News
-                  text="Team Phoenix Racing is awarded as the most active club of season 2024 by FORMULA BHARAT"
                   imgName="3.jpeg"
+                  heading="Most Active Club of 2024"
+                  text="Team Phoenix Racing is awarded as the most active club of season 2024 by FORMULA BHARAT"
+                  date="20/01/2024"
                 />
               </div>
               <div className="grid gap-4">
                 <News
-                  text="Team Phoenix Racing in Kari Motorsport, Coimbatore"
                   imgName="4.jpeg"
+                  heading="Kari Motorsport"
+                  text="Team Phoenix Racing in Kari Motorsport, Coimbatore"
+                  date="20/01/2024"
                 />
               </div>
             </div>
