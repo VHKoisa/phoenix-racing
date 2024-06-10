@@ -7,19 +7,19 @@ import ScrollToTop from "./ScrollToTop";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/" className="text-blue-800">
+      <NavLink to="/" className="text-blue-800 uppercase font-bold">
         About
       </NavLink>
-      <NavLink to="/team" className="text-blue-800">
+      <NavLink to="/team" className="text-blue-800 uppercase font-bold">
         Team
       </NavLink>
-      <NavLink to="/cars" className="text-blue-800">
+      <NavLink to="/cars" className="text-blue-800 uppercase font-bold">
         Cars
       </NavLink>
-      <NavLink to="/sponsors" className="text-blue-800">
+      <NavLink to="/sponsors" className="text-blue-800 uppercase font-bold">
         Sponsors
       </NavLink>
-      <NavLink to="/alumni" className="text-blue-800">
+      <NavLink to="/alumni" className="text-blue-800 uppercase font-bold">
         Alumni
       </NavLink>
     </>
@@ -42,7 +42,7 @@ function Header() {
           </div>
         </div>
 
-        <nav className="flex lg:w-1/4 font-serif">
+        <nav className="flex lg:w-1/2 font-serif">
           <div className="hidden w-full justify-around lg:flex  border-2 border-slate-600 rounded-2xl py-2">
             <NavLinks />
           </div>
