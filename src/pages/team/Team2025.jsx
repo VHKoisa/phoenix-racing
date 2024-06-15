@@ -4,7 +4,7 @@ import Card from "./Card";
 const Team2025 = () => {
   return (
     <div>
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         TECHNICAL Heads
       </div>
       <div className="flex justify-center">
@@ -42,7 +42,7 @@ const Team2025 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         MANAGERIAL Heads
       </div>
       <div className="flex justify-center">
@@ -80,7 +80,7 @@ const Team2025 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         CHASSIS
       </div>
       <div className="flex justify-center">
@@ -118,7 +118,7 @@ const Team2025 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         Steering & Suspension
       </div>
       <div className="flex justify-center">
@@ -156,7 +156,7 @@ const Team2025 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         Powertrain
       </div>
       <div className="flex justify-center">
@@ -194,7 +194,7 @@ const Team2025 = () => {
         </div>
       </div>
 
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         Brakes
       </div>
       <div className="flex justify-center">
@@ -226,7 +226,7 @@ const Team2025 = () => {
         </div>
       </div>
 
-      <div className="my-5 uppercase py-2 text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 uppercase py-2 text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         Electrical
       </div>
       <div className="flex justify-center">
@@ -282,7 +282,7 @@ const Team2025 = () => {
         </div>
       </div>
       <hr className="h-1 bg-blue-800" />
-      <div className="my-5 py-2 uppercase text-center text-2xl font-serif font-bold text-white bg-blue-800 border-2 ">
+      <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         Web Development Team
       </div>
       <div className="flex justify-center">

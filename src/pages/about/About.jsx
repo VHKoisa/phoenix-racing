@@ -59,10 +59,10 @@ const About = () => {
             <img src="/src/pages/about/1.png" width="900px" height="400px" />
           </div>
           <div className="w-fit p-10">
-            <div className="text-center lg:text-left text-5xl lg:text-6xl font-serif text-blue-800">
+            <div className="text-center lg:text-left text-5xl lg:text-6xl   text-blue-800">
               About Us
             </div>
-            <div className="mt-10 text-l lg:text-xl font-serif text-slate-600 tracking-wider">
+            <div className="mt-10 text-l lg:text-xl   text-slate-600 tracking-wider">
               Team Phoenix Racing is a technical student chapter affiliated with
               SVNIT, consisting of over 60 students from various engineering
               disciplines. Our primary objective is to provide a platform for
@@ -89,12 +89,12 @@ const About = () => {
         </div> */}
         {/* <div className="lg:flex justify-between p-10 py-5 bg-white">
         <div className="lg:w-1/2 my-10 justify-center items-center w-full flex">
-        <div className="text-5xl lg:text-6xl font-serif text-blue-800">
+        <div className="text-5xl lg:text-6xl   text-blue-800">
         <span className="lg:text-9xl">A</span>bout{" "}
         <span className="lg:text-9xl">U</span>s
         </div>
         </div>
-        <div className="lg:w-1/2 text-l lg:text-xl font-serif text-blue-800 tracking-wider">
+        <div className="lg:w-1/2 text-l lg:text-xl   text-blue-800 tracking-wider">
           Team Phoenix Racing is a technical student chapter affiliated with
           SVNIT, consisting of over 60 students from various engineering
           disciplines. Our primary objective is to provide a platform for
@@ -132,7 +132,7 @@ const About = () => {
         </div>
 
         <div className="pb-5 news">
-          <div className="flex justify-center font-serif text-4xl lg:text-6xl p-5 text-blue-800">
+          <div className="flex justify-center   text-4xl lg:text-6xl p-5 text-blue-800">
             Latest Updates
           </div>
           <div className="flex justify-around">
@@ -166,10 +166,10 @@ const About = () => {
             />
           </div>
           <div className="w-fit p-10">
-            <div className="text-center lg:text-left text-5xl lg:text-6xl font-serif text-blue-800">
+            <div className="text-center lg:text-left text-5xl lg:text-6xl   text-blue-800">
               About SVNIT
             </div>
-            <div className="mt-10 text-l lg:text-xl font-serif text-slate-600 tracking-wider">
+            <div className="mt-10 text-l lg:text-xl   text-slate-600 tracking-wider">
               Established in 1961 as one of the RECs, Sardar Vallabhbhai
               National Institute of Technology aimed to provide technical
               education in Civil, Mechanical, and Electrical Engineering. Over
@@ -190,7 +190,7 @@ const About = () => {
 
         <Testimonials />
 
-        <div className="bg-white font-serif py-10">
+        <div className="bg-white   py-10">
           <div className="text-6xl text-blue-800 text-center py-5">
             Faculty Advisors
           </div>

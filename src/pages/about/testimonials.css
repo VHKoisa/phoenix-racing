@@ -72,7 +72,7 @@
   content: "“";
   color: #aaa;
   font-size: 26px;
-  font-family: monospace;
+  /* font-family: monospace; */
   font-weight: 100;
 }
 
@@ -80,7 +80,7 @@
   content: "”";
   color: #aaa;
   font-size: 26px;
-  font-family: monospace;
+  /* font-family: monospace; */
   font-weight: 100;
   line-height: 0;
 }

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <hr className="h-1 bg-blue-800" />
-      <div className="bg-white flex flex-wrap  font-serif">
+      <div className="bg-white flex flex-wrap   ">
         <div className="flex flex-col items-center justify-center w-full p-5 lg:w-1/4">
           <div>
             <img

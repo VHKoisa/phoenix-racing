@@ -37,12 +37,12 @@ function Header() {
       >
         <div className="flex items-center my-2 mx-1">
           <img src="/src/assets/logo.png" className="w-16 h-16" alt="Logo" />
-          <div className="mx-5 text-blue-800 text-2xl lg:text-3xl font-serif">
+          <div className="mx-5 text-blue-800 text-2xl lg:text-3xl  ">
             SAE PHOENIX RACING
           </div>
         </div>
 
-        <nav className="flex lg:w-1/2 font-serif">
+        <nav className="flex lg:w-1/2  ">
           <div className="hidden w-full justify-around lg:flex  border-2 border-slate-600 rounded-2xl py-2">
             <NavLinks />
           </div>

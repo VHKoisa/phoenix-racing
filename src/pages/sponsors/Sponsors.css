@@ -20,7 +20,7 @@
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
-  font-family: serif;
+  /* font-family: serif; */
   padding-block: 40px;
 }
 .hero-info {
@@ -38,7 +38,7 @@
 }
 .heading-1 {
   font-size: 48px;
-  font-family: serif;
+  /* font-family: serif; */
   font-weight: 700;
   line-height: 1.5;
   font-weight: 900;
@@ -140,7 +140,7 @@ background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, 
   margin-top: 60px;
   font-size: 4.0em;
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
   font-weight: bolder;
   line-height: 1.5;
   text-align: center;
