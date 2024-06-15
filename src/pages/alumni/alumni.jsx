@@ -4,7 +4,7 @@ import "./alumni.scss";
 import Header from "/src/components/Header";
 import Footer from "/src/components/Footer";
 
-export default class alumni extends Component {
+export default class Alumni extends Component {
   render() {
     return (
       <div className="mainA">
@@ -18,6 +18,7 @@ export default class alumni extends Component {
         </p>
 
         <div className="line"></div>
+        <div className="flex justify-center my-5 text-3xl">TEAM 2025</div>
         <div className="row">
           <Card
             linkedin=""
