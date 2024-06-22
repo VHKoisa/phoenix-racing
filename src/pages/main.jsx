@@ -11,7 +11,7 @@ import Notfound from "./Notfound";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/phoenix-racing/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/team" element={<Team />} />
