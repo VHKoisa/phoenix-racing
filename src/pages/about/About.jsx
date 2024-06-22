@@ -12,17 +12,6 @@ import { Helmet } from 'react-helmet';
 
 
 const About = () => {
-  const slides = [
-    <img src="/news/1.jpeg" />,
-    <img src="/news/2.jpeg" />,
-    <img src="/news/3.jpeg" />,
-    <img src="/news/4.jpeg" />,
-    <img src="/news/5.jpeg" />,
-    <img src="/news/6.jpeg" />,
-    <img src="/news/7.jpeg" />,
-    <img src="/news/8.jpeg" />,
-    <img src="/news/9.jpeg" />,
-  ];
   return (
     <>
     <Helmet>
@@ -172,7 +161,7 @@ const About = () => {
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
             <img
-              src={import.meta.env.BASE_URL + "/about/NIT_SURAT_Logo.png"}
+              src={import.meta.env.BASE_URL + "/about/2.png"}
               width="700px"
               height="350px"
             />
