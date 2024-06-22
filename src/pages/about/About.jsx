@@ -172,7 +172,7 @@ const About = () => {
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
             <img
-              src={import.meta.env.BASE_URL +"/about/NIT_SURAT_Logo.png"}
+              src={import.meta.env.BASE_URL + "/about/NIT_SURAT_Logo.png"}
               width="700px"
               height="350px"
             />
@@ -226,7 +226,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={"import.meta.env.BASE_URL +/about/RohanPandePic.jpg"}
+                src={import.meta.env.BASE_URL +"/about/RohanPandePic.jpg"}
                 alt="Rohan Pande"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
