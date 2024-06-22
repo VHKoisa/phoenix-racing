@@ -12,7 +12,7 @@ const Card = (props) => {
     borderTopLeftRadius: "15px",
     borderTopRightRadius: "15px",
   };
-  const imageAddr = "/src/assets/team/" + props.photo;
+  const imageAddr = "/team/" + props.photo;
   const [turn, setTurn] = useState("front");
 
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 
 const News = (props) => {
-  const imgAddr = `src/assets/news/${props.imgName}`;
+  const imgAddr = `/news/${props.imgName}`;
   return (
     <div className={`${props.opacity} hover:scale-110 transition-all m-2 border-2 w-80 h-fit bg-white border-blue-950 rounded-xl overflow-hidden`}>
       <div className="border-blue-950 border-b-2">

@@ -312,13 +312,13 @@ const Car = () => {
       <div className="carousel" data-gap="0">
         <figure>
           <Carouselcard
-            img="Anshumat.jpg"
+            img="Anshumat.JPG"
             name="Anshumat"
             year="2010"
             text=""
           />
           <Carouselcard
-            img="Eklavya.jpg"
+            img="Eklavya.JPG"
             name="Eklavya"
             year="2011"
             text="39th out of 80 in MINI BAJA 2011"

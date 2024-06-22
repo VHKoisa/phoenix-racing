@@ -1,27 +1,35 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import VideoSrc from "../../assets/Video1.mp4";
+import VideoSrcDesktop from "/desktop.mp4";
+import VideoSrcMobile from "/mobile.mov";
 import "../about/about.css";
 import CountUpAnimation from "./CountUpAnimation";
 import { Carousel } from "./Carousel";
 import Testimonials from "./Testimonials";
 import News from "./News";
+import { Helmet } from 'react-helmet';
+
 
 const About = () => {
   const slides = [
-    <img src="/src/assets/news/1.jpeg" />,
-    <img src="/src/assets/news/2.jpeg" />,
-    <img src="/src/assets/news/3.jpeg" />,
-    <img src="/src/assets/news/4.jpeg" />,
-    <img src="/src/assets/news/5.jpeg" />,
-    <img src="/src/assets/news/6.jpeg" />,
-    <img src="/src/assets/news/7.jpeg" />,
-    <img src="/src/assets/news/8.jpeg" />,
-    <img src="/src/assets/news/9.jpeg" />,
+    <img src="/news/1.jpeg" />,
+    <img src="/news/2.jpeg" />,
+    <img src="/news/3.jpeg" />,
+    <img src="/news/4.jpeg" />,
+    <img src="/news/5.jpeg" />,
+    <img src="/news/6.jpeg" />,
+    <img src="/news/7.jpeg" />,
+    <img src="/news/8.jpeg" />,
+    <img src="/news/9.jpeg" />,
   ];
   return (
     <>
+    <Helmet>
+        <title>Phoenix Racing | Formula SAE Racing Team from NIT Surat</title>
+        <meta name="description" content="Phoenix Racing is the Formula SAE racing team from NIT Surat. We design, build, and compete with high-performance race cars in competitions. Discover our journey, achievements, and innovation." />
+        <meta name="keywords" content="Formula SAE racing team, Phoenix Racing, NIT Surat,SVNIT, Motorsport engineering, Race car design, Automotive innovation, Engineering competition" />
+      </Helmet>
       <Header />
       <div
         id="content"
@@ -43,7 +51,11 @@ const About = () => {
           </div>
           <div className="">
             <video
-              src={VideoSrc}
+              src={
+                window.innerWidth >= 1024
+                  ? VideoSrcDesktop
+                  : VideoSrcMobile
+              }
               autoPlay
               muted
               loop
@@ -198,7 +210,7 @@ const About = () => {
           <div className="flex flex-wrap justify-evenly">
             <div className="py-5 flex flex-col items-center">
               <img
-                src="src\assets\about\RDShahPic.png"
+                src="\about\RDShahPic.png"
                 alt="R. D. Shah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -214,7 +226,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src="src\assets\about\RohanPandePic.jpg"
+                src="\about\RohanPandePic.jpg"
                 alt="Rohan Pande"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -232,7 +244,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src="src\assets\about\JVPic.png"
+                src="\about\JVPic.png"
                 alt="J Venkataramanaiah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
