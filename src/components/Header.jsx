@@ -36,7 +36,7 @@ function Header() {
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
-          <img src="/logo.png" className="w-16 h-16" alt="Logo" />
+          <img src={import.meta.env.BASE_URL +"/logo.png"} className="w-16 h-16" alt="Logo" />
           <div className="mx-5 text-blue-800 text-2xl lg:text-3xl  ">
             SAE PHOENIX RACING
           </div>
