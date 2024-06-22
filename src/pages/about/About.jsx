@@ -68,7 +68,7 @@ const About = () => {
       <div className="main" id="main">
         <div className="pt-10 flex flex-col lg:flex-row about">
           <div className="lg:flex">
-            <img src={import.meta.env.BASE_URL +"/src/pages/about/1.png"} width="900px" height="400px" />
+            <img src={import.meta.env.BASE_URL +"/about/1.png"} width="900px" height="400px" />
           </div>
           <div className="w-fit p-10">
             <div className="text-center lg:text-left text-5xl lg:text-6xl   text-blue-800">
@@ -172,7 +172,7 @@ const About = () => {
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
             <img
-              src={import.meta.env.BASE_URL +"/src/pages/about/NIT_SURAT_Logo.png"}
+              src={import.meta.env.BASE_URL +"/about/NIT_SURAT_Logo.png"}
               width="700px"
               height="350px"
             />
@@ -210,7 +210,7 @@ const About = () => {
           <div className="flex flex-wrap justify-evenly">
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"\about\RDShahPic.png"}
+                src={import.meta.env.BASE_URL +"/about/RDShahPic.png"}
                 alt="R. D. Shah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -226,7 +226,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={"import.meta.env.BASE_URL +\about\RohanPandePic.jpg"}
+                src={"import.meta.env.BASE_URL +/about/RohanPandePic.jpg"}
                 alt="Rohan Pande"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -244,7 +244,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"\about\JVPic.png"}
+                src={import.meta.env.BASE_URL +"/about/JVPic.png"}
                 alt="J Venkataramanaiah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
