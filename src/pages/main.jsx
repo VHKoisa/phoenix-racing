@@ -7,6 +7,7 @@ import About from "./about/About";
 import Cars from "./cars/Cars";
 import Sponsors from "./sponsors/Sponsors";
 import Alumni from "./alumni/Alumni"
+import Notfound from "./Notfound";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/cars" element={<Cars />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="/*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
