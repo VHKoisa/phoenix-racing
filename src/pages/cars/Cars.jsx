@@ -4,136 +4,74 @@ import Footer from "../../components/Footer";
 import { useEffect } from "react";
 import "./cars.scss";
 import Carouselcard from "./Carouselcard";
+import Slider from "./Slider";
+import Landing from "./Landing";
 
 const Car = () => {
   useEffect(() => {
-    var carousels = document.querySelectorAll(".carousel");
-    for (var i = 0; i < carousels.length; i++) {
-      carousel(carousels[i]);
-    }
-  });
-
-  function carousel(root) {
-    var figure = root.querySelector("figure"),
-      nav = root.querySelector("nav"),
-      images = figure.children,
-      n = images.length,
-      gap = root.dataset.gap || 0,
-      bfc = "bfc" in root.dataset,
-      theta = (2 * Math.PI) / n,
-      currImage = 0;
-    setupCarousel(n, parseFloat(600));
-    window.addEventListener("resize", () => {
-      setupCarousel(n, parseFloat(600));
-    });
-
-    setupNavigation();
-
-    function setupCarousel(n, s) {
-      var apothem = s / (2 * Math.tan(Math.PI / n));
-      figure.style.transformOrigin = `50% 50% ${-apothem}px`;
-
-      for (var i = 0; i < n; i++) images[i].style.padding = `${gap}px`;
-      for (i = 1; i < n; i++) {
-        images[i].style.transformOrigin = `50% 50% ${-apothem}px`;
-        images[i].style.transform = `rotateY(${i * theta}rad)`;
-      }
-      if (bfc)
-        for (i = 0; i < n; i++) images[i].style.backfaceVisibility = "hidden";
-
-      rotateCarousel(currImage);
-    }
-
-    function setupNavigation() {
-      nav.addEventListener("click", onClick, true);
-
-      function onClick(e) {
-        e.stopPropagation();
-
-        var t = e.target;
-        if (t.tagName.toUpperCase() != "BUTTON") return;
-
-        if (t.classList.contains("next")) {
-          currImage = currImage + 1;
-        } else {
-          currImage = currImage - 1;
-        }
-
-        rotateCarousel(currImage);
-      }
-    }
-
-    function rotateCarousel(imageIndex) {
-      figure.style.transform = `rotateY(${imageIndex * -theta}rad)`;
-      // for (let i = 0; i < n; i++) {
-      //   if (i != imageIndex) {
-      //     images[i].style.opacity = "0.3";
-      //   }
-      //   if (i == imageIndex) {
-      //     images[i].style.opacity = "1";
-      //   }
-      // }
-    }
-
     document.getElementById("showButton").onmouseenter = function () {
       const spes1 = document.getElementById("spes1");
       spes1.style.opacity = 100;
     };
-
+  
     document.getElementById("showButton").onmouseleave = function () {
       const spes1 = document.getElementById("spes1");
       spes1.style.opacity = 0;
     };
-
+  
     document.getElementById("showButton2").onmouseenter = function () {
       const spes2 = document.getElementById("spes2");
       spes2.style.opacity = 100;
     };
-
+  
     document.getElementById("showButton2").onmouseleave = function () {
       const spes2 = document.getElementById("spes2");
       spes2.style.opacity = 0;
     };
-
+  
     document.getElementById("showButton3").onmouseenter = function () {
       const spes3 = document.getElementById("spes3");
       spes3.style.opacity = 100;
     };
-
+  
     document.getElementById("showButton3").onmouseleave = function () {
       const spes3 = document.getElementById("spes3");
       spes3.style.opacity = 0;
     };
-
+  
     document.getElementById("showButton4").onmouseenter = function () {
       const spes4 = document.getElementById("spes4");
       spes4.style.opacity = 100;
     };
-
+  
     document.getElementById("showButton4").onmouseleave = function () {
       const spes4 = document.getElementById("spes4");
       spes4.style.opacity = 0;
     };
-
+  
     document.getElementById("showButton5").onmouseenter = function () {
       const spes5 = document.getElementById("spes5");
       spes5.style.opacity = 100;
     };
-
+  
     document.getElementById("showButton5").onmouseleave = function () {
       const spes5 = document.getElementById("spes5");
       spes5.style.opacity = 0;
     };
-  }
+  })
+  
+
   return (
-    <>
+    <div className="bg-black">
       <Header />
+
 
       {/* taditCode */}
 
+      {/* hero  code */}
+    <Landing />
       <div className="tadit bg-black">
-        {/* hero  code */}
-        <div className="hero-car">
+        {/* <div className="hero-car">
           <div className="title-container">
             <h1 className="taditTitle1">
               <img
@@ -184,7 +122,7 @@ const Car = () => {
                 <p>COMPETITION</p>
                 <a href="https://www.formulabharat.com/">
                   {" "}
-                  <h2>FBEV'24</h2>{" "}
+                  <h2>FBEV</h2>{" "}
                 </a>
               </div>
               <div className="stat">
@@ -194,7 +132,7 @@ const Car = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* hero code end */}
         <div className="tadit-info">
           <div className="infoHeading">
@@ -207,7 +145,7 @@ const Car = () => {
             <button id="showButton">
               <img
                 className="plusBtn"
-                src="src/pages/cars/taditImg/chasis.png"
+                src={import.meta.env.BASE_URL+"/cars/taditImg/chasis.png"}
               />
             </button>
 
@@ -227,7 +165,7 @@ const Car = () => {
             <button id="showButton2">
               <img
                 className="plusBtn"
-                src="src/pages/cars/taditImg/suspension.png"
+                src={import.meta.env.BASE_URL+"/cars/taditImg/suspension.png"}
               />
             </button>
 
@@ -247,7 +185,7 @@ const Car = () => {
             <button id="showButton3">
               <img
                 className="plusBtn"
-                src="src/pages/cars/taditImg/performance.png"
+                src={import.meta.env.BASE_URL+"/cars/taditImg/performance.png"}
               />
             </button>
 
@@ -265,7 +203,7 @@ const Car = () => {
             <button id="showButton4">
               <img
                 className="plusBtn"
-                src="src/pages/cars/taditImg/battery.png"
+                src={import.meta.env.BASE_URL+"/cars/taditImg/battery.png"}
               />
             </button>
 
@@ -284,7 +222,7 @@ const Car = () => {
             <button id="showButton5">
               <img
                 className="plusBtn"
-                src="src/pages/cars/taditImg/motor.png"
+                src={import.meta.env.BASE_URL+"/cars/taditImg/motor.png"}
               />
             </button>
 
@@ -300,11 +238,9 @@ const Car = () => {
             </div>
           </div>
         </div>
-      
       </div>
 
-
-      <div className="text-center flex justify-center bg-blue-400 text-5xl lg:text-6xl text-blue-800">
+      {/* <div className="text-center flex justify-center bg-blue-400 text-5xl lg:text-6xl text-blue-800">
         <h1>
           <img src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjo1NSwidyI6MTI1MCwiZnMiOjQ0LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/T3VyIENhcnM/komyca-3d-free-version-italic.png" />
         </h1>
@@ -359,10 +295,12 @@ const Car = () => {
           <button className="nav prev">Prev</button>
           <button className="nav next">Next</button>
         </nav>
-      </div>
+      </div> */}
+
+      <Slider />
 
       <Footer />
-    </>
+    </div>
   );
 };
 
