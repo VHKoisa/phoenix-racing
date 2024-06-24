@@ -7,7 +7,7 @@ import Footer from "/src/components/Footer";
 export default class Alumni extends Component {
   render() {
     return (
-      <div className="mainA">
+      <div className="mainA mt-20">
         <Header />
 
         <h1>Alumni</h1>

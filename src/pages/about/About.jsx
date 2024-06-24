@@ -25,7 +25,7 @@ const About = () => {
         className="flex flex-col"
         onLoadStart={() => {
           window.innerWidth >= 1024
-            ? (content.style.height = `${window.innerHeight - 80}px`)
+            ? (content.style.height = `${window.innerHeight}px`)
             : (content.style.height = `auto`);
         }}
       >

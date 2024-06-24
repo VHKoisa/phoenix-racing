@@ -1,13 +1,13 @@
-.splide__slide img {
+.splide__slider img {
     width: 100%;
     height: 100%;
     /* object-fit: cover; */
   }
-  .splide__slide {
+  .splide__slider {
     opacity: 0.6;
   }
   
   
-  .splide__slide.is-active {
+  .splide__slider.is-active {
     opacity: 1;
   }

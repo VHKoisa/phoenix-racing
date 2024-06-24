@@ -12,7 +12,7 @@ const Sponsors = () => {
       {/* sponsors */}
       <div className="sponsorHome">
         <div className="sponsorHeadingTitle">
-          <h1 className="heading"><img src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjoxMDYsInciOjEwMDAsImZzIjoxMDYsImZnYyI6IiNFQUU1RTUiLCJiZ2MiOiIjMEUwRTBFIiwidCI6MX0/U1BPTlNPUlMgMksyNA/komyca-3d-free-version-italic.png" alt="" /></h1>
+          <h1 className="heading mt-20"><img src="https://see.fontimg.com/api/renderfont4/rg1WO/eyJyIjoiZnMiLCJoIjoxMDYsInciOjEwMDAsImZzIjoxMDYsImZnYyI6IiNFQUU1RTUiLCJiZ2MiOiIjMEUwRTBFIiwidCI6MX0/U1BPTlNPUlMgMksyNA/komyca-3d-free-version-italic.png" alt="" /></h1>
         </div>
 
         <div className="goldSponsor">

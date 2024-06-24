@@ -32,7 +32,7 @@ function Header() {
     <>
       <ScrollToTop />
       <div
-        className="bg-white sticky top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
+        className="bg-white fixed top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">

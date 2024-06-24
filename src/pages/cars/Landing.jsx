@@ -22,31 +22,31 @@ const Landing = () => {
       }}
       aria-label="React Splide Example"
     >
-      <SplideSlide>
+      <SplideSlide className="splide__slider">
         <img
           src={import.meta.env.BASE_URL + "/cars/taditImg/tadit-1.jpg"}
           alt=""
         />
       </SplideSlide>
-      <SplideSlide>
+      <SplideSlide className="splide__slider">
         <img
           src={import.meta.env.BASE_URL + "/cars/taditImg/tadit-info2.PNG"}
           alt=""
         />
       </SplideSlide>
-      <SplideSlide>
+      <SplideSlide className="splide__slider">
         <img
           src={import.meta.env.BASE_URL + "/cars/taditImg/tadit-1.jpg"}
           alt=""
         />
       </SplideSlide>
-      <SplideSlide>
+      <SplideSlide className="splide__slider">
         <img
           src={import.meta.env.BASE_URL + "/cars/taditImg/tadit-info2.PNG"}
           alt=""
         />
       </SplideSlide>
-      <SplideSlide>
+      <SplideSlide className="splide__slider">
         <img
           src={import.meta.env.BASE_URL + "/cars/taditImg/tadit-1.jpg"}
           alt=""
