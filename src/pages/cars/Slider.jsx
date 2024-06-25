@@ -16,7 +16,7 @@ export default function Slider() {
       <div className="flex flex-col items-center w-full">
         <Splide
           ref={thumbsRef}
-          className="p-5 w-3/5"
+          className="p-5 w-full"
           options={{
             rewind: true,
             fixedWidth: 200,
@@ -94,7 +94,7 @@ export default function Slider() {
         </Splide>
         <Splide
           ref={mainRef}
-          className="w-full lg:w-4/5 p-5 content-center"
+          className="w-full lg:w-3/5 p-5 content-center"
           options={{
             type: "fade",
             rewind: true,
