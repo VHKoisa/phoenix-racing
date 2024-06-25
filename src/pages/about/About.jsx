@@ -54,7 +54,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="main" id="main">
+      <div className="main bg-white" id="main">
         <div className="pt-10 flex flex-col lg:flex-row about">
           <div className="lg:flex">
             <img src={import.meta.env.BASE_URL +"/about/1.png"} width="900px" height="400px" />
