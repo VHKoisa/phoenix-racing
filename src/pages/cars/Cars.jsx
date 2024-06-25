@@ -75,37 +75,37 @@ const Car = () => {
             <button id="showButton">
               <img
                 className="plusBtn"
-                src={import.meta.env.BASE_URL + "/src/pages/cars/plus.png"}
+                src={import.meta.env.BASE_URL + "/cars/plus.png"}
               />
             </button>
             <button id="showButton2">
               <img
                 className="plusBtn"
-                src={import.meta.env.BASE_URL + "/src/pages/cars/plus.png"}
+                src={import.meta.env.BASE_URL + "/cars/plus.png"}
               />
             </button>
             <button id="showButton3">
               <img
                 className="plusBtn"
-                src={import.meta.env.BASE_URL + "/src/pages/cars/plus.png"}
+                src={import.meta.env.BASE_URL + "/cars/plus.png"}
               />
             </button>
             <button id="showButton4">
               <img
                 className="plusBtn"
-                src={import.meta.env.BASE_URL + "/src/pages/cars/plus.png"}
+                src={import.meta.env.BASE_URL + "/cars/plus.png"}
               />
             </button>
             <button id="showButton5">
               <img
                 className="plusBtn"
-                src={import.meta.env.BASE_URL + "/src/pages/cars/plus.png"}
+                src={import.meta.env.BASE_URL + "/cars/plus.png"}
               />
             </button>
 
             <img
               className="taditInfoImg"
-              src={import.meta.env.BASE_URL + "/src/pages/cars/tadit-info2.PNG"}
+              src={import.meta.env.BASE_URL + "/cars/tadit-info2.PNG"}
             />
           </div>
 

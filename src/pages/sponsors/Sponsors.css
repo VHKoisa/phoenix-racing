@@ -31,7 +31,7 @@
 }
 .hero {
   height: 100vh;
-  background: url(/src/pages/sponsors/logo/headingBg.jpg);
+  background: url(/sponsors/logo/headingBg.jpg);
   background-size: cover;
   width: 100vw;
   background-position: 50% 50%;

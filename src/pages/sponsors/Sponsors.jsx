@@ -37,19 +37,19 @@ const Sponsors = () => {
         <div className="platinum">
           <img
             src={
-              import.meta.env.BASE_URL + "/src/pages/sponsors/logo/maksteel.jpg"
+              import.meta.env.BASE_URL + "/sponsors/logo/maksteel.jpg"
             }
             alt=""
             className="logo"
           />
           <img
-            src={import.meta.env.BASE_URL + "/src/pages/sponsors/logo/agni.png"}
+            src={import.meta.env.BASE_URL + "/sponsors/logo/agni.png"}
             alt=""
             className="logo"
           />
           <img
             src={
-              import.meta.env.BASE_URL + "/src/pages/sponsors/logo/anupam.jpg"
+              import.meta.env.BASE_URL + "/sponsors/logo/anupam.jpg"
             }
             alt=""
             className="logo"
