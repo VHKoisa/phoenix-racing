@@ -1,402 +1,142 @@
-.main {
-  background-color: white;
+.platinum{
+  margin-block: 80px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
 }
 
-/* heroSection */
-.heroImg {
-  width: 100%;
-  object-fit: cover;
-}
-.heroContainer {
-  position: relative;
-  color: black;
-}
-.info {
-  color: beige;
-  background-image: url(src/pages/Sponsors/infoBg-4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.9;
-  margin-bottom: 40px;
+.sponsorsHeading1{
+  
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  /* font-family: serif; */
-  padding-block: 40px;
+  font-weight:  700;
+  color: #0072bb;
+  font-size: 5em;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
 }
-.hero-info {
-  align-items: center;
+.sponsorsHeading2{
+  
   display: flex;
-}
-.hero-heading {
-  flex: 1;
-  width: auto;
-  display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+
   justify-content: center;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.heading-1 {
-  font-size: 48px;
-  /* font-family: serif; */
   font-weight: 700;
-  line-height: 1.5;
-  font-weight: 900;
-}
-.hero-para {
-  /* font-weight: 900; */
-  flex: 1;
-  width: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.hero-text {
-  font-size: 22px;
-  line-height: 1.8;
-}
-
-/* sponsorSection */
-
-.sponsorHome {
-  background-image: url(\src/pages/sponsors/logo/headingBg2.jpg.PNG);
-
+  color: #0072bb;
+  font-size: 4em;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
   
-  width: 100%;
-  height: 100%;
-  /* background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?auto=format&fit=crop&w=315&h=220);
-  background-repeat: repeat; */
+}
+.hero {
+  height: 100vh;
+  background: url(/src/pages/sponsors/logo/headingBg.jpg);
   background-size: cover;
-  /* background: rgb(0,212,255);
-background: radial-gradient(circle, rgba(0,212,255,1) 25%, rgba(9,9,121,1) 64%, rgba(2,0,36,1) 100%); */
-
-  /* padding-block: 40px; */
-  
-}
-
-
-
-.sponsorHeadingTitle {
+  width: 100vw;
+  background-position: 50% 50%;
+  object-fit: cover;
   position: relative;
-  background-size: cover;
-  background-repeat: repeat;
-  /* height: 50vh; */
-  padding-top: 60px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 80px;
-  
-}
-
-/* logoDimensions */
-.sponsorLogo {
-  margin-top: 20px;
-  width: 350px;
-  height: 200px;
-}
-/* goldSponsors */
-.row1 {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.goldSponsor {
-  margin-top: 30px;
-}
-.row2 {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.row3 {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-}
-
-/* silverSponsor */
-.sponsorLogo2 {
-  margin-top: 20px;
-  width: 220px;
-  height: 150px;
-}
-
-.srow1 {
-  margin-top: 80px;
-  display: flex;
-  justify-content: space-around;
-}
-.srow2 {
-  display: flex;
-  margin-top: 60px;
-  justify-content: space-evenly;
-}
-
-/* Component Sponsors */
-
-.componentHeading {
-  margin-top: 60px;
-  font-size: 4.0em;
-  color: white;
-  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
-  font-weight: bolder;
-  line-height: 1.5;
   text-align: center;
 }
 
-.crow {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-}
-
-.cImg {
-  width: 350px;
-  height: 150px;
-}
-
-/* EnerygySponsorimageWidth */
-.eImg {
-  width: 400px;
-}
-
-.prow {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 60px;
-}
-
-/* .softwareSponsorImg {
-  width: 300px;
-} */
-.softwareHeading {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-}
-
-.energyPartnerHeading {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-.erow {
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-}
-
-.pastSponsors{
-  padding: 40px;
-}
-.oImg{
-  width: 200px;
-  height: 150px;
-}
-
-.orow{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 60px;
-
-}
-
-.contactUs{
+.hero-image {
+  height: 100%;
   width: 100%;
-    margin-top: calc((1rem + 5vw)* .6);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 10vw;
-    padding-bottom: 4vw;
-    padding-top: 2vw;
-    font-family: Raleway, sans-serif;
-    color: white;
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-.contactUs h2{
-  font-size: 3em;
-  font-weight: 700;
+.hero h1 {
+  font-family: Raleway;
+  font-size: 5em;
+  font-weight: 400;
+  font-variant: small-caps;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
 }
-form {
-  display: block;
-  margin-top: 0em;
-  unicode-bidi: isolate;
-}
-.contactUs button {
-  font-size: clamp(1rem,1rem + 5vw,1.5rem);
-  font-family: Raleway, sans-serif;
-  background-color: #fff;
-  color: #0072bb;
-  outline: none;
-  border: none;
-  padding: 1vw;
-  border-radius: 20px;
-  margin-top: calc((1rem + 5vw) / 5);
-  font-weight: 600;
-  transition: border-color .25s;
-}
-/* img:hover{
-  transform: translateY(0.2em);
-  transition: all 0.3s ease 0s;
+.hero p {
+  padding-top: 2%;
+  padding-left: 5%;
+  font-family: Raleway;
+  font-size: 2em;
+  font-weight: 400;
   
-
-} */
-
-/* button:hover{
-  background-color: #0072bb;
-  color: white !important;
-  border-radius: 50px;
-  border-color: rgb(28, 44, 182) !important;
-  transition: all 0.5s ease 0s;
-  box-shadow: 0 0.5em 0.5em -0.4em black;
-  transform: translateY(0.2em);
-} */
-
-
-.brochure-btn {
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-bottom: 20px;
-  text-align: left;
-  padding-left: 10vw;
-
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
 }
-.broLink{
-  font-weight: 00;
-  font-size: 1.7em;
-  color:white;
-  text-decoration: inherit;
+.logo{
+  width: 40vh;
+  height: 20vh;
+}
+.hh{
+  margin-bottom: 30px;
 }
 
+
+
+.oo{
+  margin-top: 40px;
+  border-bottom: 2px solid ;
+}
+
+.uu{
+  margin: 0px 30px;
+}
 
 @media only screen and (max-width: 1024px) {
-  .info {
-    display: none;
-  }
-  .heading {
+  .sponsorsHeading1{
+    margin-top: 20px;
+   text-align: center;
     font-size: 3em;
-    line-height: 1;
   }
-  .sponsorLogo {
-    width: 250px;
-    height: 150px;
-    margin-top: 15px;
+  .sponsorsHeading2{
+    margin-top: 40px;
+   text-align: center;
+    font-size: 2.5em;
   }
-  .goldSponsor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .row1 {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .row2 {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .row3 {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .sponsorLogo2 {
-    margin-top: 20px;
+  .logo{
     width: 200px;
     height: 150px;
   }
+  .mrow1{
+    margin-top: 10px;
 
-  .srow1 {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
-  .srow2 {
+  .morw2{
+
     display: flex;
-    margin-top: 0px;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
   }
 
-  /* Component Sponsors */
-  .componentHeading {
-    font-size: 2em;
-  }
-  .crow {
-    display: flex;
-    margin-top: 0px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cImg {
-    margin-top: 20px;
-    width: 250px;
-    height: 150px;
-  }
-
-  /* Software Sponsors */
-  .prow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-  }
-  .softwareSponsorImg {
-    width: 250px;
-    height: 150px;
-  }
-  .softwareHeading {
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-  }
-
-  /* EnerygySponsors */
-  .eImg {
-    width: 250px;
-    height: 150px;
-  }
-  .energyPartnerHeading {
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .erow {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .pastSponsors{
-    padding: 40px;
-  }
-  .oImg{
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
-  }
+  .hero h1{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 800;
+    
+    line-height: 40px;
+    letter-spacing: 1.5px;
   
-  .orow{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-  
+
   }
+
+  .hero p{
+    font-size: 1em;
+    line-height: 22px;
+  }
+
+  .hero{
+       background-size: cover;
+       background-repeat: no-repeat;
+  }
+
 }

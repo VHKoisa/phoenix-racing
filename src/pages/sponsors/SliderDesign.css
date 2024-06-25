@@ -1,0 +1,22 @@
+.image_wrapper{
+  margin: 0px 40px;
+  padding: 20px;
+  width: 400px;
+
+
+
+}
+
+
+.image_wrapper2{
+    margin: 0px 40px;
+}
+
+.image_wrapper2 img{
+    width: 200px;
+}
+
+
+.oo{
+    margin-block: 2px solid;
+}
