@@ -5,9 +5,7 @@ import VideoSrcDesktop from "/desktop.mp4";
 import VideoSrcMobile from "/mobile.mov";
 import "../about/about.css";
 import CountUpAnimation from "./CountUpAnimation";
-import { Carousel } from "./Carousel";
 import Testimonials from "./Testimonials";
-import News from "../news/News";
 import { Helmet } from "react-helmet";
 
 const About = () => {
@@ -25,6 +23,8 @@ const About = () => {
         />
       </Helmet>
       <Header />
+
+      {/* Video  */}
       <div
         id="content"
         className="flex flex-col"
@@ -55,6 +55,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* About Us  */}
       <div className="main bg-white" id="main">
         <div className="pt-10 flex flex-col lg:flex-row about">
           <div className="lg:flex">
@@ -85,37 +87,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="bg-white py-20 px-7">
-          <Carousel
-            slides={slides}
-            autoplay={true}
-            arrowBorders={true}
-            arrows={true}
-          />
-        </div> */}
-        {/* <div className="lg:flex justify-between p-10 py-5 bg-white">
-        <div className="lg:w-1/2 my-10 justify-center items-center w-full flex">
-        <div className="text-5xl lg:text-6xl   text-blue-800">
-        <span className="lg:text-9xl">A</span>bout{" "}
-        <span className="lg:text-9xl">U</span>s
-        </div>
-        </div>
-        <div className="lg:w-1/2 text-l lg:text-xl   text-blue-800 tracking-wider">
-          Team Phoenix Racing is a technical student chapter affiliated with
-          SVNIT, consisting of over 60 students from various engineering
-          disciplines. Our primary objective is to provide a platform for
-          postgraduate programs, three M.Sc. programs, and a five-year
-          aspiring engineers to excel, acquire practical knowledge, and gain
-          exposure to real-world challenges. Since our establishment in 2005, we
-          have actively participated in and successfully competed in a range of
-          competitions, including Baja, Supra SAE, Go-Kart, and Formula Bharat.
-          These endeavors have involved the complete design, manufacturing, and
-          management of projects, all carried out by our dedicated student team.
-          Embracing the principles of sustainability and electrification, we
-          have made a significant transition towards the production of electric
-          vehicles starting in 2022.
-          </div>
-        </div> */}
+
+        {/* Statistics  */}
+
         <div className="flex justify-around p-5 my-20 flex-wrap gap-5 lg:gap-4">
           <CountUpAnimation
             headingName="Cars"
@@ -136,6 +110,8 @@ const About = () => {
             text="years of excellence"
           />
         </div>
+
+        {/* About SVNIT  */}
 
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
@@ -168,7 +144,11 @@ const About = () => {
           </div>
         </div>
 
+        {/* Testimonials  */}
+
         <Testimonials />
+
+        {/* Faculty Advisors  */}
 
         <div className="bg-white   py-10">
           <div className="text-6xl text-blue-800 text-center py-5">
@@ -233,6 +213,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );
