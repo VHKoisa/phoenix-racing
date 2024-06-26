@@ -5,7 +5,7 @@
 }
 .testimonial-carousel .slide {
   --tw-text-opacity: 1;
-  background: rgb(30 64 175 / var(--tw-text-opacity));
+  background: #0072bb;
   min-height: 300px !important;
   padding: 3%;
   padding-bottom: 120px;
