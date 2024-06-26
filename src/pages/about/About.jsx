@@ -137,7 +137,7 @@ const About = () => {
             Latest Updates
           </div>
           <div className="flex justify-around">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="grid gap-4">
                 <News
                   imgName="3.jpeg"
@@ -152,6 +152,22 @@ const About = () => {
                   heading="Kari Motorsport"
                   text="Team Phoenix Racing in Kari Motorsport, Coimbatore"
                   date="20/01/2024"
+                />
+              </div>
+              <div className="grid gap-4">
+                <News
+                  imgName="1.jpeg"
+                  heading="Mindbend 2024"
+                  text="Team Phoenix Racing Gears Up for a Thrilling Showrun at Gujarat's Premier Techno-Managerial Fest, Mindbend"
+                  date="16/03/2024"
+                />
+              </div>
+              <div className="grid gap-4">
+                <News
+                  imgName="2.jpeg"
+                  heading="Startup Expo by RIAC, SVNIT"
+                  text="Team Phoenix Racing Showcased Tadit, Our First EV Formula Student Car, at the Startup Expo Organized by RIAC SVNIT!"
+                  date="09/03/2024"
                 />
               </div>
             </div>
