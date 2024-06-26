@@ -7,17 +7,22 @@ import "../about/about.css";
 import CountUpAnimation from "./CountUpAnimation";
 import { Carousel } from "./Carousel";
 import Testimonials from "./Testimonials";
-import News from "./News";
-import { Helmet } from 'react-helmet';
-
+import News from "../news/News";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <title>Phoenix Racing | Formula SAE Racing Team from NIT Surat</title>
-        <meta name="description" content="Phoenix Racing is the Formula SAE racing team from NIT Surat. We design, build, and compete with high-performance race cars in competitions. Discover our journey, achievements, and innovation." />
-        <meta name="keywords" content="Formula SAE racing team, Phoenix Racing, NIT Surat,SVNIT, Motorsport engineering, Race car design, Automotive innovation, Engineering competition" />
+        <meta
+          name="description"
+          content="Phoenix Racing is the Formula SAE racing team from NIT Surat. We design, build, and compete with high-performance race cars in competitions. Discover our journey, achievements, and innovation."
+        />
+        <meta
+          name="keywords"
+          content="Formula SAE racing team, Phoenix Racing, NIT Surat,SVNIT, Motorsport engineering, Race car design, Automotive innovation, Engineering competition"
+        />
       </Helmet>
       <Header />
       <div
@@ -40,11 +45,7 @@ const About = () => {
           </div>
           <div className="">
             <video
-              src={
-                window.innerWidth >= 1024
-                  ? VideoSrcDesktop
-                  : VideoSrcMobile
-              }
+              src={window.innerWidth >= 1024 ? VideoSrcDesktop : VideoSrcMobile}
               autoPlay
               muted
               loop
@@ -57,7 +58,11 @@ const About = () => {
       <div className="main bg-white" id="main">
         <div className="pt-10 flex flex-col lg:flex-row about">
           <div className="lg:flex">
-            <img src={import.meta.env.BASE_URL +"/about/1.png"} width="900px" height="400px" />
+            <img
+              src={import.meta.env.BASE_URL + "/about/1.png"}
+              width="900px"
+              height="400px"
+            />
           </div>
           <div className="w-fit p-10">
             <div className="text-center lg:text-left text-5xl lg:text-6xl   text-blue-800">
@@ -132,48 +137,6 @@ const About = () => {
           />
         </div>
 
-        <div className="pb-5 news">
-          <div className="flex justify-center   text-4xl lg:text-6xl p-5 text-blue-800">
-            Latest Updates
-          </div>
-          <div className="flex justify-around">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="grid gap-4">
-                <News
-                  imgName="3.jpeg"
-                  heading="Most Active Club of 2024"
-                  text="Team Phoenix Racing is awarded as the most active club of season 2024 by FORMULA BHARAT"
-                  date="20/01/2024"
-                />
-              </div>
-              <div className="grid gap-4">
-                <News
-                  imgName="4.jpeg"
-                  heading="Kari Motorsport"
-                  text="Team Phoenix Racing in Kari Motorsport, Coimbatore"
-                  date="20/01/2024"
-                />
-              </div>
-              <div className="grid gap-4">
-                <News
-                  imgName="1.jpeg"
-                  heading="Mindbend 2024"
-                  text="Team Phoenix Racing Gears Up for a Thrilling Showrun at Gujarat's Premier Techno-Managerial Fest, Mindbend"
-                  date="16/03/2024"
-                />
-              </div>
-              <div className="grid gap-4">
-                <News
-                  imgName="2.jpeg"
-                  heading="Startup Expo by RIAC, SVNIT"
-                  text="Team Phoenix Racing Showcased Tadit, Our First EV Formula Student Car, at the Startup Expo Organized by RIAC SVNIT!"
-                  date="09/03/2024"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
             <img
@@ -215,7 +178,7 @@ const About = () => {
           <div className="flex flex-wrap justify-evenly">
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"/about/RDShahPic.png"}
+                src={import.meta.env.BASE_URL + "/about/RDShahPic.png"}
                 alt="R. D. Shah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -231,7 +194,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"/about/RohanPandePic.jpg"}
+                src={import.meta.env.BASE_URL + "/about/RohanPandePic.jpg"}
                 alt="Rohan Pande"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -249,7 +212,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"/about/JVPic.png"}
+                src={import.meta.env.BASE_URL + "/about/JVPic.png"}
                 alt="J Venkataramanaiah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
