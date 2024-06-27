@@ -8,21 +8,30 @@ import Slider from "./Slider";
 import Landing from "./Landing";
 
 const Car = () => {
+
+
   useEffect(() => {
     document.getElementById("showButton").onmouseenter = function () {
       const spes1 = document.getElementById("spes1");
 
+
       spes1.style.opacity = 100;
+    
+
     };
 
     document.getElementById("showButton").onmouseleave = function () {
       const spes1 = document.getElementById("spes1");
       spes1.style.opacity = 0;
-    };
-
+  
+    }
     document.getElementById("showButton2").onmouseenter = function () {
       const spes2 = document.getElementById("spes2");
+
+
       spes2.style.opacity = 100;
+    
+
     };
 
     document.getElementById("showButton2").onmouseleave = function () {
@@ -62,7 +71,7 @@ const Car = () => {
   });
 
   return (
-    <div>
+    <>
       <Header />
 
       <Landing />
@@ -230,7 +239,7 @@ const Car = () => {
       <Slider />
 
       <Footer />
-    </div>
+    </>
   );
 };
 

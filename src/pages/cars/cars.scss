@@ -20,9 +20,17 @@
   color: #0072bb;
 }
 
+.info-title{
+  color: black;
+}
+
+
+
+
 .tadit {
   position: relative;
   display: flex;
+  margin-bottom: -40px;
 }
 .tadit-info {
   position: relative;
@@ -138,7 +146,7 @@
   background-color: rgba(38, 60, 78, 0.9);
   box-shadow: 0 0 30px 0 #001a30;
   padding: 15px 15px;
-  // z-index: 1;
+  
   width: max-content;
   max-width: 300px;
 }
@@ -163,7 +171,7 @@
   // bottom: unset;
   opacity: 0;
   border-radius: 8px;
-  top: 10%;
+  top: 7%;
   left: 55%;
   // transform: translateY(-30%);
   background-color: rgba(38, 60, 78, 0.9);
@@ -178,7 +186,7 @@
   // bottom: unset;
   opacity: 0;
   border-radius: 8px;
-  top: 18%;
+  top: 26%;
   left: 80%;
   // transform: translateY(-30%);
   background-color: rgba(38, 60, 78, 0.9);
@@ -232,7 +240,7 @@ li {
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: center;
-  // margin-top: 100px;
+  margin-top: 100px;
 }
 
 .specs_filter-column-item {
@@ -266,6 +274,7 @@ li {
   font-size: 36px;
   margin: 10px;
   color: #fff;
+  font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
 }
@@ -289,11 +298,13 @@ li {
   .tadit {
     flex-direction: column;
     align-items: center;
+    margin-top: -60px;
   }
 
   .info-title {
     font-size: 3em;
     font-weight: 900;
+    margin-bottom: 40px;
   }
   .plusBtn {
     width: 15px;
@@ -306,10 +317,10 @@ li {
   }
 
   .infoContainer li {
-    font-size: 10px;
+    font-size:8px;
   }
   .infoContainer h3 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .pinTextShow-5 {
     // position: absolute;
@@ -327,6 +338,11 @@ li {
     // max-width: 300px;
   }
 
+  .pinTextShow-2{
+    top: 5%;
+
+}
+
   .racing {
     font-size: 1em;
   }
@@ -335,13 +351,18 @@ li {
   //   top: 2%;
   //   // z-index: -1;
   // }
+
+  .engineInfo{
+    margin-top: -100px;
+  }
   .specs_filter-column-item {
     width: 150px;
     height: 150px;
   }
 
   .title-bold {
-    font-size: 20px;
+    font-size: 25px;
+    text-align: left;
   }
   .pinTextShow-1 {
     left: 30%;

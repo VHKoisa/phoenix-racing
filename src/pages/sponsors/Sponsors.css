@@ -85,8 +85,8 @@
 
 
 .oo{
-  margin-top: 40px;
-  border-bottom: 2px solid ;
+  margin-top: 60px;
+  border-bottom: 3px solid #1E40AF ;
 }
 
 .uu{
@@ -105,12 +105,22 @@
     font-size: 2.5em;
   }
   .logo{
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
   }
   .mrow1{
     margin-top: 10px;
 
+
+  }
+
+  .logos{
+    padding: 40px;
+  }
+
+  .platinum{
+    margin-bottom: 0px;
   }
   .morw2{
 

@@ -9,16 +9,17 @@ export default class Alumni extends Component {
     return (
       <div className="mainA mt-20">
         <Header />
-
+        <div className="alumniHero">
         <h1>Alumni</h1>
         <p>
           Thank you for your continued support and for being an integral part of
           our alumni family, We are deeply grateful for your contributions and
           dedication to our community's success
         </p>
+        </div>
 
         <div className="line"></div>
-        <div className="flex justify-center my-5 text-3xl">TEAM 2025</div>
+
         <div className="row">
           <Card
             linkedin=""

@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./about/About";
 import Cars from "./cars/Cars";
 import Sponsors from "./sponsors/Sponsors";
-import Alumni from "/phoenix-racing/src/pages/alumni/Alumni.jsx"
+import Alumni from "/phoenix-racing/src/pages/alumni/alumni.jsx"
 import Notfound from "./Notfound";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

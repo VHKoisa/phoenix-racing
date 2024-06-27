@@ -56,14 +56,14 @@ const About = () => {
       </div>
       <div className="main bg-white" id="main">
         <div className="pt-10 flex flex-col lg:flex-row about">
-          <div className="lg:flex">
+          {/* <div className="lg:flex">
             <img src={import.meta.env.BASE_URL +"/about/1.png"} width="900px" height="400px" />
-          </div>
+          </div> */}
           <div className="w-fit p-10">
-            <div className="text-center lg:text-left text-5xl lg:text-6xl   text-blue-800">
+            <div className="text-center lg:text-center text-5xl lg:text-6xl   text-blue-900">
               About Us
             </div>
-            <div className="mt-10 text-l lg:text-xl   text-slate-600 tracking-wider">
+            <div className="mt-10 text-l lg:text-xl   text-slate-700 tracking-wider">
               Team Phoenix Racing is a technical student chapter affiliated with
               SVNIT, consisting of over 60 students from various engineering
               disciplines. Our primary objective is to provide a platform for
@@ -162,8 +162,8 @@ const About = () => {
           <div className="flex justify-center px-3">
             <img
               src={import.meta.env.BASE_URL + "/about/2.png"}
-              width="700px"
-              height="350px"
+              width="600px"
+              height="300px"
             />
           </div>
           <div className="w-fit p-10">

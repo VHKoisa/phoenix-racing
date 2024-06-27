@@ -8,7 +8,7 @@ function SliderDesign(){
     return(
             <div className='oo'>
 
-        <Marquee pauseOnHover speed={150} delay={0} gradient={true}gradientWidth={"50px"} direction='right'  >
+        <Marquee pauseOnHover speed={150} delay={0} gradient={true} gradientWidth={"50px"} direction='right'  >
                 <div className='image_wrapper'>
                     <img  src={import.meta.env.BASE_URL+"/sponsors/logo/aether.jpg"} />
                 </div>

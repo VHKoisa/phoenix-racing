@@ -44,7 +44,7 @@
   margin-bottom: 4px;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 27px;
   font-family: "Raleway", sans-serif;
   color: #0072bb;
 }
@@ -56,14 +56,15 @@
   padding-top: 0;
   font-weight: 500;
   color: var(--white);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .test-Carousel p {
   font-weight: 400 !important;
   line-height: 29px !important;
   color: var(--white);
-  font-size: 14px;
+  font-size: 16px;
+  margin-top: 20px;
   font-family: "Raleway", sans-serif;
   max-height: 67px;
 }
