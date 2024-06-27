@@ -5,21 +5,26 @@ import VideoSrcDesktop from "/desktop.mp4";
 import VideoSrcMobile from "/mobile.mov";
 import "../about/about.css";
 import CountUpAnimation from "./CountUpAnimation";
-import { Carousel } from "./Carousel";
 import Testimonials from "./Testimonials";
-import News from "./News";
-import { Helmet } from 'react-helmet';
-
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <title>Phoenix Racing | Formula SAE Racing Team from NIT Surat</title>
-        <meta name="description" content="Phoenix Racing is the Formula SAE racing team from NIT Surat. We design, build, and compete with high-performance race cars in competitions. Discover our journey, achievements, and innovation." />
-        <meta name="keywords" content="Formula SAE racing team, Phoenix Racing, NIT Surat,SVNIT, Motorsport engineering, Race car design, Automotive innovation, Engineering competition" />
+        <meta
+          name="description"
+          content="Phoenix Racing is the Formula SAE racing team from NIT Surat. We design, build, and compete with high-performance race cars in competitions. Discover our journey, achievements, and innovation."
+        />
+        <meta
+          name="keywords"
+          content="Formula SAE racing team, Phoenix Racing, NIT Surat,SVNIT, Motorsport engineering, Race car design, Automotive innovation, Engineering competition"
+        />
       </Helmet>
       <Header />
+
+      {/* Video  */}
       <div
         id="content"
         className="flex flex-col"
@@ -40,11 +45,7 @@ const About = () => {
           </div>
           <div className="">
             <video
-              src={
-                window.innerWidth >= 1024
-                  ? VideoSrcDesktop
-                  : VideoSrcMobile
-              }
+              src={window.innerWidth >= 1024 ? VideoSrcDesktop : VideoSrcMobile}
               autoPlay
               muted
               loop
@@ -54,11 +55,20 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* About Us  */}
       <div className="main bg-white" id="main">
         <div className="pt-10 flex flex-col lg:flex-row about">
           {/* <div className="lg:flex">
             <img src={import.meta.env.BASE_URL +"/about/1.png"} width="900px" height="400px" />
           </div> */}
+          <div className="lg:flex">
+            <img
+              src={import.meta.env.BASE_URL + "/about/1.png"}
+              width="900px"
+              height="400px"
+            />
+          </div>
           <div className="w-fit p-10">
             <div className="text-center lg:text-center text-5xl lg:text-6xl   text-blue-900">
               About Us
@@ -80,37 +90,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="bg-white py-20 px-7">
-          <Carousel
-            slides={slides}
-            autoplay={true}
-            arrowBorders={true}
-            arrows={true}
-          />
-        </div> */}
-        {/* <div className="lg:flex justify-between p-10 py-5 bg-white">
-        <div className="lg:w-1/2 my-10 justify-center items-center w-full flex">
-        <div className="text-5xl lg:text-6xl   text-blue-800">
-        <span className="lg:text-9xl">A</span>bout{" "}
-        <span className="lg:text-9xl">U</span>s
-        </div>
-        </div>
-        <div className="lg:w-1/2 text-l lg:text-xl   text-blue-800 tracking-wider">
-          Team Phoenix Racing is a technical student chapter affiliated with
-          SVNIT, consisting of over 60 students from various engineering
-          disciplines. Our primary objective is to provide a platform for
-          postgraduate programs, three M.Sc. programs, and a five-year
-          aspiring engineers to excel, acquire practical knowledge, and gain
-          exposure to real-world challenges. Since our establishment in 2005, we
-          have actively participated in and successfully competed in a range of
-          competitions, including Baja, Supra SAE, Go-Kart, and Formula Bharat.
-          These endeavors have involved the complete design, manufacturing, and
-          management of projects, all carried out by our dedicated student team.
-          Embracing the principles of sustainability and electrification, we
-          have made a significant transition towards the production of electric
-          vehicles starting in 2022.
-          </div>
-        </div> */}
+
+        {/* Statistics  */}
+
         <div className="flex justify-around p-5 my-20 flex-wrap gap-5 lg:gap-4">
           <CountUpAnimation
             headingName="Cars"
@@ -132,31 +114,7 @@ const About = () => {
           />
         </div>
 
-        <div className="pb-5 news">
-          <div className="flex justify-center   text-4xl lg:text-6xl p-5 text-blue-800">
-            Latest Updates
-          </div>
-          <div className="flex justify-around">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-              <div className="grid gap-4">
-                <News
-                  imgName="3.jpeg"
-                  heading="Most Active Club of 2024"
-                  text="Team Phoenix Racing is awarded as the most active club of season 2024 by FORMULA BHARAT"
-                  date="20/01/2024"
-                />
-              </div>
-              <div className="grid gap-4">
-                <News
-                  imgName="4.jpeg"
-                  heading="Kari Motorsport"
-                  text="Team Phoenix Racing in Kari Motorsport, Coimbatore"
-                  date="20/01/2024"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* About SVNIT  */}
 
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
@@ -189,7 +147,11 @@ const About = () => {
           </div>
         </div>
 
+        {/* Testimonials  */}
+
         <Testimonials />
+
+        {/* Faculty Advisors  */}
 
         <div className="bg-white   py-10">
           <div className="text-6xl text-blue-800 text-center py-5">
@@ -199,7 +161,7 @@ const About = () => {
           <div className="flex flex-wrap justify-evenly">
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"/about/RDShahPic.png"}
+                src={import.meta.env.BASE_URL + "/about/RDShahPic.png"}
                 alt="R. D. Shah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -215,7 +177,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"/about/RohanPandePic.jpg"}
+                src={import.meta.env.BASE_URL + "/about/RohanPandePic.jpg"}
                 alt="Rohan Pande"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -233,7 +195,7 @@ const About = () => {
             </div>
             <div className="py-5 flex flex-col items-center">
               <img
-                src={import.meta.env.BASE_URL +"/about/JVPic.png"}
+                src={import.meta.env.BASE_URL + "/about/JVPic.png"}
                 alt="J Venkataramanaiah"
                 className="rounded-full w-52 h-56 border-4 border-blue-800"
               />
@@ -254,6 +216,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );

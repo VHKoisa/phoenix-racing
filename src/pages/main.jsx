@@ -8,6 +8,7 @@ import Cars from "./cars/Cars";
 import Sponsors from "./sponsors/Sponsors";
 import Alumni from "/phoenix-racing/src/pages/alumni/alumni.jsx"
 import Notfound from "./Notfound";
+import Newssection from "./news/Newssection";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/cars" element={<Cars />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="/news" element={<Newssection />} />
         <Route path="/*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>
