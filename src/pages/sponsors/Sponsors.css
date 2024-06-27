@@ -31,26 +31,28 @@
 }
 .hero {
   height: 100vh;
-  background: url(/sponsors/logo/headingBg.jpg);
+  background-image: linear-gradient(360deg,transparent,rgba(26, 87, 158, 0.541)),url(/sponsors/logo/headingBg.jpg);
   background-size: cover;
   width: 100vw;
   background-position: 50% 50%;
   object-fit: cover;
   position: relative;
   text-align: center;
+  
 }
 
 .hero-image {
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, .7);
+  height: 100vh;
+  width: 100vw;
+  
+  /* background-color: rgba(50, 170, 226, 0.5); */
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 .hero h1 {
   /* font-family: Raleway; */
