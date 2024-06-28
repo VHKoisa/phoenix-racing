@@ -4,10 +4,34 @@
     /* object-fit: cover; */
   }
   .splide__slider {
-    opacity: 0.6;
+    opacity: 0.8;
   }
   
   
   .splide__slider.is-active {
     opacity: 1;
+    animation-name: moving;
+    animation-duration: 1s;
+    /* animation-timing-function: ease-out; */
+    animation-fill-mode: forwards;
+    
+
   }
+
+
+  
+  @keyframes moving {
+      from{
+        top: 0px;
+        left: 0px;
+      }
+      to{
+        top: 200px;
+     
+      }
+  
+     
+    
+  }
+  
+ 

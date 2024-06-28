@@ -19,8 +19,8 @@ export default function Slider() {
           className="p-5 w-full"
           options={{
             rewind: true,
-            fixedWidth: 200,
-            fixedHeight: 130,
+            fixedWidth: 250,
+            fixedHeight: 150,
             gap: 10,
             keyboard: true,
             isNavigation: true,
@@ -35,8 +35,8 @@ export default function Slider() {
           }}
           aria-label="React Splide Example"
         >
-          <SplideSlide className="splide__slider  ">
-            <img
+          <SplideSlide className="splide__slider">
+            <img className="anshu"
               onClick={() => handleThumbs(0)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/Anshumat.JPG"}
               alt="Image 1"

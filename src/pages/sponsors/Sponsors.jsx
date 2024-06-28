@@ -17,9 +17,7 @@ const Sponsors = () => {
               Team Phoenix Racing extends its heartfelt appreciation to the
               sponsors who have generously supported us, enabling students to
               explore their capabilities through real-world competition and
-              nurturing young Indian talent. With their invaluable assistance,
-              Team Phoenix Racing is empowered to pursue innovative design and
-              development, striving to become a globally respected team. Our
+              nurturing young Indian talent.  Our
               sponsors play a crucial role in providing the means and resources
               necessary for our success, allow us to push boundaries and make a
               meaningful impact in the lives of our team members and future
@@ -57,11 +55,14 @@ const Sponsors = () => {
         </div>
 
         <SliderDesign />
-
+            <div className="line2">
+              <img src={'/phoenix-racing/public/sponsors/logo/formula.png'} className="racingCar" />
+            </div>
         <h1 className="sponsorsHeading2">PAST SPONSORS</h1>
 
         <SliderDesign2 />
       </div>
+      
       <Footer />
     </>
   );
