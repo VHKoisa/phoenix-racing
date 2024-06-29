@@ -1,6 +1,7 @@
 .image_wrapper{
   margin: 0px 40px;
-  padding: 20px;
+  padding: 0px;
+
   width: 400px;
 
 
@@ -10,6 +11,8 @@
 
 .image_wrapper2{
     margin: 0px 40px;
+
+
 }
 
 .image_wrapper2 img{

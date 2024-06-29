@@ -32,12 +32,16 @@
 .hero {
   height: 100vh;
   background-image: linear-gradient(360deg,transparent,rgba(26, 87, 158, 0.541)),url(/sponsors/logo/headingBg.jpg);
+
   background-size: cover;
   width: 100vw;
   background-position: 50% 50%;
   object-fit: cover;
   position: relative;
   text-align: center;
+  background-color: #0093E9;
+/* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+
   
 }
 
@@ -79,7 +83,9 @@
 .logo{
   width: 40vh;
   height: 20vh;
+
 }
+
 .hh{
   margin-bottom: 30px;
 }
@@ -106,17 +112,22 @@
   width: 200px;
   position: relative;
   animation: animate 10s linear infinite;
+  
  
 }
 
 @keyframes animate {
   0%{left: 0;}
+
   25%{
     left: 25%;
   }  
   50%{
     left: 50%;
 
+  }
+  75%{
+    left: 75%;
   }
   100%{
     left: 100%;

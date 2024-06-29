@@ -13,6 +13,11 @@ const News = (props) => {
         <div className="text-blue-800 bottom-0">{props.date}</div>
 
       </div>
+
+
+
+
+      
     </div>
   );
 };

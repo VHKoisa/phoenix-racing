@@ -33,6 +33,8 @@ const Sponsors = () => {
         <h1 className="sponsorsHeading1">SPONSORS FBEV'24</h1>
 
         <div className="platinum">
+          <div className="img11">
+          
           <img
             src={
               import.meta.env.BASE_URL + "/sponsors/logo/maksteel.jpg"
@@ -40,6 +42,7 @@ const Sponsors = () => {
             alt=""
             className="logo"
           />
+          </div>
           <img
             src={import.meta.env.BASE_URL + "/sponsors/logo/agni.png"}
             alt=""
@@ -56,7 +59,8 @@ const Sponsors = () => {
 
         <SliderDesign />
             <div className="line2">
-              <img src={'/phoenix-racing/public/sponsors/logo/formula.png'} className="racingCar" />
+              <img src={import.meta.env.BASE_URL +'/sponsors/logo/formula.png'} className="racingCar" />
+
             </div>
         <h1 className="sponsorsHeading2">PAST SPONSORS</h1>
 

@@ -75,8 +75,12 @@ const Car = () => {
       <Header />
 
       <Landing />
-
-      <h1 className="info-title">THE TECHNOLOGY</h1>
+    <section>
+   
+      <h1 className="info-title">
+        THE TECHNOLOGY
+       </h1>
+       </section>
       <div className="tadit">
         {/* hero  code */}
         <div className="tadit-info">

@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./about/About";
 import Cars from "./cars/Cars";
 import Sponsors from "./sponsors/Sponsors";
-import Alumni from "/phoenix-racing/src/pages/alumni/alumni.jsx"
+import Alumni from "./alumni/Alumni"
 import Notfound from "./Notfound";
 import Newssection from "./news/Newssection";
 

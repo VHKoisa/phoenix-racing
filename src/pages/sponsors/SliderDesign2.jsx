@@ -9,9 +9,7 @@ function SliderDesign(){
             <div className='hh'>
 
         <Marquee pauseOnHover speed={150} delay={0} gradient={true} gradientWidth={"50px"} direction='left'  >
-                <div className='image_wrapper2'>
-                    <img   src={import.meta.env.BASE_URL+ "/sponsors/logo/oldToyota.png" } alt="" />
-                </div>
+               
                 <div className='image_wrapper2'>
                     <img  src={import.meta.env.BASE_URL+"/sponsors/logo/apollo.png" } alt="" />
                 </div>
@@ -28,14 +26,15 @@ function SliderDesign(){
                     <img  src={import.meta.env.BASE_URL+"/sponsors/logo/indianOil.png" } alt="" />
                 </div>
                 <div className='image_wrapper2'>
+                    <img   src={import.meta.env.BASE_URL+ "/sponsors/logo/oldToyota.png" } alt="" />
+                </div>
+                <div className='image_wrapper2'>
                     <img  src={import.meta.env.BASE_URL+"/sponsors/logo/jkTyres.png"  }alt="" />
                 </div>
                 <div className='image_wrapper2'>
                     <img  src={import.meta.env.BASE_URL+"/sponsors/logo/ktm.png" }alt="" />
                 </div>
-                <div className='image_wrapper2'>
-                    <img  src={import.meta.env.BASE_URL+"/sponsors/logo/oldToyota.png" } alt="" />
-                </div>
+            
                 <div className='image_wrapper2'>
                     <img  src={import.meta.env.BASE_URL+"/sponsors/logo/mahindra.png"} alt="" />
                 </div>
