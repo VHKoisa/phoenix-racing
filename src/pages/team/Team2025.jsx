@@ -7,6 +7,7 @@ const Team2025 = () => {
       <div className="my-5 py-2 uppercase text-center text-2xl   font-bold text-white bg-blue-800 border-2 ">
         TECHNICAL Heads
       </div>
+      
       <div className="flex justify-center">
         <div className="flex flex-wrap justify-center w-full">
           <Card

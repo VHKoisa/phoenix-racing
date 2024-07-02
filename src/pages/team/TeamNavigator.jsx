@@ -3,6 +3,7 @@ import Team2023 from "./Team2023";
 import Team2024 from "./Team2024";
 import Team2025 from "./Team2025";
 import { useState } from "react";
+import "./team.css"
 
 const TeamNavigator = (props) => {
   const [year, setYear] = useState("2025");
@@ -73,7 +74,9 @@ const TeamNavigator = (props) => {
         </div>
        </div>
       <div className={`${props.textColor} flex justify-center my-5 text-3xl  `}>
+ 
         TEAM {year}
+          
       </div>
       {year == "2023" && <Team2023 />}
       {year == "2024" && <Team2024 />}

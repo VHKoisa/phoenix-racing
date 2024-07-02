@@ -111,12 +111,10 @@
 .racingCar{
   width: 200px;
   position: relative;
-  animation: animate 10s linear infinite;
-  
- 
+  animation: runningCar 10s linear infinite;
 }
 
-@keyframes animate {
+@keyframes runningCar {
   0%{left: 0;}
 
   25%{
@@ -133,7 +131,32 @@
     left: 100%;
   }
 }
+.ending{
+  display: flex;
+  justify-content: space-around;
+  margin-block: 60px;
+  flex-wrap: wrap;
 
+}
+
+.thanks{
+  margin-top: 60px;
+  
+}
+
+/* .tp{
+  background: #f1d592
+ 
+}
+.lft{
+  background: #f1d592
+}
+.rgt{
+  background: #f1d592
+}
+.btm{
+  background: #f1d592
+} */
 @media only screen and (max-width: 1024px) {
   .sponsorsHeading1{
     margin-top: 20px;
@@ -147,7 +170,8 @@
   }
   .racingCar{
     width: 100px;
-  animation: animate 3s linear infinite;
+  animation: runningCar 3s linear infinite;
+ 
 
   }
   .logo{
@@ -158,6 +182,20 @@
   .mrow1{
     margin-top: 10px;
 
+
+  }
+
+  /* .brochure{
+    display: flex;
+    justify-content: center;
+  } */
+
+  .broHead{
+    font-size: 2em;
+  }
+
+  .brochure{
+    padding: 20px;
 
   }
 
