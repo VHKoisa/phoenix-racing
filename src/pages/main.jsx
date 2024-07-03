@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./about/About";
 import Cars from "./cars/Cars";
 import Sponsors from "./sponsors/Sponsors";
-import Alumni from "./alumni/Alumni"
+import Alumni from "./alumni/alumni";
 import Notfound from "./Notfound";
 import Newssection from "./news/Newssection";
 
