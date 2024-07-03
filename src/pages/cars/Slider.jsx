@@ -36,57 +36,49 @@ export default function Slider() {
           aria-label="React Splide Example"
         >
           <SplideSlide className="splide__sliders">
-            <img className="anshu"
-              onClick={() => handleThumbs(0)}
+            <img
               src={import.meta.env.BASE_URL + "/cars/prevCars/Anshumat.JPG"}
               alt="Image 1"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(1)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/Eklavya.JPG"}
               alt="Image 2"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(2)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/Baja2014.jpg"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(3)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/SUPRA2016.png"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(4)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/CHITRAK.jpg"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(5)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/GKDC2019.png"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(6)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/EGKDC2020.png"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              onClick={() => handleThumbs(7)}
               src={import.meta.env.BASE_URL + "/cars/prevCars/FBEV2023.png"}
               alt="Image 3"
             />
