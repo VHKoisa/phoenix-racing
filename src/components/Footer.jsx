@@ -48,10 +48,16 @@ const Footer = () => {
           <div className="flex flex-wrap justify-around text-center text-slate-600">
             <a
               className="size-16 lg:w-1/3 m-2"
-              href="https://www.facebook.com/phoenixracing360/"
-              onClick={() =>
-                confirm("Do you want to be redirected to an external link?")
-              }
+              onClick={() => {
+                if (
+                  confirm("Do you want to be redirected to an external link?")
+                ) {
+                  window.open(
+                    "https://www.facebook.com/phoenixracing360/",
+                    "_blank"
+                  );
+                }
+              }}
             >
               <section className="flex justify-center items-center">
                 <button
@@ -78,10 +84,16 @@ const Footer = () => {
             </a>
             <a
               className="size-16 lg:w-1/3 m-2"
-              href="https://www.linkedin.com/company/phoenix-racing-svnit/"
-              onClick={() =>
-                confirm("Do you want to be redirected to an external link?")
-              }
+              onClick={() => {
+                if (
+                  confirm("Do you want to be redirected to an external link?")
+                ) {
+                  window.open(
+                    "https://www.linkedin.com/company/phoenix-racing-svnit/",
+                    "_blank"
+                  );
+                }
+              }}
             >
               <section className="flex justify-center items-center">
                 <button
@@ -108,10 +120,16 @@ const Footer = () => {
             </a>
             <a
               className="size-16 lg:w-1/3 m-2"
-              href="https://www.instagram.com/phoenixracing.sae/"
-              onClick={() =>
-                confirm("Do you want to be redirected to an external link?")
-              }
+              onClick={() => {
+                if (
+                  confirm("Do you want to be redirected to an external link?")
+                ) {
+                  window.open(
+                    "https://www.instagram.com/phoenixracing.sae/",
+                    "_blank"
+                  );
+                }
+              }}
             >
               <section className="flex justify-center items-center">
                 <button
@@ -138,10 +156,16 @@ const Footer = () => {
             </a>
             <a
               className="size-16 lg:w-1/3 m-2"
-              href="https://www.youtube.com/@FSAEPhoenixRacing"
-              onClick={() =>
-                confirm("Do you want to be redirected to an external link?")
-              }
+              onClick={() => {
+                if (
+                  confirm("Do you want to be redirected to an external link?")
+                ) {
+                  window.open(
+                    "https://www.youtube.com/@FSAEPhoenixRacing",
+                    "_blank"
+                  );
+                }
+              }}
             >
               <section className="flex justify-center items-center">
                 <button
