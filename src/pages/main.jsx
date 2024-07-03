@@ -12,7 +12,7 @@ import Newssection from "./news/Newssection";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/team" element={<Team />} />
