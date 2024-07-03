@@ -51,16 +51,20 @@ function Header() {
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
+        <NavLink to="/">
           <img
             src={import.meta.env.BASE_URL + "/logo.png"}
             className="w-16 h-16"
             alt="Logo"
           />
+          </NavLink>
+
           <div className="mx-5 text-blue-800 text-2xl lg:text-3xl  ">
+          <NavLink to="/">
             SAE PHOENIX RACING
+        </NavLink>
           </div>
         </div>
-
         <nav className="flex lg:w-1/2  ">
           <div className="hidden w-full justify-around lg:flex  border-2 border-slate-600 rounded-2xl py-2">
             <NavLinks />
