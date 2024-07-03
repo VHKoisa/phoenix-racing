@@ -1,7 +1,7 @@
 import React from "react";
 
 const Carouselcard = (props) => {
-  const imgAddr = import.meta.env.BASE_URL + "/cars/prevCars/" + props.img;
+  const imgAddr = "/cars/prevCars/" + props.img;
   return (
     <><div className="border-white border-2 w-full h-full main"> 
         <img src={imgAddr} alt={props.img} id="carousel-img" className="w-full h-3/4" />

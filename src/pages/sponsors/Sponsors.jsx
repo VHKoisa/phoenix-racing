@@ -35,18 +35,18 @@ const Sponsors = () => {
         <div className="platinum">
           <div className="img11">
             <img
-              src={import.meta.env.BASE_URL + "/sponsors/logo/maksteel.jpg"}
+              src={"/sponsors/logo/maksteel.jpg"}
               alt=""
               className="logo"
             />
           </div>
           <img
-            src={import.meta.env.BASE_URL + "/sponsors/logo/agni.png"}
+            src={"/sponsors/logo/agni.png"}
             alt=""
             className="logo"
           />
           <img
-            src={import.meta.env.BASE_URL + "/sponsors/logo/anupam.jpg"}
+            src={"/sponsors/logo/anupam.jpg"}
             alt=""
             className="logo"
           />
@@ -55,7 +55,7 @@ const Sponsors = () => {
         <SliderDesign />
         <div className="line2">
           <img
-            src={import.meta.env.BASE_URL + "/sponsors/logo/formula.png"}
+            src={"/sponsors/logo/formula.png"}
             className="racingCar"
           />
         </div>

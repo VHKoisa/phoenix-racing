@@ -37,49 +37,49 @@ export default function Slider() {
         >
           <SplideSlide className="splide__sliders">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/Anshumat.JPG"}
+              src={"/cars/prevCars/Anshumat.JPG"}
               alt="Image 1"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/Eklavya.JPG"}
+              src={"/cars/prevCars/Eklavya.JPG"}
               alt="Image 2"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/Baja2014.jpg"}
+              src={"/cars/prevCars/Baja2014.jpg"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/SUPRA2016.png"}
+              src={"/cars/prevCars/SUPRA2016.png"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/CHITRAK.jpg"}
+              src={"/cars/prevCars/CHITRAK.jpg"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/GKDC2019.png"}
+              src={"/cars/prevCars/GKDC2019.png"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/EGKDC2020.png"}
+              src={"/cars/prevCars/EGKDC2020.png"}
               alt="Image 3"
             />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
             <img
-              src={import.meta.env.BASE_URL + "/cars/prevCars/FBEV2023.png"}
+              src={"/cars/prevCars/FBEV2023.png"}
               alt="Image 3"
             />
           </SplideSlide>
