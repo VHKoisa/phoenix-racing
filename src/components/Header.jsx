@@ -53,7 +53,7 @@ function Header() {
         <div className="flex items-center my-2 mx-1">
         <NavLink to="/">
           <img
-            src={import.meta.env.BASE_URL + "/logo.png"}
+            src="/logo.png"
             className="w-16 h-16"
             alt="Logo"
           />
