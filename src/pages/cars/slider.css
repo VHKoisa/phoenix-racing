@@ -2,13 +2,18 @@
     width: 100%;
     height: 100%;
     /* object-fit: cover; */
+  }   
+  .splide__sliders img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
   }
-  .splide__slider {
+  .splide__sliders {
     opacity: 0.8;
   }
   
   
-  .splide__slider.is-active {
+  .splide__sliders.is-active {
     opacity: 1;
     animation-name: moving;
     animation-duration: 1s;
