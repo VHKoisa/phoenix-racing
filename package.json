@@ -23,7 +23,8 @@
     "react-fast-marquee": "^1.6.4",
     "react-helmet": "^6.1.0",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "vercel": "^34.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
