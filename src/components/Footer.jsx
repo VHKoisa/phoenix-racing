@@ -49,6 +49,9 @@ const Footer = () => {
             <a
               className="size-16 lg:w-1/3 m-2"
               href="https://www.facebook.com/phoenixracing360/"
+              onClick={() =>
+                confirm("Do you want to be redirected to an external link?")
+              }
             >
               <section className="flex justify-center items-center">
                 <button
@@ -75,8 +78,10 @@ const Footer = () => {
             </a>
             <a
               className="size-16 lg:w-1/3 m-2"
-              href="https://www.linkedin.com/company/phoenix-racing-svnit/
-"
+              href="https://www.linkedin.com/company/phoenix-racing-svnit/"
+              onClick={() =>
+                confirm("Do you want to be redirected to an external link?")
+              }
             >
               <section className="flex justify-center items-center">
                 <button
@@ -103,8 +108,10 @@ const Footer = () => {
             </a>
             <a
               className="size-16 lg:w-1/3 m-2"
-              href="https://www.instagram.com/phoenixracing.sae/
-"
+              href="https://www.instagram.com/phoenixracing.sae/"
+              onClick={() =>
+                confirm("Do you want to be redirected to an external link?")
+              }
             >
               <section className="flex justify-center items-center">
                 <button
@@ -132,6 +139,9 @@ const Footer = () => {
             <a
               className="size-16 lg:w-1/3 m-2"
               href="https://www.youtube.com/@FSAEPhoenixRacing"
+              onClick={() =>
+                confirm("Do you want to be redirected to an external link?")
+              }
             >
               <section className="flex justify-center items-center">
                 <button
