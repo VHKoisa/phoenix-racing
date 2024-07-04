@@ -43,14 +43,15 @@ const About = () => {
               <button className="w-full">KNOW MORE</button>
             </a>
           </div>
-          <div className="">
+          <div className="h-screen">
             <video
               src={window.innerWidth >= 1024 ? VideoSrcDesktop : VideoSrcMobile}
               autoPlay
               muted
               loop
-              className="object-fill h-auto lg:h-full -z-10 lg:fixed"
+              className="object-fill h-full lg:h-full -z-10 lg:fixed"
               width="100%"
+              height="100%"
             ></video>
           </div>
         </div>
