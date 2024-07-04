@@ -63,15 +63,15 @@ const About = () => {
           {/* <div className="lg:flex">
             <img src={"/about/1.png"} width="900px" height="400px" />
           </div> */}
-          <div className="lg:flex">
+          {/* <div className="lg:flex">
             <img
               src={"/about/1.png"}
               width="900px"
               height="400px"
             />
-          </div>
+          </div> */}
           <div className="w-fit p-10">
-            <div className="text-center lg:text-center text-5xl lg:text-6xl   text-blue-900">
+            <div className="text-center lg:text-center text-3xl lg:text-7xl   text-blue-900">
               About Us
             </div>
             <div className="mt-10 text-l lg:text-xl   text-slate-700 tracking-wider">

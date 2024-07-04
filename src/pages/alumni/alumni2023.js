@@ -1,4 +1,4 @@
-const team2023 = [
+export const team2023 = [
     {
       name: "Pratham Parmar",
       position: "Head",
@@ -225,3 +225,7 @@ const team2023 = [
       linkedIn: "https://www.linkedin.com/in/dhruv-chudasma-64828121b",
     },
   ];
+
+  export default {
+    team2023,
+}

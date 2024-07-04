@@ -29,28 +29,30 @@ const Landing = () => {
       </SplideSlide>
       <SplideSlide className="splide__slider">
         <img
-          src={"/cars/taditImg/tadit-info2.PNG"}
+          src={"/src/pages/cars/taditImgT-3.jpg"}
+          
           alt=""
         />
       </SplideSlide>
       <SplideSlide className="splide__slider">
+        <img 
+          src={"/src/pages/cars/taditImgT-1.png"}
+          alt=""
+        />
+      </SplideSlide>
+      {/* <SplideSlide className="splide__slider">
         <img
           src={"/cars/taditImg/tadit-1.jpg"}
           alt=""
         />
-      </SplideSlide>
+      </SplideSlide> */}
       <SplideSlide className="splide__slider">
         <img
-          src={"/cars/taditImg/tadit-info2.PNG"}
+          src={"/src/pages/cars/taditImgT-2.jpg"}
           alt=""
         />
       </SplideSlide>
-      <SplideSlide className="splide__slider">
-        <img
-          src={"/cars/taditImg/tadit-1.jpg"}
-          alt=""
-        />
-      </SplideSlide>
+     
     </Splide>
   );
 };

@@ -3,9 +3,10 @@ import "./alumni.scss";
 import Header from "/src/components/Header";
 import Footer from "/src/components/Footer";
 import Ocards from "./alumniCards"
-
+// import {team2023} from './alumni2023';
 
 export default class Alumni extends Component {
+   
   render() {
     return (
       <div className="mainBody">    
@@ -27,6 +28,24 @@ export default class Alumni extends Component {
         {/* </div> */}
 
         <div className="line"></div>
+
+      {/* <div className="row">
+      const newArr = team2023.map(ps)
+
+      function ps(p) {
+               <Ocards
+               name={p.name}
+               year="2023"
+               company={p.department}
+               linkedin={p.linkedin}
+         
+               />
+      }
+
+
+      </div> */}
+
+
 
      <div className="row">
       <Ocards

@@ -8,7 +8,8 @@ import SliderDesign2 from "/src/pages/sponsors/SliderDesign2.jsx";
 const Sponsors = () => {
   return (
     <>
-      <Header />
+        <Header textColor="text-white" borderColor="text-white" />
+      
       <div className="main">
         <div className="hero">
           <div className="hero-image pt-20">
@@ -94,16 +95,16 @@ const Sponsors = () => {
         </div>
 
         <div className="thanks  ">
-          <div className="card">
+          <div className="Scard">
             <div className="relative bg-white w-[300px] sm:w-[350px] group transition-all duration-700 aspect-video flex items-center justify-center">
               <div className="transition-all flex flex-col items-center py-5 justify-start duration-300 group-hover:duration-1000 bg-blue-200 w-full h-full absolute group-hover:-translate-y-32">
-                <p className="text-xl sm:text-3xl font-semibold text-gray-500 font-serif">
+                <p className="text-xl sm:text-4xl font-semibold text-gray-500 font-serif">
                   Thank You
                 </p>
-                <p className="px-10 text-[10px] sm:text-[16px] text-gray-700">
-                  It’s so nice that you had the time to view this idea
+                <p className="px-10 text-[12px] sm:text-[18px] text-gray-800">
+                  It’s so nice to have you here
                 </p>
-                <p className="font-serif text-[16px] sm:text-[12px text-gray-700">
+                <p className="font-serif text-[16px] sm:text-[16px text-zinc-800">
                   Wishing you a fantastic day ahead!
                 </p>
               </div>
