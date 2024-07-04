@@ -8,32 +8,32 @@ const NavLinks = () => {
   return (
     <>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/" className="text-blue-800 uppercase font-bold">
+        <NavLink to="/" className=" uppercase font-bold">
           About
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/team" className="text-blue-800 uppercase font-bold">
+        <NavLink to="/team" className=" uppercase font-bold">
           Team
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/cars" className="text-blue-800 uppercase font-bold">
+        <NavLink to="/cars" className=" uppercase font-bold">
           Cars
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/sponsors" className="text-blue-800 uppercase font-bold">
+        <NavLink to="/sponsors" className=" uppercase font-bold">
           Sponsors
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/alumni" className="text-blue-800 uppercase font-bold">
+        <NavLink to="/alumni" className=" uppercase font-bold">
           Alumni
         </NavLink>
       </div>
       <div className="h-10  w-full flex justify-center items-center">
-        <NavLink to="/news" className="text-blue-800 uppercase font-bold">
+        <NavLink to="/news" className=" uppercase font-bold">
           News
         </NavLink>
       </div>
@@ -41,13 +41,13 @@ const NavLinks = () => {
   );
 };
 
-function Header() {
+function Header(props) {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <ScrollToTop />
       <div
-        className="fixed top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md"
+        className={`${props.textColor} fixed top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md`}
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
@@ -59,14 +59,14 @@ function Header() {
           />
           </NavLink>
 
-          <div className="mx-5 text-blue-800 text-2xl lg:text-3xl  ">
+          <div className="mx-5  text-2xl lg:text-3xl  ">
           <NavLink to="/">
             SAE PHOENIX RACING
         </NavLink>
           </div>
         </div>
         <nav className="flex lg:w-1/2  ">
-          <div className="hidden w-full justify-around lg:flex  border-2 border-slate-600 rounded-2xl py-2">
+          <div className={`${props.borderColor} hidden w-full justify-around lg:flex  border-2 rounded-2xl py-2"`}>
             <NavLinks />
           </div>
           <div className="lg:hidden ">
@@ -104,5 +104,10 @@ function Header() {
     </>
   );
 }
+
+Header.defaultProps = {
+  borderColor: "border-slate-600",
+  textColor: "text-blue-800"
+};
 
 export default Header;
