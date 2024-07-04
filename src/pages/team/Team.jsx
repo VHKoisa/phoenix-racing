@@ -6,7 +6,7 @@ function Team() {
   return (
     <>
       <Header />
-      <div className="mt-20">
+      <div className="pt-24">
         <TeamNavigator
           textColor="text-blue-800"
           borderColor="border-blue-800"
