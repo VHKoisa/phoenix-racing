@@ -10,7 +10,7 @@ const alumniCards = (props) => {
     <div class="card-border-top">
     </div>
     <div class="img">
-      <img src="/src/pages/alumni/user.png" alt="" />
+      <img src="/user.png" alt="" />
     </div>
     <span> {props.name} </span>
     
