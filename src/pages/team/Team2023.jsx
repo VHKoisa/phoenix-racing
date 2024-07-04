@@ -11,31 +11,31 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/Captain.jpg"
+            photo="blank_profile.svg"
             name="Himanshu Singh"
             position="Captain"
           />
           <Card
             linkedin=""
-            photo="2025/ViceCaptain.jpg"
+            photo="blank_profile.svg"
             name="Prince Kansara"
             position="Vice-Captain"
           />
           <Card
             linkedin=""
-            photo="2025/OperationalManager.jpg"
+            photo="blank_profile.svg"
             name="Abhishek Yadav"
             position="Operational Manager"
           />
           <Card
             linkedin=""
-            photo="2025/ManufacturingHead.jpg"
+            photo="blank_profile.svg"
             name="Jeet Tank"
             position="Manufacturing Head"
           />
           <Card
             linkedin=""
-            photo="2025/ManufacturingHeadElectrical.jpg"
+            photo="blank_profile.svg"
             name="Kaustuv"
             position="Manufacturing Head-Electrical"
           />
@@ -49,31 +49,31 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/CoChairperson.jpg"
+            photo="blank_profile.svg"
             name="Maahir Malde"
             position="Co-Chairperson"
           />
           <Card
             linkedin=""
-            photo="2025/CoChairperson2.jpg"
+            photo="blank_profile.svg"
             name="Aryan Baviskar"
             position="Co-Chairperson"
           />
           <Card
             linkedin=""
-            photo="2025/MarketingHead.jpg"
+            photo="blank_profile.svg"
             name="Burhanuddin Dadawala"
             position="Marketing Head"
           />
           <Card
             linkedin=""
-            photo="2025/MarketingCoHead.jpg"
+            photo="blank_profile.svg"
             name="Sri Vishal"
             position="Marketing Co-Head"
           />
           <Card
             linkedin=""
-            photo="2025/Treasurer.jpg"
+            photo="blank_profile.svg"
             name="Devansh"
             position="Treasurer"
           />
@@ -87,31 +87,31 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/ChassisHOD.jpg"
+            photo="blank_profile.svg"
             name="Vatsal Sachaniya"
             position="Head Of The Department"
           />
           <Card
             linkedin=""
-            photo="2025/ChassisMember1.jpg"
+            photo="blank_profile.svg"
             name="Ninad Wadaskar"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ChassisMember2.jpg"
+            photo="blank_profile.svg"
             name="Rabbit Sinwar"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ChassisMember3.jpg"
+            photo="blank_profile.svg"
             name="Himanshu Singh"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ChassisMember4.jpg"
+            photo="blank_profile.svg"
             name="Jeet Tank"
             position="Member"
           />
@@ -125,31 +125,31 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/SNSHOD.jpg"
+            photo="blank_profile.svg"
             name="Aayushman Singh"
             position="Head Of The Department"
           />
           <Card
             linkedin=""
-            photo="2025/SNSMember1.jpg"
+            photo="blank_profile.svg"
             name="Swastik Choudhary"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/SNSMember2.jpg"
+            photo="blank_profile.svg"
             name="Aryan Baviskar"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/SNSMember3.jpg"
+            photo="blank_profile.svg"
             name="Abhishek Yadav"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/SNSMember4.jpg"
+            photo="blank_profile.svg"
             name="Burhanuddin Dadawala"
             position="Member"
           />
@@ -163,31 +163,31 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/PowertrainHOD.jpg"
+            photo="blank_profile.svg"
             name="Ashok Dudi"
             position="Head Of The Department"
           />
           <Card
             linkedin=""
-            photo="2025/PowertrainMember1.jpg"
+            photo="blank_profile.svg"
             name="Aashlesh Paridhi"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/PowertrainMember2.jpg"
+            photo="blank_profile.svg"
             name="Ajith Shaikh"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/PowertrainMember3.jpg"
+            photo="blank_profile.svg"
             name="Devansh"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/PowertrainMember4.jpg"
+            photo="blank_profile.svg"
             name="Maahir Malde"
             position="Member"
           />
@@ -201,25 +201,25 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/BrakesHOD.jpg"
+            photo="blank_profile.svg"
             name="Hritik Raj"
             position="Head Of The Department"
           />
           <Card
             linkedin=""
-            photo="2025/BrakesMember1.jpg"
+            photo="blank_profile.svg"
             name="Anurag Parihar"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/BrakesMember2.jpg"
+            photo="blank_profile.svg"
             name="Prateek Verma"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/BrakesMember3.jpg"
+            photo="blank_profile.svg"
             name="Yashaswini Sharma"
             position="Member"
           />
@@ -233,49 +233,49 @@ const Team2023 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin=""
-            photo="2025/ElectricalHOD.jpg"
+            photo="blank_profile.svg"
             name="Kaustuv"
             position="Head Of The Department"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember1.jpg"
+            photo="blank_profile.svg"
             name="Akshay"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember2.jpg"
+            photo="blank_profile.svg"
             name="Hrishik"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember3.jpg"
+            photo="blank_profile.svg"
             name="Preetham"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember4.jpg"
+            photo="blank_profile.svg"
             name="Rohan Prajapati"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember5.jpg"
+            photo="blank_profile.svg"
             name="Vidhan"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember6.jpg"
+            photo="blank_profile.svg"
             name="Prince Kansara"
             position="Member"
           />
           <Card
             linkedin=""
-            photo="2025/ElectricalMember7.jpg"
+            photo="blank_profile.svg"
             name="Sri Vishal"
             position="Member"
           />
