@@ -114,7 +114,7 @@
   border-bottom: 5px solid #0072bb;
   margin-top: 60px;
 }
-.racingCar{
+.racingCar1{
   width: 200px;
   position: relative;
   animation: runningCar 10s linear infinite;
@@ -174,7 +174,7 @@
    text-align: center;
     font-size: 2.5em;
   }
-  .racingCar{
+  .racingCar1{
     width: 100px;
   animation: runningCar 3s linear infinite;
  

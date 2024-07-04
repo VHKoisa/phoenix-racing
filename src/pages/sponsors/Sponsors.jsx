@@ -57,7 +57,7 @@ const Sponsors = () => {
         <div className="line2">
           <img
             src={"/sponsors/logo/formula.png"}
-            className="racingCar"
+            className="racingCar1"
           />
         </div>
         <h1 className="sponsorsHeading2">PAST SPONSORS</h1>

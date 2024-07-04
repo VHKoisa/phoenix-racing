@@ -290,7 +290,7 @@ const Team2025 = () => {
         <div className="flex flex-wrap justify-center w-full">
           <Card
             linkedin="https://www.linkedin.com/in/hritik-raj-543aa430b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            photo="webdev1.jpeg"
+            photo="webdev1.jpg"
             name="Shashank Raj"
             position="Web Developer"
           />
