@@ -8,7 +8,7 @@ const Team2023 = () => {
       position: "Head",
       department: "Brakes",
       section: "technical",
-      image:"https://drive.google.com/uc?export=view&id=1QmOYrJ4vnejXjoLnntQbTBcTna7VyL1n",
+      image:"https://drive.google.com/uc?id=1QmOYrJ4vnejXjoLnntQbTBcTna7VyL1n",
       linkedIn: "https://www.linkedin.com/in/pratham-parmar-244022215",
     },
     {
