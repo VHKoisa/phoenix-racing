@@ -41,13 +41,13 @@ const NavLinks = () => {
   );
 };
 
-function Header(props) {
+function Header({textColor= "text-blue-800", borderColor= "border-black"}) {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <ScrollToTop />
       <div
-        className={`${props.textColor} fixed top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md`}
+        className={`${textColor} fixed top-0 z-30 mx-auto px-2 w-full items-center justify-between flex shadow-md`}
         id="navbar"
       >
         <div className="flex items-center my-2 mx-1">
@@ -66,7 +66,7 @@ function Header(props) {
           </div>
         </div>
         <nav className="flex lg:w-1/2  ">
-          <div className={`${props.borderColor} hidden w-full justify-around lg:flex  border-2 rounded-2xl py-2"`}>
+          <div className={`${borderColor} hidden w-full justify-around lg:flex  border-2 rounded-2xl py-2"`}>
             <NavLinks />
           </div>
           <div className="lg:hidden ">
@@ -104,10 +104,5 @@ function Header(props) {
     </>
   );
 }
-
-Header.defaultProps = {
-  borderColor: "border-slate-600",
-  textColor: "text-blue-800"
-};
 
 export default Header;
