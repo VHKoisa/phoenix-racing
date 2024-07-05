@@ -31,7 +31,7 @@
 }
 .hero {
   height: 100vh;
-  background-image: radial-gradient(ellipse,transparent,rgba(26, 87, 158, 0.541)),url(/src/pages/cars/taditImgT-4.jpg);
+  background-image: radial-gradient(ellipse,transparent,rgba(26, 87, 158, 0.541)),url(/sponsors/taditImgT-3.jpg);
   /* background: rgb(0,184,232); */
   /* background: radial-gradient((circle, transparent ,rgba(0,184,232,1) 0%, rgba(73,223,227,1) 50%, rgba(49,67,244,1) 100%),url(/sponsors/logo/headingBg.jpg)); */
   background-size: cover;
