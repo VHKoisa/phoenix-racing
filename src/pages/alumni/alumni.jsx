@@ -39,7 +39,6 @@ export default class Alumni extends Component {
                   />
                 );
               }
-              console.log(index);
             })}
           </div>
 
@@ -56,7 +55,6 @@ export default class Alumni extends Component {
                   />
                 );
               }
-              console.log(index);
             })}
           </div>
 
@@ -73,7 +71,6 @@ export default class Alumni extends Component {
                   />
                 );
               }
-              console.log(index);
             })}
           </div>
 
@@ -90,7 +87,6 @@ export default class Alumni extends Component {
                   />
                 );
               }
-              console.log(index);
             })}
           </div>
 
@@ -107,7 +103,6 @@ export default class Alumni extends Component {
                   />
                 );
               }
-              console.log(index);
             })}
           </div>
 
@@ -124,7 +119,6 @@ export default class Alumni extends Component {
                   />
                 );
               }
-              console.log(index);
             })}
           </div>
 
