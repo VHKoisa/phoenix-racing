@@ -8,7 +8,7 @@ import SliderDesign2 from "/src/pages/sponsors/SliderDesign2.jsx";
 const Sponsors = () => {
   return (
     <>
-        <Header textColor="text-white" borderColor="text-white" />
+        <Header/>
       
       <div className="main">
         <div className="hero">
@@ -87,14 +87,14 @@ const Sponsors = () => {
             >
               <path
                 d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
-                stroke-linejoin="round"
-                stroke-linecap="round"
+                strokeLinejoin="round"
+                strokeLinecap="round"
               ></path>
             </svg>
           </button>
         </div>
 
-        <div className="thanks  ">
+        <div className="thanks">
           <div className="Scard">
             <div className="relative bg-white w-[300px] sm:w-[350px] group transition-all duration-700 aspect-video flex items-center justify-center">
               <div className="transition-all flex flex-col items-center py-5 justify-start duration-300 group-hover:duration-1000 bg-blue-200 w-full h-full absolute group-hover:-translate-y-32">
