@@ -4,36 +4,36 @@ import { useState } from "react";
 import "./hamburger.css";
 import ScrollToTop from "./ScrollToTop";
 
-const NavLinks = () => {
+const NavLinks = ({textColor="text-blue-800"}) => {
   return (
     <>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/" className=" uppercase font-bold">
+        <NavLink to="/" className={`${textColor} uppercase font-bold`}>
           About
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/team" className=" uppercase font-bold">
+        <NavLink to="/team" className={`${textColor} uppercase font-bold`}>
           Team
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/cars" className=" uppercase font-bold">
+        <NavLink to="/cars" className={`${textColor} uppercase font-bold`}>
           Cars
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/sponsors" className=" uppercase font-bold">
+        <NavLink to="/sponsors" className={`${textColor} uppercase font-bold`}>
           Sponsors
         </NavLink>
       </div>
       <div className="h-10 border-b-2 border-black lg:border-0 w-full flex justify-center items-center">
-        <NavLink to="/alumni" className=" uppercase font-bold">
+        <NavLink to="/alumni" className={`${textColor} uppercase font-bold`}>
           Alumni
         </NavLink>
       </div>
       <div className="h-10  w-full flex justify-center items-center">
-        <NavLink to="/news" className=" uppercase font-bold">
+        <NavLink to="/news" className={`${textColor} uppercase font-bold`}>
           News
         </NavLink>
       </div>
@@ -41,7 +41,7 @@ const NavLinks = () => {
   );
 };
 
-function Header({textColor= "text-blue-800", borderColor= "border-black"}) {
+function Header({textColor= "text-blue-800", borderColor= "border-black", mobileTextColor}) {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -67,7 +67,7 @@ function Header({textColor= "text-blue-800", borderColor= "border-black"}) {
         </div>
         <nav className="flex lg:w-1/2  ">
           <div className={`${borderColor} hidden w-full justify-around lg:flex  border-2 rounded-2xl py-2"`}>
-            <NavLinks />
+            <NavLinks textColor={textColor}/>
           </div>
           <div className="lg:hidden ">
             <label htmlFor="burger" className="burger">
@@ -98,7 +98,7 @@ function Header({textColor= "text-blue-800", borderColor= "border-black"}) {
           id="navbar"
         >
           {/*Static top margin*/}
-          <NavLinks />
+          <NavLinks textColor={mobileTextColor} />
         </div>
       )}
     </>

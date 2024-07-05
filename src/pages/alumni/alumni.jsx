@@ -14,7 +14,7 @@ export default class Alumni extends Component {
         <div id="stars3"></div>
 
         <div>
-          <Header textColor="text-white" borderColor="text-white" />
+          <Header textColor="text-white" borderColor="text-white" mobileTextColor="text-white" />
           {/* <div className="alumniHero"> */}
           <h1 className="aHeading mt-20">Alumni</h1>
           <p className="aThank ">
