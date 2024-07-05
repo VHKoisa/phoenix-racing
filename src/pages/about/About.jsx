@@ -59,7 +59,7 @@ const About = () => {
 
       {/* About Us  */}
       <div className="main bg-white" id="main">
-        <div className="pt-10 flex flex-col lg:flex-row about">
+        <div className="pt-0 lg:pt-10 flex flex-col lg:flex-row about">
           {/* <div className="lg:flex">
             <img src={"/about/1.png"} width="900px" height="400px" />
           </div> */}
@@ -71,7 +71,7 @@ const About = () => {
             />
           </div> */}
           <div className="w-fit p-10">
-            <div className="text-center lg:text-center text-3xl lg:text-7xl   text-blue-900">
+            <div className="text-center text-5xl lg:text-7xl text-blue-900">
               About Us
             </div>
             <div className="mt-10 text-l lg:text-xl   text-slate-700 tracking-wider">
