@@ -29,14 +29,14 @@ const Landing = () => {
       </SplideSlide>
       <SplideSlide className="splide__slider">
         <img
-          src={"/src/pages/cars/taditImgT-3.jpg"}
+          src={"/cars/taditImg/taditImgT-3.jpg"}
           
           alt=""
         />
       </SplideSlide>
       <SplideSlide className="splide__slider">
         <img 
-          src={"/src/pages/cars/taditImgT-1.png"}
+          src={"/cars/taditImg/taditImgT-1.png"}
           alt=""
         />
       </SplideSlide>
@@ -48,7 +48,7 @@ const Landing = () => {
       </SplideSlide> */}
       <SplideSlide className="splide__slider">
         <img
-          src={"/src/pages/cars/taditImgT-2.jpg"}
+          src={"/cars/taditImg/taditImgT-2.jpg"}
           alt=""
         />
       </SplideSlide>
