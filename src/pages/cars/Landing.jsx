@@ -2,7 +2,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import "./slider.css";
 import React, { useEffect, useRef } from "react";
-
+import Name from "./taditName/name";
 const Landing = () => {
   return (
     <Splide
@@ -20,12 +20,18 @@ const Landing = () => {
         },
       }}
       aria-label="React Splide Example"
-    >
+    > 
       <SplideSlide className="splide__slider">
-        <img
+
+      <div className="imx">
+      <Name/>
+      </div>
+        <img 
           src={"/cars/taditImg/tadit-1.jpg"}
           alt=""
         />
+      
+      
       </SplideSlide>
       <SplideSlide className="splide__slider">
         <img

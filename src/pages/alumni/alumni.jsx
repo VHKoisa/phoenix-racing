@@ -8,12 +8,13 @@ import { team2023 } from "./alumni2023";
 export default class Alumni extends Component {
   render() {
     return (
-      <div className="mainBody">
-        <div id="stars"></div>
-        <div id="stars2"></div>
+      <div className="mainBody">  
+       <div id="stars"></div>
+      <div id="stars2"></div>
         <div id="stars3"></div>
+       
 
-        <div>
+        
           <Header textColor="text-white" borderColor="text-white" />
           {/* <div className="alumniHero"> */}
           <h1 className="aHeading mt-20">Alumni</h1>
@@ -24,8 +25,7 @@ export default class Alumni extends Component {
           </p>
           {/* </div> */}
 
-          <div className="line"></div>
-
+         
           <div className="row">
             {team2023.map((member, index) => {
               if (index < 5) {
@@ -267,7 +267,7 @@ export default class Alumni extends Component {
               linkedin=""
             />
           </div>
-        </div>
+        
         <div className="row">
           <Ocards
             name="Shaan Polra"
@@ -298,6 +298,7 @@ export default class Alumni extends Component {
             linkedin=""
           />
         </div>
+       
         <Footer />
       </div>
     );

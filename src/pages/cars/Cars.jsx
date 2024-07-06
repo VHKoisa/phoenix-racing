@@ -6,6 +6,7 @@ import "./cars.scss";
 import Carouselcard from "./Carouselcard";
 import Slider from "./Slider";
 import Landing from "./Landing";
+import Name from "./taditName/name";
 
 const Car = () => {
 
@@ -73,10 +74,11 @@ const Car = () => {
   return (
     <>
       <Header />
-
+ 
       <Landing />
+     
     <section>
-   
+      
       <h1 className="info-title">
         THE TECHNOLOGY
        </h1>
