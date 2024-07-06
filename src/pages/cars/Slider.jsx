@@ -36,52 +36,26 @@ export default function Slider() {
           aria-label="React Splide Example"
         >
           <SplideSlide className="splide__sliders">
-            <img
-              src={"/cars/prevCars/Anshumat.JPG"}
-              alt="Image 1"
-            />
+            <img src={"/cars/prevCars/Anshumat.JPG"} alt="Image 1" />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/Eklavya.JPG"}
-              alt="Image 2"
-            />
+            <img src={"/cars/prevCars/Eklavya.JPG"} alt="Image 2" />
+          </SplideSlide>
+
+          <SplideSlide className="splide__sliders  ">
+            <img src={"/cars/prevCars/SUPRA2016.png"} alt="Image 3" />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/Baja2014.jpg"}
-              alt="Image 3"
-            />
+            <img src={"/cars/prevCars/CHITRAK.jpg"} alt="Image 3" />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/SUPRA2016.png"}
-              alt="Image 3"
-            />
+            <img src={"/cars/prevCars/GKDC2019.png"} alt="Image 3" />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/CHITRAK.jpg"}
-              alt="Image 3"
-            />
+            <img src={"/cars/prevCars/EGKDC2020.png"} alt="Image 3" />
           </SplideSlide>
           <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/GKDC2019.png"}
-              alt="Image 3"
-            />
-          </SplideSlide>
-          <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/EGKDC2020.png"}
-              alt="Image 3"
-            />
-          </SplideSlide>
-          <SplideSlide className="splide__sliders  ">
-            <img
-              src={"/cars/prevCars/FBEV2023.png"}
-              alt="Image 3"
-            />
+            <img src={"/cars/prevCars/FBEV2023.png"} alt="Image 3" />
           </SplideSlide>
         </Splide>
         <Splide
@@ -92,7 +66,7 @@ export default function Slider() {
             rewind: true,
             pagination: false,
             arrows: false,
-            fixedHeight: 600,
+            fixedHeight: "80vh",
             breakpoints: {
               1024: {
                 fixedHeight: 450,
@@ -101,7 +75,7 @@ export default function Slider() {
           }}
           aria-label="React Splide Example"
         >
-          <SplideSlide>
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="Anshumat.JPG"
               name="Anshumat"
@@ -109,7 +83,7 @@ export default function Slider() {
               text=""
             />
           </SplideSlide>
-          <SplideSlide>
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="Eklavya.JPG"
               name="Eklavya"
@@ -117,15 +91,8 @@ export default function Slider() {
               text="39th out of 80 in MINI BAJA 2011"
             />
           </SplideSlide>
-          <SplideSlide>
-            <Carouselcard
-              img="Baja2014.jpg"
-              name="Baja"
-              year="2014"
-              text="4th in overall ranking, 1st in presentation, 2nd in cost report"
-            />
-          </SplideSlide>
-          <SplideSlide>
+
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="SUPRA2016.png"
               name="Supra SAE"
@@ -133,7 +100,7 @@ export default function Slider() {
               text="13th in all over India"
             />
           </SplideSlide>
-          <SplideSlide>
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="CHITRAK.jpg"
               name="Chitrak"
@@ -141,15 +108,24 @@ export default function Slider() {
               text=""
             />
           </SplideSlide>
-          <SplideSlide>
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="GKDC2019.png"
               name="GKDC"
               year="2019"
-              text="Overall champions, 1st in skidpad, 1st in autocross, 1st in endurance and fuel economy, Best driver, best design, best innovation"
+              text={
+                <ul style={{listStyleType: "disc"}}>
+                  <li>Overall champions</li>
+                  <li>
+                    1st in skidpad, 1st in autocross, 1st in endurance and fuel
+                    economy
+                  </li>
+                  <li>Best driver, best design, best innovation</li>
+                </ul>
+              }
             />
           </SplideSlide>
-          <SplideSlide>
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="EGKDC2020.png"
               name="EGKDC"
@@ -157,7 +133,7 @@ export default function Slider() {
               text="Overall champions, 1st in Endurance and fuel economy, best driver award"
             />
           </SplideSlide>
-          <SplideSlide>
+          <SplideSlide className="flex justify-center">
             <Carouselcard
               img="FBEV2023.png"
               name="FBEV"
