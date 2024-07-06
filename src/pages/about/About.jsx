@@ -74,7 +74,7 @@ const About = () => {
             <div className="text-center text-5xl lg:text-7xl text-blue-900">
               About Us
             </div>
-            <div className="mt-10 text-l lg:text-xl   text-slate-700 tracking-wider">
+            <div className="mt-10 text-l text-center lg:text-xl text-slate-700 tracking-wider ">
               Team Phoenix Racing is a technical student chapter affiliated with
               SVNIT, consisting of over 60 students from various engineering
               disciplines. Our primary objective is to provide a platform for
