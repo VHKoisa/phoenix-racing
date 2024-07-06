@@ -193,9 +193,9 @@ const Footer = () => {
           {/* </div> */}
         </div>
 
-        <div className="w-full p-5 lg:w-1/4 flex items-center">
+        <div className="w-full p-5 lg:w-1/4 flex items-center justify-center">
           <div className="grid grid-cols-2 gap-4 text-slate-600 ">
-            <div className="flex justify-end">
+            <div className="flex justify-center">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -214,7 +214,7 @@ const Footer = () => {
             </div>
             <a href="mailto:sae@svnit.ac.in">sae@svnit.ac.in</a>
 
-            <div className="flex justify-end">
+            <div className="flex justify-center">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -233,7 +233,7 @@ const Footer = () => {
             </div>
             <a href="tel:+919079880827">+919079880827</a>
 
-            <div className="flex justify-end">
+            <div className="flex justify-center">
               <svg
                 aria-hidden="true"
                 focusable="false"
