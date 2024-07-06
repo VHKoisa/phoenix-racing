@@ -94,7 +94,7 @@ function Header({textColor= "text-blue-800", borderColor= "border-black", mobile
       </div>
       {isOpen && (
         <div
-          className="bg-white top-20 sticky z-30 basis-full justify- border-2 border-blue-950"
+          className="top-20 fixed z-30 basis-full w-full border-2 border-blue-950"
           id="navbar"
         >
           {/*Static top margin*/}
