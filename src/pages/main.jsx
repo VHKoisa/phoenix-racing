@@ -9,6 +9,18 @@ import Sponsors from "./sponsors/Sponsors";
 import Alumni from "./alumni/alumni";
 import Notfound from "./Notfound";
 import Newssection from "./news/Newssection";
+// import { Component } from "react";
+
+// const{loading,setLoading}=useState(true)
+// const spinner = document.getElementsByClassName('spinner')
+// if(spinner){
+//   setTimeout(()=>{
+//     spinner.style.display="none"
+//     setLoading(false)
+//   },2000)
+  
+// }
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -24,4 +36,28 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
-);
+)
+
+
+
+
+
+// export default class main extends Component {
+//   render() {
+//     return (
+//       <React.StrictMode>
+//       <BrowserRouter>
+//       <Routes>
+//       <Route path="/" element={<About />} />
+//       <Route path="/team" element={<Team />} />
+//       <Route path="/cars" element={<Cars />} />
+//       <Route path="/sponsors" element={<Sponsors />} />
+//       <Route path="/alumni" element={<Alumni />} />
+//       <Route path="/news" element={<Newssection />} />
+//       <Route path="/*" element={<Notfound />} />
+//     </Routes>
+//     </BrowserRouter>
+//     </React.StrictMode>
+//     )
+//   }
+// }
