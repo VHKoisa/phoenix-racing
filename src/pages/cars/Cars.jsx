@@ -80,7 +80,7 @@ const Car = () => {
     <section>
       
       <h1 className="info-title">
-        THE TECHNOLOGY
+        TECHNOLOGY
        </h1>
        </section>
       <div className="tadit">

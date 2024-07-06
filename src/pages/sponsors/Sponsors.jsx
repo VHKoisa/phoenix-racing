@@ -21,11 +21,7 @@ const Sponsors = () => {
               nurturing young Indian talent. Our sponsors play a crucial role in
               providing the means and resources necessary for our success, allow
               us to push boundaries and make a meaningful impact in the lives of
-              our team members and future engineers. We express our deep
-              gratitude to all our sponsors and donors for their unwavering
-              dedication and contributions. It is an honor for us to represent
-              your name, and we eagerly anticipate showcasing our abilities to
-              the best of our capabilities.
+              our team members and future engineers. 
             </p>
             <p>Thank you everyone who supports our team.</p>
           </div>
@@ -98,14 +94,17 @@ const Sponsors = () => {
           <div className="Scard">
             <div className="relative bg-white w-[300px] sm:w-[350px] group transition-all duration-700 aspect-video flex items-center justify-center">
               <div className="transition-all flex flex-col items-center py-5 justify-start duration-300 group-hover:duration-1000 bg-blue-200 w-full h-full absolute group-hover:-translate-y-32">
-                <p className="text-xl sm:text-4xl font-semibold text-gray-500 font-serif">
+                <p className="text-xl sm:text-3xl font-semibold text-gray-500 font-serif">
                   Thank You
                 </p>
-                <p className="px-10 text-[12px] sm:text-[18px] text-gray-800">
+                {/* <p className="px-10 text-[12px] sm:text-[18px] text-gray-800">
                   It’s so nice to have you here
-                </p>
-                <p className="font-serif text-[16px] sm:text-[16px text-zinc-800">
-                  Wishing you a fantastic day ahead!
+                </p> */}
+                <p className="font-serif text-[15px] text-center sm:text-[16px text-zinc-900">
+                We express our deep
+              gratitude to all our sponsors and donors for their unwavering
+              dedication and contributions. It is an honor for us to represent
+              your name..
                 </p>
               </div>
               <button className="seal bg-rose-500 text-red-800 w-10 aspect-square rounded-full z-40 text-[10px] flex items-center justify-center font-semibold [clip-path:polygon(50%_0%,_80%_10%,_100%_35%,_100%_70%,_80%_90%,_50%_100%,_20%_90%,_0%_70%,_0%_35%,_20%_10%)] group-hover:opacity-0 transition-all duration-1000 group-hover:scale-0 group-hover:rotate-180 border-4 border-rose-900">

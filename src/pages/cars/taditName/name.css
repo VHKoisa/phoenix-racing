@@ -1,7 +1,7 @@
 .glitch {
     position: relative;
-
-    font-size: 95px;
+    height: fit-content;
+    font-size: 98px;
     font-weight: 800;
     line-height: 1.2;
      color: #0072bb;

@@ -88,7 +88,15 @@ export default function Slider() {
               img="Eklavya.JPG"
               name="Eklavya"
               year="2011"
-              text="39th out of 80 in MINI BAJA 2011"
+              text={
+                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
+
+                <li>
+                39th of 50 in MINI BAJA 2011
+                </li>
+                </ul>
+
+              }
             />
           </SplideSlide>
 
@@ -97,7 +105,15 @@ export default function Slider() {
               img="SUPRA2016.png"
               name="Supra SAE"
               year="2016"
-              text="13th in all over India"
+              text={
+                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
+
+                <li>
+                13th in overall INDIA
+                </li>
+                </ul>
+
+              }
             />
           </SplideSlide>
           <SplideSlide className="flex justify-center">
@@ -114,7 +130,7 @@ export default function Slider() {
               name="GKDC"
               year="2019"
               text={
-                <ul style={{listStyleType: "disc"}}>
+                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
                   <li>Overall champions</li>
                   <li>
                     1st in skidpad, 1st in autocross, 1st in endurance and fuel
@@ -130,7 +146,17 @@ export default function Slider() {
               img="EGKDC2020.png"
               name="EGKDC"
               year="2020"
-              text="Overall champions, 1st in Endurance and fuel economy, best driver award"
+              text={
+                // "Overall champions, 1st in Endurance and fuel economy, best driver award"
+
+                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
+                <li>Overall champions</li>
+                <li>
+                1st in Endurance and fuel economy
+                </li>
+                <li>best driver award</li>
+              </ul>
+              }
             />
           </SplideSlide>
           <SplideSlide className="flex justify-center">
@@ -138,7 +164,19 @@ export default function Slider() {
               img="FBEV2023.png"
               name="FBEV"
               year="2023"
-              text="Overall 3rd, 1st in concept goals and management report, 3rd in business plan presentation"
+              text={
+                // "Overall 3rd, 1st in concept goals and management report, 3rd in business plan presentation"
+                        
+                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
+                <li>Overall 3rd</li>
+                <li>
+                1st in concept goals and management report
+                </li>
+                <li> 3rd in business plan presentation</li>
+              </ul>
+                
+
+              }
             />
           </SplideSlide>
         </Splide>

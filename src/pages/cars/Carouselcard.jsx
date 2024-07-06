@@ -12,8 +12,8 @@ const Carouselcard = (props) => {
           className="w-full h-3/4"
         />
         <div className="text-white leading-5 lg:leading-6 h-1/4 flex flex-col justify-center oldCarInfo">
-          <div className="text-center text-xl font-bold">{props.name}</div>
-          <div className="text-center">{props.year}</div>
+          <div className="text-center text-3xl font-bold">{props.name}</div>
+          <div className="text-center  text-2xl">{props.year}</div>
           <div className="text-center flex justify-center">{props.text}</div>
         </div>
       </div>
