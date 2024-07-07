@@ -4,6 +4,8 @@ import Footer from "/src/components/Footer";
 import "./Sponsors.css";
 import SliderDesign from "/src/pages/sponsors/SliderDesign.jsx";
 import SliderDesign2 from "/src/pages/sponsors/SliderDesign2.jsx";
+import Marquee from "react-fast-marquee";
+
 
 const Sponsors = () => {
   return (
@@ -51,10 +53,18 @@ const Sponsors = () => {
 
         <SliderDesign />
         <div className="line2">
-          <img
+          {/* <img
             src={"/sponsors/logo/formula.png"}
             className="racingCar1"
-          />
+          /> */}
+         <Marquee speed={200} delay={0} gradient={true} gradientWidth={"0px"} direction='right'  >
+
+         <img
+            src={"/sponsors/logo/formula.png"}
+            className="racingCar1"
+          /> 
+         </Marquee>
+
         </div>
         <h1 className="sponsorsHeading2">PAST SPONSORS</h1>
 

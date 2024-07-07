@@ -117,10 +117,10 @@
 .racingCar1{
   width: 200px;
   position: relative;
-  animation: runningCar 10s linear infinite;
+  /* animation: runningCar 10s linear infinite; */
 }
 
-@keyframes runningCar {
+/* @keyframes runningCar {
   0%{left: 0;}
 
   25%{
@@ -136,7 +136,7 @@
   100%{
     left: 100%;
   }
-}
+} */
 .ending{
   display: flex;
   justify-content: space-around;

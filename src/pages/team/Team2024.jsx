@@ -316,7 +316,7 @@ const Team2024 = () => {
   );
 
   return (
-    <div>
+    <>
       <div className="my-5 py-2 uppercase text-center text-2xl font-bold text-white bg-blue-800 border-2">
         TECHNICAL Heads
       </div>
@@ -435,7 +435,7 @@ const Team2024 = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

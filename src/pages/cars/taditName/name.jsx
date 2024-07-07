@@ -5,6 +5,8 @@ const name = () => {
     <div>
       <div className="loader">
       <div data-glitch="TADIT" className="glitch">TADIT</div>
+
+
     </div>
     </div>
   )

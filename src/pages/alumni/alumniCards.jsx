@@ -11,13 +11,14 @@ const alumniCards = (props) => {
     </div>
     <div className="img">
       <img src="/user.png" alt="" />
+  
     </div>
     <span> {props.name} </span>
     
     <p className="job">{props.year} <br /> {props.company} </p>
     {/* <p className="alumniYear"></p> */}
     
-    <button> <a href={props.linkedin}> Click</a>
+    <button> <a href={props.linkedin}> Follow</a>
     </button>
   </div>
   )

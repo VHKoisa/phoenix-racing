@@ -21,7 +21,7 @@ export default function Slider() {
             rewind: true,
             fixedWidth: 250,
             fixedHeight: 150,
-            gap: 10,
+            gap: 50,
             keyboard: true,
             isNavigation: true,
             focus: "center",
@@ -129,34 +129,20 @@ export default function Slider() {
               img="GKDC2019.png"
               name="GKDC"
               year="2019"
-              text={
-                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
-                  <li>Overall champions</li>
-                  <li>
-                    1st in skidpad, 1st in autocross, 1st in endurance and fuel
-                    economy
-                  </li>
-                  <li>Best driver, best design, best innovation</li>
-                </ul>
-              }
+              text=
+              "Overall champion. 1st in skidpad, 1st in autocross, 1st in endurance and fuel.Best driver, best design, best innovation economy"
             />
+
+
           </SplideSlide>
           <SplideSlide className="flex justify-center">
             <Carouselcard
               img="EGKDC2020.png"
               name="EGKDC"
               year="2020"
-              text={
-                // "Overall champions, 1st in Endurance and fuel economy, best driver award"
+              text= "Overall champions, 1st in Endurance and fuel economy, best driver award"
 
-                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
-                <li>Overall champions</li>
-                <li>
-                1st in Endurance and fuel economy
-                </li>
-                <li>best driver award</li>
-              </ul>
-              }
+         
             />
           </SplideSlide>
           <SplideSlide className="flex justify-center">
@@ -165,15 +151,8 @@ export default function Slider() {
               name="FBEV"
               year="2023"
               text={
-                // "Overall 3rd, 1st in concept goals and management report, 3rd in business plan presentation"
-                        
-                <ul className="oldCarsInfo" style={{listStyleType: "disc"}}>
-                <li>Overall 3rd</li>
-                <li>
-                1st in concept goals and management report
-                </li>
-                <li> 3rd in business plan presentation</li>
-              </ul>
+                "Overall 3rd, 1st in concept goals and management report, 3rd in business presentation"
+            
                 
 
               }

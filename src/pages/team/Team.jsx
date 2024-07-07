@@ -1,6 +1,7 @@
 import Header from "/src/components/Header";
 import TeamNavigator from "./TeamNavigator";
 import Footer from "/src/components/Footer";
+import "./team.css"
 
 function Team() {
   return (

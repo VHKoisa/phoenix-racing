@@ -166,7 +166,7 @@ const Car = () => {
               <h3 className="racing">Battery Pack</h3>
               <ul>
                 <li>Charging Time : 4 hrs</li>
-                <li>In hosue manufactured</li>
+                <li>In house manufactured</li>
                 <li>7.36 kWh | 172V</li>
                 <li>A 123 20 AH LFP Cells</li>
               </ul>
@@ -191,50 +191,50 @@ const Car = () => {
           <div className="specs_filter-column">
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
-                <span className="regular">Number of cylinders</span>{" "}
-                <span className="title-bold">6</span>
+                <span className="regular">Cells</span>{" "}
+                <span className="title-bold">LHP CELLS</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
-                <span className="regular">Number of valves</span>{" "}
-                <span className="title-bold">4 per cylinder</span>
+                <span className="regular">Motor</span>{" "}
+                <span className="title-bold">AGNI 11R</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
-                <span className="regular">Oil</span>{" "}
-                <span className="title-bold">Mobil 1</span>
+                <span className="regular">Cell Config.</span>{" "}
+                <span className="title-bold">48s 2p</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
-                <span className="regular">Capacity</span>{" "}
-                <span className="title-bold">1,600cc</span>
+                <span className="regular">Battery Capacity</span>{" "}
+                <span className="title-bold">172V</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
-                <span className="regular">Vee angle</span>{" "}
-                <span className="title-bold">90-degrees</span>
+                <span className="regular">Charging Time</span>{" "}
+                <span className="title-bold">4 hrs</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
                 <span className="regular">Weight</span>{" "}
-                <span className="title-bold">151kg</span>
+                <span className="title-bold">320kg</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
-                <span className="regular">Max RPM</span>{" "}
-                <span className="title-bold">15,000RPM</span>
+                <span className="regular">Max Speed</span>{" "}
+                <span className="title-bold">75 kmph</span>
               </div>
             </div>
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
                 <span className="regular">Power output</span>{" "}
-                <span className="title-bold">900HP</span>
+                <span className="title-bold">7.36 kwh</span>
               </div>
             </div>
           </div>

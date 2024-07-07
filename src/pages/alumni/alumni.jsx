@@ -40,7 +40,8 @@ export default class Alumni extends Component {
                     name={member.name}
                     year="2023"
                     company=""
-                    linkedin=""
+                  
+                    linkedin={member.linkedIn}
                   />
                 );
               }
@@ -56,7 +57,8 @@ export default class Alumni extends Component {
                       name={member.name}
                       year="2023"
                       company=""
-                      linkedin=""
+                      linkedin={member.linkedIn}
+
                     />
                   );
                 }
@@ -72,7 +74,8 @@ export default class Alumni extends Component {
                       name={member.name}
                       year="2023"
                       company=""
-                      linkedin=""
+                      linkedin={member.linkedIn}
+
                     />
                   );
                 }
@@ -88,7 +91,8 @@ export default class Alumni extends Component {
                       name={member.name}
                       year="2023"
                       company=""
-                      linkedin=""
+                      linkedin={member.linkedIn}
+
                     />
                   );
                 }
@@ -104,7 +108,8 @@ export default class Alumni extends Component {
                       name={member.name}
                       year="2023"
                       company=""
-                      linkedin=""
+                      linkedin={member.linkedIn}
+
                     />
                   );
                 }
@@ -120,7 +125,8 @@ export default class Alumni extends Component {
                       name={member.name}
                       year="2023"
                       company=""
-                      linkedin=""
+                      linkedin={member.linkedIn}
+
                     />
                   );
                 }
