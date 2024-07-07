@@ -35,10 +35,10 @@ const About = () => {
         }}
       >
         <div className="h-auto lg:h-full overflow-y-hidden relative">
-          <div className="hidden lg:flex justify-center">
+          <div className="flex justify-center">
             <a
               href="#main"
-              className="btnn text-xs lg:w-1/6 p-1 border-2 lg:text-xl text-white rounded-3xl border-white lg:border-4  absolute  bottom-2 lg:p-3 z-10"
+              className="btnn text-xs w-1/3 lg:w-1/6 p-1 border-2 lg:text-xl text-white rounded-3xl border-white lg:border-4  absolute  bottom-2 lg:p-3 z-10"
             >
               <button className="w-full">KNOW MORE</button>
             </a>
@@ -59,7 +59,7 @@ const About = () => {
 
       {/* About Us  */}
       <div className="main bg-white" id="main">
-        <div className="pt-0 lg:pt-10 flex flex-col lg:flex-row about">
+        <div className="pt-10 flex flex-col lg:flex-row about">
           {/* <div className="lg:flex">
             <img src={"/about/1.png"} width="900px" height="400px" />
           </div> */}
@@ -119,11 +119,7 @@ const About = () => {
 
         <div className="bg-white pt-10 flex flex-col lg:flex-row about pb-5">
           <div className="flex justify-center px-3">
-            <img
-              src={"/about/2.png"}
-              width="600px"
-              height="300px"
-            />
+            <img src={"/about/2.png"} width="600px" height="300px" />
           </div>
           <div className="w-fit p-10">
             <div className="text-center lg:text-left text-5xl lg:text-6xl   text-blue-800">
