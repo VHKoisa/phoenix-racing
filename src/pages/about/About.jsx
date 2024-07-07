@@ -47,7 +47,7 @@ const About = () => {
             <video
               src={window.innerWidth >= 1024 ? VideoSrcDesktop : VideoSrcMobile}
               autoPlay
-              muted
+              
               loop
               className="object-fill h-full lg:h-full -z-10 lg:fixed"
               width="100%"
