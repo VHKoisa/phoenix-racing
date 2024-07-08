@@ -31,7 +31,7 @@ const About = () => {
         onLoadStart={() => {
           window.innerWidth >= 1024
             ? (content.style.height = `${window.innerHeight}px`)
-            : (content.style.height = `auto`);
+            : (content.style.height = `${window.innerHeight}px`);
         }}
       >
         <div className="h-auto lg:h-full overflow-y-hidden relative">
