@@ -198,7 +198,7 @@ const Car = () => {
             <div className="specs_filter-column-item">
               <div className="specs_filter-column-item-container">
                 <span className="regular">Motor</span>{" "}
-                <span className="title-bold">AGNI 11R</span>
+                <span className="title-bold">AGNI 119R</span>
               </div>
             </div>
             <div className="specs_filter-column-item">

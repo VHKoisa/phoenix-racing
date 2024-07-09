@@ -1,7 +1,7 @@
 .glitch {
     position: relative;
     height: fit-content;
-    font-size: 98px;
+    font-size: 105px;
     font-weight: 800;
     line-height: 1.2;
      color: #0072bb;
@@ -11,12 +11,19 @@
     /* animation: shift 1s ease-in-out infinite alternate; */
   }
   .imx{
-    position: relative;
-    top: 18%;  
- 
-    display: flex;
-
-    justify-content: center;
+    position: absolute;
+    top: 14%;
+    left: 40%;  
+  }
+  .imx2{
+    position: absolute;
+    top: 12%;
+    left: 5%;  
+  }
+  .imx3{
+    position: absolute;
+    top: 12%;
+    left: 3%;  
   }
   .glitch:before,
   .glitch:after {
@@ -35,8 +42,8 @@
   }
   
   .glitch:after {
-    animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
-    color: black;
+    animation: glitch 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: white;
     z-index: -2;
   }
   
@@ -104,6 +111,22 @@
 
     .glitch{
       font-size: 45px;
+    }
+    .imx{
+      position: absolute;
+      top: 18%;
+      left: 28%;
+     
+    }
+    .imx2{
+      position: absolute;
+      top: 18%;
+      left: 5%;  
+    }
+    .imx3{
+      position: absolute;
+      top: 16%;
+      left: 3%;  
     }
 
   }

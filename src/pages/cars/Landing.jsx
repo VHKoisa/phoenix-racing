@@ -24,7 +24,9 @@ const Landing = () => {
       <SplideSlide className="splide__slider">
 
       <div className="imx">
-      <Name/>
+      <Name
+      name='TADIT'
+      />
       </div>
         <img 
           src={"/cars/taditImg/tadit-1.jpg"}
@@ -34,25 +36,47 @@ const Landing = () => {
       
       </SplideSlide>
       <SplideSlide className="splide__slider">
+
+      <div className="imx2">
+      <Name 
+      name=" Gujrat "
+      />
+       <Name 
+      name="First EV"
+      />
+      </div>
         <img
           src={"/cars/taditImg/taditImgT-3.jpg"}
           
           alt=""
         />
       </SplideSlide>
-      <SplideSlide className="splide__slider">
+      {/* <SplideSlide className="splide__slider">
+        <div className="imx">
+      <Name 
+      name='FORMULA STUDENT CAR '
+      />
+      </div>
         <img 
           src={"/cars/taditImg/taditImgT-1.png"}
           alt=""
         />
-      </SplideSlide>
+      </SplideSlide> */}
       {/* <SplideSlide className="splide__slider">
         <img
           src={"/cars/taditImg/tadit-1.jpg"}
           alt=""
         />
       </SplideSlide> */}
-      <SplideSlide className="splide__slider">
+      <SplideSlide className="splide__slider ">
+      <div className="imx3">
+      <Name 
+      name=" Formula "
+      />
+       <Name 
+      name="Student Car"
+      />
+      </div>
         <img
           src={"/cars/taditImg/taditImgT-2.jpg"}
           alt=""
