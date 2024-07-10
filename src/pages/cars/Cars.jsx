@@ -74,8 +74,10 @@ const Car = () => {
   return (
     <>
       <Header />
- 
+ <div className="pt-20">
+
       <Landing />
+ </div>
      
     <section>
       
