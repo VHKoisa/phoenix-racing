@@ -2,7 +2,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import "./slider.css";
 import React, { useEffect, useRef } from "react";
-import Name from "./taditName/name";
 const Landing = () => {
   return (
     <Splide
@@ -24,9 +23,7 @@ const Landing = () => {
       <SplideSlide className="splide__slider">
 
       <div className="imx">
-      <Name
-      name='TADIT'
-      />
+     
       </div>
         <img 
           src={window.innerWidth >= 1024 ? `/cars/taditImg/tadit-desktop.jpg` : `/cars/taditImg/tadit-mobile.jpg`}
@@ -38,12 +35,12 @@ const Landing = () => {
       <SplideSlide className="splide__slider">
 
       <div className="imx2">
-      <Name 
+      {/* <Name 
       name=" Gujarat's "
       />
        <Name 
       name="First EV"
-      />
+      /> */}
       </div>
         <img
           src={window.innerWidth >= 1024 ? `/cars/taditImg/taditImgT-desktop.jpg` : `/cars/taditImg/taditImgT-mobile.jpg`}
@@ -70,12 +67,12 @@ const Landing = () => {
       </SplideSlide> */}
       <SplideSlide className="splide__slider ">
       <div className="imx3">
-      <Name 
+      {/* <Name 
       name=" Formula "
       />
        <Name 
       name="Student Car"
-      />
+      /> */}
       </div>
         <img
           src={window.innerWidth >= 1024 ? `/cars/taditImg/taditImgT-2-desktop.jpg` : `/cars/taditImg/taditImgT-2-mobile.jpg`}
