@@ -15,7 +15,7 @@ const Landing = () => {
         fixedHeight: 800,
         breakpoints: {
           1024: {
-            fixedHeight: 450,
+            fixedHeight: 350,
           },
         },
       }}
@@ -29,7 +29,7 @@ const Landing = () => {
       />
       </div>
         <img 
-          src={"/cars/taditImg/tadit-1.jpg"}
+          src={window.innerWidth >= 1024 ? `/cars/taditImg/tadit-desktop.jpg` : `/cars/taditImg/tadit-mobile.jpg`}
           alt=""
         />
       
@@ -46,7 +46,7 @@ const Landing = () => {
       />
       </div>
         <img
-          src={"/cars/taditImg/taditImgT-3.jpg"}
+          src={window.innerWidth >= 1024 ? `/cars/taditImg/taditImgT-desktop.jpg` : `/cars/taditImg/taditImgT-mobile.jpg`}
           
           alt=""
         />
@@ -78,7 +78,7 @@ const Landing = () => {
       />
       </div>
         <img
-          src={"/cars/taditImg/taditImgT-2.jpg"}
+          src={window.innerWidth >= 1024 ? `/cars/taditImg/taditImgT-2-desktop.jpg` : `/cars/taditImg/taditImgT-2-mobile.jpg`}
           alt=""
         />
       </SplideSlide>
