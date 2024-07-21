@@ -123,14 +123,29 @@ export default function Slider() {
               year="2018"
               text=""
             />
+              {/* "Overall champion. 1st in skidpad, 1st in autocross, 1st in endurance and fuel.Best driver, best design, best innovation economy" */}
+            
           </SplideSlide>
           <SplideSlide className="flex justify-center">
             <Carouselcard
               img="GKDC2019.png"
               name="GKDC"
               year="2019"
-              text=
-              "Overall champion. 1st in skidpad, 1st in autocross, 1st in endurance and fuel.Best driver, best design, best innovation economy"
+              text={
+                <ul  className="oldCarsInfo" style={{listStyleType: "disc"}}>
+
+                <li>
+                Overall champion
+                </li>
+                <li>
+                1st in skidpad, 1st in autocross, 1st in endurance and fuel
+                </li>
+                <li>
+                Best driver, best design, best innovation economy
+                </li>
+                </ul>
+              }
+
             />
 
 

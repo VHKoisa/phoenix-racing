@@ -39,7 +39,7 @@ const Landing = () => {
 
       <div className="imx2">
       <Name 
-      name=" Gujrat "
+      name=" Gujarat's "
       />
        <Name 
       name="First EV"

@@ -81,6 +81,7 @@ const Sponsors = () => {
           >
             View brochure
           </a>
+         <a href="mailto:sae@svnit.ac.in">
           <button className="flex items-center bg-blue-400  gap-1 px-6 py-4 cursor-pointer text-gray-800 font-semibold tracking-widest rounded-md hover:bg-blue-400 duration-300 hover:gap-2 hover:translate-x-3">
             CONNECT
             <svg
@@ -98,6 +99,7 @@ const Sponsors = () => {
               ></path>
             </svg>
           </button>
+          </a>
         </div>
 
         <div className="thanks">
