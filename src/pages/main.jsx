@@ -9,18 +9,6 @@ import Sponsors from "./sponsors/Sponsors";
 import Alumni from "./alumni/alumni";
 import Notfound from "./Notfound";
 import Newssection from "./news/Newssection";
-// import { Component } from "react";
-
-// const{loading,setLoading}=useState(true)
-// const spinner = document.getElementsByClassName('spinner')
-// if(spinner){
-//   setTimeout(()=>{
-//     spinner.style.display="none"
-//     setLoading(false)
-//   },2000)
-  
-// }
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
