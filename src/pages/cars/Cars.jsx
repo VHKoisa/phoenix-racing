@@ -8,6 +8,8 @@ import Slider from "./Slider";
 import Landing from "./Landing";
 import Name from "./taditName/name";
 
+
+
 const Car = () => {
 
 
@@ -82,7 +84,9 @@ const Car = () => {
     <section>
       
       <h1 className="info-title">
-        TECHNOLOGY
+        
+        TADIT
+
        </h1>
        </section>
       <div className="tadit">
