@@ -76,7 +76,7 @@ const Sponsors = () => {
 
           <a
             className=" text-blue-900 text-2xl "
-            href="/phoenix-racing/public/sponsors/logo/brochure.pdf"
+            href="/sponsors/logo/brochure.pdf"
             target="_blank_"
           >
             View brochure
